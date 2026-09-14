@@ -1,0 +1,42 @@
+{
+  "timezone": "Asia/Seoul",
+  "schedule": "매일 오전 9시",
+  "districts": [
+    {"name":"강남구","keywords":["강남","신사","가로수길","압구정","청담","삼성","코엑스"]},
+    {"name":"강동구","keywords":["천호","고덕","성내"]},
+    {"name":"강북구","keywords":["수유","미아"]},
+    {"name":"강서구","keywords":["마곡","발산","김포공항"]},
+    {"name":"관악구","keywords":["서울대입구","샤로수길","신림"]},
+    {"name":"광진구","keywords":["건대","커먼그라운드","구의","광장동"]},
+    {"name":"구로구","keywords":["신도림","구로","고척"]},
+    {"name":"금천구","keywords":["가산","독산","시흥동"]},
+    {"name":"노원구","keywords":["노원","공릉","상계"]},
+    {"name":"도봉구","keywords":["창동","쌍문","방학"]},
+    {"name":"동대문구","keywords":["청량리","회기","장안동"]},
+    {"name":"동작구","keywords":["노량진","흑석","이수"]},
+    {"name":"마포구","keywords":["홍대","연남","합정","망원","상수","상암"]},
+    {"name":"서대문구","keywords":["신촌","연희","이대"]},
+    {"name":"서초구","keywords":["반포","고속터미널","신세계 강남점","양재","서초"]},
+    {"name":"성동구","keywords":["성수","서울숲","왕십리"]},
+    {"name":"성북구","keywords":["성신여대","한성대","길음"]},
+    {"name":"송파구","keywords":["잠실","롯데월드몰","석촌","송리단길","문정"]},
+    {"name":"양천구","keywords":["목동","신정","오목교"]},
+    {"name":"영등포구","keywords":["여의도","더현대 서울","영등포","타임스퀘어","문래"]},
+    {"name":"용산구","keywords":["한남","용산","이태원","해방촌","아이파크몰"]},
+    {"name":"은평구","keywords":["연신내","불광","구파발","은평"]},
+    {"name":"종로구","keywords":["종로","서촌","북촌","익선","안국","혜화"]},
+    {"name":"중구","keywords":["명동","을지로","동대문 DDP","서울역","소공동"]},
+    {"name":"중랑구","keywords":["상봉","면목","망우"]}
+  ],
+  "sources": [
+    {"label":"브랜드·주최 공식 공지","url":"https://blog.ko.playstation.com/","role":"홍대 등 브랜드 팝업의 원문 확인 예시. 신규 브랜드도 검색으로 확장."},
+    {"label":"신세계그룹 뉴스룸","url":"https://www.shinsegaegroupnewsroom.com/family/ssgdepartmentstore/","role":"강남점(서초구)·본점·타임스퀘어점 등 공식 공지"},
+    {"label":"현대백화점","url":"https://www.ehyundai.com/","role":"더현대 서울·신촌·목동·천호·무역센터·압구정 지점 공지"},
+    {"label":"더현대Hi","url":"https://hi.thehyundai.com/","role":"공식 팝업 공지와 연결된 예약 안내"},
+    {"label":"롯데백화점","url":"https://www.lotteshopping.com/","role":"잠실·본점·영등포·노원·청량리·관악·김포공항 지점 공지"},
+    {"label":"AK플라자","url":"https://www.akplaza.com/","role":"홍대·수원 등 지점 공지"},
+    {"label":"무신사","url":"https://www.musinsa.com/","role":"성수·홍대 등 패션 및 브랜드 협업 공지"},
+    {"label":"팝플리","url":"https://www.popply.co.kr/","role":"서울 전역 후보 발견용. 원문 검증 전 확정하지 않음."},
+    {"label":"POP-SPOT","url":"https://popspot.co.kr/","role":"지역별 후보 발견용. 중복·지점·연도 및 날짜 재확인."}
+  ]
+}

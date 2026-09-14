@@ -54,9 +54,10 @@ export function selectPopups(popups, filters, now) {
     const ended=eventEnded(p,now)||p.cancelled;
     return (filters.view==='ended' ? ended : !ended)
       && (filters.view!=='booking' || p.booking.mode==='reservation' || p.booking.mode==='mixed')
+      && matchesArea(p,filters.area)
       && (!filters.region || p.region===filters.region)
       && (!filters.category || p.category===filters.category)
-      && tokens.every(t=>`${p.title} ${p.brand} ${p.region} ${p.venue} ${p.address || ''} ${p.category}`.toLocaleLowerCase('ko').includes(t));
+      && tokens.every(t=>`${p.title} ${p.brand} ${p.city||''} ${p.district||''} ${p.region} ${p.venue} ${p.address || ''} ${p.category}`.toLocaleLowerCase('ko').includes(t));
   }).sort((a,b)=> {
     if(filters.sort==='name') return a.title.localeCompare(b.title,'ko');
     let av,bv;
@@ -65,4 +66,10 @@ export function selectPopups(popups, filters, now) {
     else { av=timestamp(nextMilestone(a,now)?.value); bv=timestamp(nextMilestone(b,now)?.value); }
     return ((av??Infinity)-(bv??Infinity)) * (filters.view==='ended' ? -1 : 1) || a.title.localeCompare(b.title,'ko');
   });
+}
+export function matchesArea(p,area) {
+  if(!area)return true;
+  if(area==='seoul')return p.city==='서울';
+  if(area==='nearby')return ['경기','인천'].includes(p.city);
+  return p.city==='서울'&&p.district===area;
 }

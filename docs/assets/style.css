@@ -14,3 +14,5 @@
 #filter-panel{border:0;margin:0}#filter-panel>summary{display:none}#filter-panel[open]>summary span{transform:none}@media(max-width:850px){#filter-panel>summary{display:flex;gap:10px;border:1px solid var(--line);border-radius:5px;padding:11px 12px;font-size:.875rem;background:white}#filter-selection{font-size:.75rem;margin-left:auto}#filter-panel[open] .region-list{padding-top:12px}#filter-panel[open]>summary{margin-bottom:3px}#filter-panel .category-field{margin-bottom:4px}}
 
 .category-fragrance{background:#f3e7ed;color:#82506c}
+
+.area-control{display:grid;gap:9px;font-size:.8rem;color:var(--muted);margin:0 0 22px}.area-control select{width:100%;height:44px;color:var(--ink);min-width:0}.coverage-note{font-size:.8rem;color:var(--muted);margin:10px 0 0;line-height:1.6}@media(max-width:850px){.area-control{padding-top:14px;margin-bottom:6px}.area-control select{max-width:100%;width:100%}}

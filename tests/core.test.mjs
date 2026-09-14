@@ -12,3 +12,14 @@ test('Unknown, walk-in, cancelled and ended states remain distinct',()=>{assert.
 test('Search ANDs words, region and category filters and excludes ended events',()=>{const filters={query:'ma:nyo 성수',region:'성수',category:'미용',sort:'deadline',view:'active'};assert.deepEqual(selectPopups([base,{...base,id:'other',region:'수원'}],filters,now).map(p=>p.id),['p']);assert.equal(selectPopups([base],{...filters,query:'없는 검색어'},now).length,0);assert.equal(selectPopups([base],{...filters,view:'ended'},now).length,0);});
 test('Earliest future milestone sorts first, missing dates last',()=>{const a={...base,id:'a',event:{start:'2026-09-01',end:null}};const b={...base,id:'b',booking:{...base.booking,close:'2026-09-16T18:00:00+09:00'}};const f={query:'',region:'',category:'',sort:'deadline',view:'active'};assert.deepEqual(selectPopups([a,base,b],f,now).map(p=>p.id),['b','p','a']);});
 test('Exact event closing boundary archives immediately',()=>{const p={...base,event:{start:'2026-09-15T11:00:00+09:00',end:'2026-09-15T20:00:00+09:00'}};assert.equal(eventState(p,timestamp(p.event.end)-1),'행사 진행 기간');assert.equal(eventState(p,timestamp(p.event.end)),'행사 종료');});
+
+test('Seoul district selection uses location, not store name, and combines with category',()=>{
+  const items=[{...base,id:'hongdae',city:'서울',district:'마포구',region:'홍대·연남·합정'},{...base,id:'department',city:'서울',district:'서초구',region:'반포·서초',venue:'신세계 강남점',category:'의류'},{...base,id:'suwon',city:'경기',district:'수원시',region:'수원'}];
+  const f={query:'',region:'',category:'',view:'active',sort:'name'};
+  assert.equal(selectPopups(items,{...f,area:'seoul'},now).length,2);
+  assert.deepEqual(selectPopups(items,{...f,area:'마포구',category:'미용'},now).map(p=>p.id),['hongdae']);
+  assert.deepEqual(selectPopups(items,{...f,area:'서초구',query:'강남'},now).map(p=>p.id),['department']);
+  assert.equal(selectPopups(items,{...f,area:'강남구'},now).length,0);
+  assert.deepEqual(selectPopups(items,{...f,area:'nearby'},now).map(p=>p.id),['suwon']);
+  assert.equal(selectPopups(items,{...f,area:'중랑구'},now).length,0);
+});

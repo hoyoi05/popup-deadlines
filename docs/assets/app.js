@@ -1,23 +1,29 @@
-import {DAY,kstDate,dateOnly,timestamp,eventEnded,eventState,bookingState,nextMilestone,countdown,formatDate,selectPopups} from './core.js';
+import {DAY,kstDate,dateOnly,timestamp,eventEnded,eventState,bookingState,nextMilestone,countdown,formatDate,selectPopups,matchesArea} from './core.js?v=seoul-1';
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safeUrl=s=>{try{const u=new URL(s);return u.protocol==='https:'?esc(u.href):null;}catch{return null;}};
 const external=(url,label,classes='')=>safeUrl(url)?`<a class="${classes}" href="${safeUrl(url)}" target="_blank" rel="noopener noreferrer">${esc(label)} <span aria-hidden="true">↗</span></a>`:'';
-let data;
+let data,coverage;
 const params=new URLSearchParams(location.search);
-const filters={query:params.get('q')||'',region:params.get('region')||'',category:params.get('category')||'',view:['active','booking','ended'].includes(params.get('view'))?params.get('view'):'active',sort:['deadline','end','start','name'].includes(params.get('sort'))?params.get('sort'):'deadline'};
+const filters={query:params.get('q')||'',area:params.get('area')||'',region:params.get('region')||'',category:params.get('category')||'',view:['active','booking','ended'].includes(params.get('view'))?params.get('view'):'active',sort:['deadline','end','start','name'].includes(params.get('sort'))?params.get('sort'):'deadline'};
 const compactFilters=matchMedia('(max-width:850px)');
 $('#filter-panel').open=!compactFilters.matches;
 compactFilters.addEventListener('change',e=>{$('#filter-panel').open=!e.matches;});
 function syncUrl(){const p=new URLSearchParams();for(const [key,val] of Object.entries(filters))if(val && !((key==='view'&&val==='active')||(key==='sort'&&val==='deadline')))p.set(key==='query'?'q':key,val);history.replaceState(null,'',`${location.pathname}${p.size?'?'+p:''}${location.hash}`);}
 function makeFilters(){
-  const regions=[...new Set(data.popups.map(p=>p.region))];
-  const categoryOrder=['미용','의류','향수','푸드','캐릭터·게임','음악·엔터'];
+  const areas=[['','서울·수도권 전체'],['seoul','서울 전체'],['nearby','경기·인천'],...coverage.districts.map(d=>[d.name,d.name])];
+  if(!areas.some(([value])=>value===filters.area))filters.area='';
+  $('#area').innerHTML=areas.map(([value,label])=>`<option value="${esc(value)}" ${value===filters.area?'selected':''}>${esc(label)}</option>`).join('');
+  const areaLabel=areas.find(([value])=>value===filters.area)[1];
+  const regions=[...new Set(data.popups.filter(p=>matchesArea(p,filters.area)).map(p=>p.region))];
+  const regionOrder=['홍대·연남·합정','성수','건대·광진','신촌','명동·을지로','종로','한남·용산','여의도','영등포','강남·신사','반포·서초','삼성·코엑스','잠실','수원'];
+  regions.sort((a,b)=>(regionOrder.includes(a)?regionOrder.indexOf(a):999)-(regionOrder.includes(b)?regionOrder.indexOf(b):999)||a.localeCompare(b,'ko'));
+  const categoryOrder=['미용','의류','향수','푸드','리빙','캐릭터·게임','음악·엔터'];
   const availableCategories=new Set(data.popups.map(p=>p.category));
   const categories=[...categoryOrder.filter(c=>availableCategories.has(c)),...[...availableCategories].filter(c=>!categoryOrder.includes(c))];
   if(!regions.includes(filters.region))filters.region='';if(!categories.includes(filters.category))filters.category='';
-  $('#filter-selection').textContent=[filters.region||'서울·수도권 전체',filters.category].filter(Boolean).join(' · ');
-  $('#regions').innerHTML=['',...regions].map(r=>`<button type="button" data-region="${esc(r)}" aria-pressed="${r===filters.region}"><span>${esc(r||'서울·수도권 전체')}</span><span class="region-count">${selectPopups(data.popups,{...filters,query:'',category:'',region:r},Date.now()).length}</span></button>`).join('');
+  $('#filter-selection').textContent=[filters.region||areaLabel,filters.category].filter(Boolean).join(' · ');
+  $('#regions').innerHTML=['',...regions].map(r=>`<button type="button" data-region="${esc(r)}" aria-pressed="${r===filters.region}"><span>${esc(r||areaLabel)}</span><span class="region-count">${selectPopups(data.popups,{...filters,query:'',category:'',region:r},Date.now()).length}</span></button>`).join('');
   $('#categories').innerHTML=['',...categories].map(c=>`<button type="button" data-category="${esc(c)}" aria-pressed="${c===filters.category}">${esc(c||'전체')}</button>`).join('');
   $('#search').value=filters.query;$('#sort').value=filters.sort;
 }
@@ -47,10 +53,11 @@ function render(){if(!data)return;const now=Date.now();makeFilters();
   $('#data-notice').hidden=age<3;$('#data-notice').textContent=`자료를 확인한 지 ${age}일 지났습니다. 새 공지와 예약 가능 여부를 공식 예약처에서 확인하세요.`;
   $('#views').querySelectorAll('button').forEach(btn=>btn.setAttribute('aria-pressed',btn.dataset.view===filters.view));
   const list=selectPopups(data.popups,filters,now);$('#result-count').textContent=`${list.length}개`;
-  $('#results').innerHTML=list.length?list.map(p=>card(p,now)).join(''):`<div class="empty"><span class="empty-symbol">↗</span><h3>조건에 맞는 팝업이 없어요.</h3><p>다른 지역이나 카테고리를 선택해 보세요.${filters.view==='booking'?' 예약 방식이 확인된 팝업만 이 목록에 표시합니다.':''}</p><button type="button" class="action-link" id="empty-reset">전체 일정 보기</button></div>`;
+  $('#results').innerHTML=list.length?list.map(p=>card(p,now)).join(''):`<div class="empty"><span class="empty-symbol">↗</span><h3>등록된 일정 중 조건에 맞는 팝업이 없어요.</h3><p>서울 25개 구를 조사 대상으로 확인하고 있습니다. 이 지역에 실제 행사가 없다는 뜻은 아닙니다.</p><p>다른 지역이나 카테고리를 선택해 보세요.${filters.view==='booking'?' 예약 방식이 확인된 팝업만 이 목록에 표시합니다.':''}</p><button type="button" class="action-link" id="empty-reset">전체 일정 보기</button></div>`;
   $('#results').setAttribute('aria-busy','false');syncUrl();
 }
-function reset(){Object.assign(filters,{query:'',region:'',category:'',view:'active',sort:'deadline'});render();}
+function reset(){Object.assign(filters,{query:'',area:'',region:'',category:'',view:'active',sort:'deadline'});render();}
+$('#area').addEventListener('change',e=>{filters.area=e.target.value;filters.region='';render();});
 $('#regions').addEventListener('click',e=>{const b=e.target.closest('[data-region]');if(b){filters.region=b.dataset.region;render();$('#regions').querySelector(`[data-region="${CSS.escape(filters.region)}"]`)?.focus();}});
 $('#categories').addEventListener('click',e=>{const b=e.target.closest('[data-category]');if(b){filters.category=b.dataset.category;render();$('#categories').querySelector(`[data-category="${CSS.escape(filters.category)}"]`)?.focus();}});
 $('#views').addEventListener('click',e=>{const b=e.target.closest('[data-view]');if(b){filters.view=b.dataset.view;render();}});
@@ -66,4 +73,4 @@ function tick(){const now=Date.now();$('#korea-clock').textContent=new Intl.Date
   lastStatus=key;document.querySelectorAll('[data-countdown]').forEach(el=>el.textContent=countdown(el.dataset.countdown,now));
 }
 tick();setInterval(tick,1000);
-fetch('./data/popups.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error('자료 오류');return r.json();}).then(json=>{data=json;render();}).catch(()=>{ $('#results').setAttribute('aria-busy','false');$('#results').innerHTML='<div class="empty"><h3>일정을 불러오지 못했어요.</h3><p>네트워크 연결을 확인하고 다시 시도해 주세요.</p><button type="button" class="action-link" id="retry">다시 불러오기</button></div>';$('#retry').addEventListener('click',()=>location.reload());});
+Promise.all(['popups','coverage'].map(name=>fetch(`./data/${name}.json`,{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error('자료 오류');return r.json();}))).then(([json,scope])=>{data=json;coverage=scope;render();}).catch(()=>{ $('#results').setAttribute('aria-busy','false');$('#results').innerHTML='<div class="empty"><h3>일정을 불러오지 못했어요.</h3><p>네트워크 연결을 확인하고 다시 시도해 주세요.</p><button type="button" class="action-link" id="retry">다시 불러오기</button></div>';$('#retry').addEventListener('click',()=>location.reload());});
