@@ -6,11 +6,15 @@ const external=(url,label,classes='')=>safeUrl(url)?`<a class="${classes}" href=
 let data;
 const params=new URLSearchParams(location.search);
 const filters={query:params.get('q')||'',region:params.get('region')||'',category:params.get('category')||'',view:['active','booking','ended'].includes(params.get('view'))?params.get('view'):'active',sort:['deadline','end','start','name'].includes(params.get('sort'))?params.get('sort'):'deadline'};
+const compactFilters=matchMedia('(max-width:850px)');
+$('#filter-panel').open=!compactFilters.matches;
+compactFilters.addEventListener('change',e=>{$('#filter-panel').open=!e.matches;});
 function syncUrl(){const p=new URLSearchParams();for(const [key,val] of Object.entries(filters))if(val && !((key==='view'&&val==='active')||(key==='sort'&&val==='deadline')))p.set(key==='query'?'q':key,val);history.replaceState(null,'',`${location.pathname}${p.size?'?'+p:''}${location.hash}`);}
 function makeFilters(){
   const regions=[...new Set(data.popups.map(p=>p.region))];
   const categories=[...new Set(data.popups.map(p=>p.category))];
   if(!regions.includes(filters.region))filters.region='';if(!categories.includes(filters.category))filters.category='';
+  $('#filter-selection').textContent=[filters.region||'서울·수도권 전체',filters.category].filter(Boolean).join(' · ');
   $('#regions').innerHTML=['',...regions].map(r=>`<button type="button" data-region="${esc(r)}" aria-pressed="${r===filters.region}"><span>${esc(r||'서울·수도권 전체')}</span><span class="region-count">${selectPopups(data.popups,{...filters,query:'',category:'',region:r},Date.now()).length}</span></button>`).join('');
   $('#categories').innerHTML=['',...categories].map(c=>`<button type="button" data-category="${esc(c)}" aria-pressed="${c===filters.category}">${esc(c||'전체')}</button>`).join('');
   $('#search').value=filters.query;$('#sort').value=filters.sort;
