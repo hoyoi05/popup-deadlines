@@ -52,11 +52,12 @@ export function selectPopups(popups, filters, now) {
   const tokens=filters.query.toLocaleLowerCase('ko').trim().split(/\s+/).filter(Boolean);
   return popups.filter(p=> {
     const ended=eventEnded(p,now)||p.cancelled;
-    return (filters.view==='ended' ? ended : !ended)
+    return !p.collection?.conflict && (filters.view==='ended' ? ended : !ended)
       && (filters.view!=='booking' || p.booking.mode==='reservation' || p.booking.mode==='mixed')
       && matchesArea(p,filters.area)
       && (!filters.region || p.region===filters.region)
       && (!filters.category || p.category===filters.category)
+      && (!filters.verification || p.verification===filters.verification)
       && tokens.every(t=>`${p.title} ${p.brand} ${p.city||''} ${p.district||''} ${p.region} ${p.venue} ${p.address || ''} ${p.category}`.toLocaleLowerCase('ko').includes(t));
   }).sort((a,b)=> {
     if(filters.sort==='name') return a.title.localeCompare(b.title,'ko');

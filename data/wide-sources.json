@@ -1,0 +1,19 @@
+{
+  "socialBudget": 350,
+  "sources": [
+    {"id":"popply","label":"팝플리 공개 일정·SNS 출처","url":"https://popply.co.kr/sitemap.xml","host":"popply.co.kr","type":"sitemap","adapter":"jsonld","budget":350},
+    {"id":"popga","label":"팝가 공개 일정","url":"https://popga.co.kr/sitemap.xml","host":"popga.co.kr","type":"sitemap","adapter":"popga","budget":200},
+    {"id":"popupnavi","label":"성수 팝업 네비 공개 일정","url":"https://popupnavi.com/","host":"popupnavi.com","type":"page","adapter":"jsonld","budget":1},
+    {"id":"popspot","label":"POP-SPOT 후보·원문 링크","url":"https://popspot.co.kr/sitemap.xml","host":"popspot.co.kr","type":"sitemap","adapter":"review","budget":100},
+    {"id":"popply-blog","label":"팝플리 네이버 블로그 RSS","url":"https://rss.blog.naver.com/popply_official.xml","host":"rss.blog.naver.com","type":"blog","budget":50},
+    {"id":"popga-blog","label":"팝가 네이버 블로그 RSS","url":"https://rss.blog.naver.com/popga_official.xml","host":"rss.blog.naver.com","type":"blog","budget":50}
+  ],
+  "socialHosts": ["www.instagram.com","x.com","www.threads.com"],
+  "eventAliases": [
+    {"sourceUrl":"https://popga.co.kr/popup/8892","canonicalId":"wolverine-hongdae-202609","start":"2026-09-11","end":"2026-09-20"},
+    {"sourceUrl":"https://popga.co.kr/popup/8732","canonicalId":"wide-bcb083065decc3b3","start":"2026-09-17","end":"2026-09-30"}
+  ],
+  "verifiedAccounts": [
+    {"platform":"instagram","handle":"unicef_kr","label":"유니세프 한국위원회","url":"https://www.unicef.or.kr/"}
+  ]
+}

@@ -8,7 +8,7 @@ on:
     branches: [main]
     paths:
       - 'docs/**'
-      - 'data/collector-sources.json'
+      - 'data/*sources.json'
       - 'scripts/**'
       - 'tests/**'
       - 'package*.json'
@@ -24,7 +24,7 @@ permissions:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     permissions:
       contents: write
     steps:
@@ -38,7 +38,7 @@ jobs:
           cache: npm
       - run: npm ci --ignore-scripts
       - run: npm test
-      - name: Discover and update official announcements
+      - name: Discover official, public listings and social announcements
         if: github.event_name != 'push'
         run: npm run collect
       - run: npm run validate
@@ -49,7 +49,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/data/popups.json docs/data/discovery.json data/collector-state.json
+          git add docs/data/popups.json docs/data/discovery.json data/collector-state.json data/wide-state.json
           if ! git diff --cached --quiet; then
             git commit -m "Update popup announcements and collection status"
             git -c credential.helper='!gh auth git-credential' push origin HEAD:main

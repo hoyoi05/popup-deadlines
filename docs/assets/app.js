@@ -1,11 +1,11 @@
-import {DAY,kstDate,dateOnly,timestamp,eventEnded,eventState,bookingState,nextMilestone,countdown,formatDate,selectPopups,matchesArea} from './core.js?v=seoul-1';
+import {DAY,kstDate,dateOnly,timestamp,eventEnded,eventState,bookingState,nextMilestone,countdown,formatDate,selectPopups,matchesArea} from './core.js?v=social-1';
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safeUrl=s=>{try{const u=new URL(s);return u.protocol==='https:'?esc(u.href):null;}catch{return null;}};
 const external=(url,label,classes='')=>safeUrl(url)?`<a class="${classes}" href="${safeUrl(url)}" target="_blank" rel="noopener noreferrer">${esc(label)} <span aria-hidden="true">↗</span></a>`:'';
 let data,coverage;
 const params=new URLSearchParams(location.search);
-const filters={query:params.get('q')||'',area:params.get('area')||'',region:params.get('region')||'',category:params.get('category')||'',view:['active','booking','ended'].includes(params.get('view'))?params.get('view'):'active',sort:['deadline','end','start','name'].includes(params.get('sort'))?params.get('sort'):'deadline'};
+const filters={verification:['official','secondary'].includes(params.get('verification'))?params.get('verification'):'',query:params.get('q')||'',area:params.get('area')||'',region:params.get('region')||'',category:params.get('category')||'',view:['active','booking','ended'].includes(params.get('view'))?params.get('view'):'active',sort:['deadline','end','start','name'].includes(params.get('sort'))?params.get('sort'):'deadline'};
 const compactFilters=matchMedia('(max-width:850px)');
 $('#filter-panel').open=!compactFilters.matches;
 compactFilters.addEventListener('change',e=>{$('#filter-panel').open=!e.matches;});
@@ -25,7 +25,7 @@ function makeFilters(){
   $('#filter-selection').textContent=[filters.region||areaLabel,filters.category].filter(Boolean).join(' · ');
   $('#regions').innerHTML=['',...regions].map(r=>`<button type="button" data-region="${esc(r)}" aria-pressed="${r===filters.region}"><span>${esc(r||areaLabel)}</span><span class="region-count">${selectPopups(data.popups,{...filters,query:'',category:'',region:r},Date.now()).length}</span></button>`).join('');
   $('#categories').innerHTML=['',...categories].map(c=>`<button type="button" data-category="${esc(c)}" aria-pressed="${c===filters.category}">${esc(c||'전체')}</button>`).join('');
-  $('#search').value=filters.query;$('#sort').value=filters.sort;
+  $('#verification').value=filters.verification;$('#search').value=filters.query;$('#sort').value=filters.sort;
 }
 function card(p,now){
   const milestone=nextMilestone(p,now),ended=eventEnded(p,now)||p.cancelled;
@@ -36,7 +36,7 @@ function card(p,now){
   const sourceLinks=p.sources.map(s=>`<li>${external(s.url,s.label)}<span>${esc(s.note)}</span></li>`).join('');
   const mainLink=b.url&&!ended?external(b.url,'예약처 확인','action-link'):external(p.sources.find(s=>s.kind==='official')?.url||p.sources[0].url,'공지 확인','action-link secondary');
   return `<article class="popup-card ${ended?'is-ended':''}" id="${esc(p.id)}">
-    <div class="card-body"><div class="card-eyebrow"><span class="category category-${esc(p.tone)}">${esc(p.category)}</span><span>${esc(p.region)}</span><span class="evidence ${verified&&age<3?'verified':''}">${age>=3?`${age}일 전 자료 · 재확인 권장`:p.collection?'공식 공지 · 자동 추출':verified?'✓ 공식 일정 확인':'일정 재확인 필요'}</span></div>
+    <div class="card-body"><div class="card-eyebrow"><span class="category category-${esc(p.tone)}">${esc(p.category)}</span><span>${esc(p.region)}</span><span class="evidence ${verified&&age<3?'verified':''}">${age>=3?`${age}일 전 자료 · 재확인 권장`:verified?(p.collection?.method==='official-social-match'?'✓ 공식 SNS 확인':p.collection?'공식 공지 · 자동 추출':'✓ 공식 일정 확인'):'모음 일정 · 공식 확인 전'}</span></div>
     <h3>${esc(p.title)}</h3><p class="brand-line">${esc(p.brand)} <span>·</span> ${esc(p.venue)}</p>
     <div class="event-period"><span class="status-dot ${ended?'gray':''}"></span><span>${esc(eventState(p,now))}</span><span>${formatDate(p.event.start)} — ${formatDate(p.event.end)}</span></div>
     <div class="reservation-line"><span class="mini-label">예약</span><strong>${esc(bookingState(p,now))}</strong><span>${b.close?'접수 마감 '+formatDate(b.close):b.mode==='walk-in'?'사전예약 없이 방문':'접수 마감 미공개'}</span></div>
@@ -45,7 +45,7 @@ function card(p,now){
   </article>`;
 }
 function render(){if(!data)return;const now=Date.now();makeFilters();
-  const active=data.popups.filter(p=>!eventEnded(p,now)&&!p.cancelled);
+  const active=data.popups.filter(p=>!eventEnded(p,now)&&!p.cancelled&&!p.collection?.conflict);
   $('#stat-active').textContent=active.length;$('#stat-booking').textContent=active.filter(p=>p.booking.url).length;
   $('#stat-soon').textContent=active.filter(p=>p.event.end&&timestamp(p.event.end,true)-now<=7*DAY).length;
   $('#checked-date').textContent=formatDate(data.checkedAt);
@@ -56,7 +56,8 @@ function render(){if(!data)return;const now=Date.now();makeFilters();
   $('#results').innerHTML=list.length?list.map(p=>card(p,now)).join(''):`<div class="empty"><span class="empty-symbol">↗</span><h3>등록된 일정 중 조건에 맞는 팝업이 없어요.</h3><p>서울 25개 구를 조사 대상으로 확인하고 있습니다. 이 지역에 실제 행사가 없다는 뜻은 아닙니다.</p><p>다른 지역이나 카테고리를 선택해 보세요.${filters.view==='booking'?' 예약 방식이 확인된 팝업만 이 목록에 표시합니다.':''}</p><button type="button" class="action-link" id="empty-reset">전체 일정 보기</button></div>`;
   $('#results').setAttribute('aria-busy','false');syncUrl();
 }
-function reset(){Object.assign(filters,{query:'',area:'',region:'',category:'',view:'active',sort:'deadline'});render();}
+function reset(){Object.assign(filters,{query:'',area:'',region:'',category:'',verification:'',view:'active',sort:'deadline'});render();}
+$('#verification').addEventListener('change',e=>{filters.verification=e.target.value;render();});
 $('#area').addEventListener('change',e=>{filters.area=e.target.value;filters.region='';render();});
 $('#regions').addEventListener('click',e=>{const b=e.target.closest('[data-region]');if(b){filters.region=b.dataset.region;render();$('#regions').querySelector(`[data-region="${CSS.escape(filters.region)}"]`)?.focus();}});
 $('#categories').addEventListener('click',e=>{const b=e.target.closest('[data-category]');if(b){filters.category=b.dataset.category;render();$('#categories').querySelector(`[data-category="${CSS.escape(filters.category)}"]`)?.focus();}});
@@ -76,6 +77,6 @@ tick();setInterval(tick,1000);
 fetch('./data/discovery.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error('수집 상태 오류');return r.json();}).then(report=>{
   const age=Date.now()-Date.parse(report.checkedAt);
   $('#collection-summary').textContent=`최근 수집 ${formatDate(report.checkedAt)} KST · ${age>36*3600000?'수집 지연 확인 필요':report.status==='partial'?'일부 채널 확인 제한':'수집 완료'} · 검토 대기 ${report.reviewCount}건`;
-  $('#collection-detail').innerHTML=`<p>공식 텍스트에서 날짜·장소를 읽을 수 있는 일정만 자동 반영합니다. 아래 공지는 검토 대기이며 예약 가능한 행사 목록과 다릅니다.</p><ul class="collector-sources">${report.sources.map(s=>`<li>${external(s.url,s.label)}: ${esc({ok:'확인',limited:'이미지·동적 공지 별도 확인',partial:'일부 문서 확인 제한',error:'접속 실패'}[s.status]||'확인 필요')}</li>`).join('')}</ul><ul class="candidate-list">${report.candidates.slice(0,30).map(c=>`<li>${external(c.url,c.title)}<small>${esc(c.reason)}</small></li>`).join('')||'<li>현재 검토 대기 공지가 없습니다.</li>'}</ul>`;
+  $('#collection-detail').innerHTML=`<p>공식 공지·공개 SNS·팝업 모음을 확인합니다. 모음 일정은 공식 확인 전으로 표시하며, 불명확하거나 충돌한 정보는 검토 대기에 남깁니다. <a href="./discover.html">전체 발견 공지와 SNS 출처 보기 ↗</a></p><ul class="collector-sources">${report.sources.map(s=>`<li>${external(s.url,s.label)}: ${esc({ok:'확인',limited:'이미지·동적 공지 별도 확인',partial:'일부 문서 확인 제한',error:'접속 실패'}[s.status]||'확인 필요')}</li>`).join('')}</ul><ul class="candidate-list">${report.candidates.slice(0,30).map(c=>`<li>${external(c.url,c.title)}<small>${esc(c.reason)}</small></li>`).join('')||'<li>현재 검토 대기 공지가 없습니다.</li>'}</ul>`;
 }).catch(()=>{$('#collection-summary').textContent='자동 수집 상태를 불러오지 못했습니다.';});
 Promise.all(['popups','coverage'].map(name=>fetch(`./data/${name}.json`,{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error('자료 오류');return r.json();}))).then(([json,scope])=>{data=json;coverage=scope;render();}).catch(()=>{ $('#results').setAttribute('aria-busy','false');$('#results').innerHTML='<div class="empty"><h3>일정을 불러오지 못했어요.</h3><p>네트워크 연결을 확인하고 다시 시도해 주세요.</p><button type="button" class="action-link" id="retry">다시 불러오기</button></div>';$('#retry').addEventListener('click',()=>location.reload());});

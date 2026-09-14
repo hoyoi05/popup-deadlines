@@ -66,7 +66,7 @@ if(report.sources.every(s=>s.status==='error')){
   await write('work/collection-failure.json',report);throw Error('모든 출처 수집 실패. 기존 행사 데이터와 마지막 성공 상태를 보존합니다.');
 }
 report.status=report.sources.some(s=>s.status!=='ok')?'partial':'ok';
-report.candidates=[...candidates.values()].sort((a,b)=>b.lastSeenAt.localeCompare(a.lastSeenAt)||a.id.localeCompare(b.id)).slice(0,300);
+report.candidates=[...candidates.values()].sort((a,b)=>b.lastSeenAt.localeCompare(a.lastSeenAt)||a.id.localeCompare(b.id));
 report.reviewCount=report.candidates.length;
 data.checkedAt=data.popups.reduce((latest,p)=>p.checkedAt>latest?p.checkedAt:latest,data.checkedAt);
 state.pages=Object.fromEntries(Object.entries(state.pages).filter(([,p])=>Date.parse(p.lastSeenAt)>now-180*86400000));

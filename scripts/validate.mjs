@@ -53,8 +53,8 @@ for(const p of data.popups||[]){
   for(const key of ['open','close'])if(b[key])check(officialUrls.includes(b[`${key}Source`]),at(`${key} must cite an official source explicitly`));
   if(b.mode==='walk-in')check(!b.open&&!b.close&&!b.url,at('Walk-in must not carry reservation dates or a booking URL'));
 }
-for(const filename of ['docs/assets/app.js','docs/assets/core.js'])execFileSync(process.execPath,['--check',fileURLToPath(new URL(filename,root))],{stdio:'pipe'});
-const html=await fs.readFile(new URL('docs/index.html',root),'utf8');
+for(const filename of ['docs/assets/app.js','docs/assets/core.js','docs/assets/discover.js','scripts/collect-wide.mjs','scripts/wide-lib.mjs'])execFileSync(process.execPath,['--check',fileURLToPath(new URL(filename,root))],{stdio:'pipe'});
+const html=(await Promise.all(['docs/index.html','docs/discover.html'].map(f=>fs.readFile(new URL(f,root),'utf8')))).join('\n');
 for(const m of html.matchAll(/(?:src|href)="(\.\/[^"?#]+)(?:[?#][^"]*)?"/g)){
   try{await fs.access(new URL(m[1],new URL('docs/',root)));}catch{errors.push(`Missing local asset ${m[1]}`);}
 }
