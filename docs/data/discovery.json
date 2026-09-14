@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-14T15:55:34.254Z",
+  "checkedAt": "2026-09-14T15:57:16.147Z",
   "status": "partial",
   "sources": [
     {
@@ -58,11 +58,11 @@
       "id": "ak",
       "label": "AK플라자 공식 홈페이지",
       "url": "https://www.akplaza.com/",
-      "status": "limited",
+      "status": "error",
       "discovered": 0,
       "reviewed": 0,
       "errors": [
-        "정적 HTML에서 팝업 링크를 읽지 못함. 이미지·동적 공지는 별도 확인 필요."
+        "HTTP 400"
       ]
     }
   ],
@@ -77,7 +77,7 @@
       "source": "신세계그룹 공식 뉴스룸",
       "publishedAt": "2026-09-07T01:39:48.000Z",
       "detectedAt": "2026-09-14T15:52:58.758Z",
-      "lastSeenAt": "2026-09-14T15:55:34.254Z",
+      "lastSeenAt": "2026-09-14T15:57:16.147Z",
       "districts": [
         "강남구",
         "용산구"
@@ -91,7 +91,7 @@
       "source": "신세계그룹 공식 뉴스룸",
       "publishedAt": "2026-09-07T01:41:07.000Z",
       "detectedAt": "2026-09-14T15:52:58.758Z",
-      "lastSeenAt": "2026-09-14T15:55:34.254Z",
+      "lastSeenAt": "2026-09-14T15:57:16.147Z",
       "districts": [],
       "reason": "날짜·지점·예약 방식 검토 필요"
     },
@@ -102,7 +102,7 @@
       "source": "신세계그룹 공식 뉴스룸",
       "publishedAt": "2026-09-10T00:58:09.000Z",
       "detectedAt": "2026-09-14T15:52:58.758Z",
-      "lastSeenAt": "2026-09-14T15:55:34.254Z",
+      "lastSeenAt": "2026-09-14T15:57:16.147Z",
       "districts": [
         "성동구"
       ],
