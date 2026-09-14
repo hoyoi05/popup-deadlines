@@ -4,7 +4,7 @@
 
 서울·수도권 브랜드 팝업의 예약 오픈, 예약 마감, 행사 시작·종료를 구분해 보여주는 GitHub Pages 사이트입니다. [SEC Deadlines](https://hoyoi05.github.io/sec-deadlines/)의 마감 중심 구성을 참고해 새로 작성했습니다. 원본 코드나 브랜드 광고 이미지는 복제하지 않았습니다.
 
-현재 등록된 행사는 2026-09-15에 공식 공지로 확인한 실제 행사 11건입니다. 서울 25개 자치구를 조사 대상으로 하며, 매일 오전 9시(KST) 이 사이트 제작 대화의 정기 작업이 공개 공지를 확인하고 검증한 변경을 반영합니다. 로컬 컴퓨터와 Codex 앱이 실행 중이어야 합니다. 공식 예약처의 잔여석·매진 상태도 실시간 연동하지 않습니다. 모든 행사에 확인일과 출처를 표시하고, 오래된 자료에는 재확인 안내가 나옵니다.
+공식 공지로 검증한 초기 11건에 자동 추출한 일정을 추가합니다. GitHub Actions가 매일 오전 9시(KST)에 지원하는 공식 RSS·HTML 공지를 수집하고 검사 후 Pages를 배포합니다. 컴퓨터가 꺼져 있어도 실행됩니다. 자동 추출 일정과 검토 대기는 구분해서 표시하며, 모든 서울 팝업이나 실시간 잔여석을 전수 수집하지 않습니다.
 
 ## 기능
 
@@ -30,17 +30,18 @@ npm run validate
 npm test
 ```
 
-별도의 패키지 설치가 필요하지 않습니다. Node.js 22 이상에서 실행합니다.
+수집기는 Node.js 22.12 이상과 Cheerio를 사용합니다. 처음 실행할 때 `npm ci --ignore-scripts`로 고정 버전 의존성을 설치합니다. 게시되는 사이트는 정적 파일만 사용합니다.
 
 ## 로컬 실행 및 배포
 
 ```sh
+npm ci --ignore-scripts
 npm start
 ```
 
 미리보기: `http://127.0.0.1:4173/popup-deadlines/`
 
-GitHub 저장소 Settings → Pages → Deploy from a branch → `main` / `/docs`로 배포합니다. `.nojekyll`이 있으며 HTML/CSS/JavaScript와 JSON만 사용하는 정적 사이트라 빌드·서버·API 키가 필요하지 않습니다. 모든 내부 경로는 저장소 하위 URL에서도 작동하는 상대 경로입니다.
+GitHub 저장소 Settings → Pages → Source를 **GitHub Actions**로 설정합니다. Actions → **Update popups and deploy Pages** → **Run workflow**로 수동 갱신할 수 있습니다. 워크플로는 매일 오전 9시(KST) 실행되며 수집·검사·커밋·배포를 함께 수행합니다. 소스 수정 push는 수집 없이 검사·배포합니다. 필요한 권한은 데이터 커밋(contents: write), Pages 배포(pages: write, id-token: write)이며 별도 API 키는 필요하지 않습니다.
 
 ## 구조
 
@@ -51,7 +52,13 @@ docs/assets/app.js       검색·필터·렌더링
 docs/assets/core.js      날짜·상태 판정
 docs/data/popups.json    행사 데이터
 docs/data/coverage.json  서울 25개 구·조사 검색어·출처 목록
-MONITORING.md           정기 조사 절차와 검토 대기 후보
+MONITORING.md           자동 수집 범위와 검토 절차
+scripts/collect.mjs      수집·변경 감지·저장
+scripts/collector-lib.mjs 공식 공지 파서
+data/collector-sources.json 수집 대상
+data/collector-state.json 원문 변경 감지 해시
+docs/data/discovery.json 실행 상태와 검토 대기
+.github/workflows/update-popups.yml 예약 실행·Pages 배포
 scripts/validate.mjs     데이터·출처·자산 검증
 tests/core.test.mjs      날짜 경계와 검색·정렬 테스트
 ```
@@ -60,6 +67,6 @@ tests/core.test.mjs      날짜 경계와 검색·정렬 테스트
 
 조사 대상은 홍대·연남·합정을 포함한 서울 25개 구 전역과 수도권입니다. 현재 확정 기록은 홍대, 성수, 여의도, 한남·용산, 반포·서초와 수원을 포함합니다. 다른 자치구도 선택할 수 있으며, 0건은 등록된 일정이 없다는 뜻입니다. 신세계 강남점은 상호와 별개로 서초구에 분류합니다. 이 사이트의 행사 상태는 시간 계산 결과이며 현장 운영·잔여석을 보장하지 않습니다. 날짜만 공개된 행사는 KST 날짜가 바뀔 때 종료 목록으로 이동하며, 이 계산은 해당 날짜의 영업 종료 시각을 뜻하지 않습니다.
 
-정기 작업은 공개 공지 탐색 → 공식 근거 검증 → 데이터 수정 → 검사 → Pages 배포 순서로 진행합니다. 원문을 확인하지 못한 후보는 확정 일정에 넣지 않고 검토 대기에 남깁니다. 상세 절차, 실행 조건과 후보 기록은 [MONITORING.md](MONITORING.md)에 있습니다.
+자동 작업은 지원 채널의 공개 공지 탐색 → 명시적 행사 기간 추출 → 데이터 수정 → 검사 → Pages 배포 순서로 진행합니다. 원문을 확인하지 못한 후보는 확정 일정에 넣지 않고 검토 대기에 남깁니다. 상세 절차, 실행 조건과 후보 기록은 [MONITORING.md](MONITORING.md)에 있습니다.
 
 코드: MIT License. 브랜드명과 연결된 외부 콘텐츠의 권리는 각 권리자에게 있습니다.

@@ -36,7 +36,7 @@ function card(p,now){
   const sourceLinks=p.sources.map(s=>`<li>${external(s.url,s.label)}<span>${esc(s.note)}</span></li>`).join('');
   const mainLink=b.url&&!ended?external(b.url,'예약처 확인','action-link'):external(p.sources.find(s=>s.kind==='official')?.url||p.sources[0].url,'공지 확인','action-link secondary');
   return `<article class="popup-card ${ended?'is-ended':''}" id="${esc(p.id)}">
-    <div class="card-body"><div class="card-eyebrow"><span class="category category-${esc(p.tone)}">${esc(p.category)}</span><span>${esc(p.region)}</span><span class="evidence ${verified&&age<3?'verified':''}">${age>=3?`${age}일 전 자료 · 재확인 권장`:verified?'✓ 공식 일정 확인':'일정 재확인 필요'}</span></div>
+    <div class="card-body"><div class="card-eyebrow"><span class="category category-${esc(p.tone)}">${esc(p.category)}</span><span>${esc(p.region)}</span><span class="evidence ${verified&&age<3?'verified':''}">${age>=3?`${age}일 전 자료 · 재확인 권장`:p.collection?'공식 공지 · 자동 추출':verified?'✓ 공식 일정 확인':'일정 재확인 필요'}</span></div>
     <h3>${esc(p.title)}</h3><p class="brand-line">${esc(p.brand)} <span>·</span> ${esc(p.venue)}</p>
     <div class="event-period"><span class="status-dot ${ended?'gray':''}"></span><span>${esc(eventState(p,now))}</span><span>${formatDate(p.event.start)} — ${formatDate(p.event.end)}</span></div>
     <div class="reservation-line"><span class="mini-label">예약</span><strong>${esc(bookingState(p,now))}</strong><span>${b.close?'접수 마감 '+formatDate(b.close):b.mode==='walk-in'?'사전예약 없이 방문':'접수 마감 미공개'}</span></div>
@@ -73,4 +73,9 @@ function tick(){const now=Date.now();$('#korea-clock').textContent=new Intl.Date
   lastStatus=key;document.querySelectorAll('[data-countdown]').forEach(el=>el.textContent=countdown(el.dataset.countdown,now));
 }
 tick();setInterval(tick,1000);
+fetch('./data/discovery.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error('수집 상태 오류');return r.json();}).then(report=>{
+  const age=Date.now()-Date.parse(report.checkedAt);
+  $('#collection-summary').textContent=`최근 수집 ${formatDate(report.checkedAt)} KST · ${age>36*3600000?'수집 지연 확인 필요':report.status==='partial'?'일부 채널 확인 제한':'수집 완료'} · 검토 대기 ${report.reviewCount}건`;
+  $('#collection-detail').innerHTML=`<p>공식 텍스트에서 날짜·장소를 읽을 수 있는 일정만 자동 반영합니다. 아래 공지는 검토 대기이며 예약 가능한 행사 목록과 다릅니다.</p><ul class="collector-sources">${report.sources.map(s=>`<li>${external(s.url,s.label)}: ${esc({ok:'확인',limited:'이미지·동적 공지 별도 확인',partial:'일부 문서 확인 제한',error:'접속 실패'}[s.status]||'확인 필요')}</li>`).join('')}</ul><ul class="candidate-list">${report.candidates.slice(0,30).map(c=>`<li>${external(c.url,c.title)}<small>${esc(c.reason)}</small></li>`).join('')||'<li>현재 검토 대기 공지가 없습니다.</li>'}</ul>`;
+}).catch(()=>{$('#collection-summary').textContent='자동 수집 상태를 불러오지 못했습니다.';});
 Promise.all(['popups','coverage'].map(name=>fetch(`./data/${name}.json`,{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error('자료 오류');return r.json();}))).then(([json,scope])=>{data=json;coverage=scope;render();}).catch(()=>{ $('#results').setAttribute('aria-busy','false');$('#results').innerHTML='<div class="empty"><h3>일정을 불러오지 못했어요.</h3><p>네트워크 연결을 확인하고 다시 시도해 주세요.</p><button type="button" class="action-link" id="retry">다시 불러오기</button></div>';$('#retry').addEventListener('click',()=>location.reload());});

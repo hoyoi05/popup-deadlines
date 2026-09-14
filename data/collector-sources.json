@@ -1,0 +1,10 @@
+{
+  "sources": [
+    {"id":"ssg","label":"신세계그룹 공식 뉴스룸","url":"https://www.shinsegaegroupnewsroom.com/?s=%ED%8C%9D%EC%97%85&feed=rss2","type":"rss","host":"www.shinsegaegroupnewsroom.com","adapter":"ssg"},
+    {"id":"playstation","label":"PlayStation Korea 공식 블로그","url":"https://blog.ko.playstation.com/feed/","type":"rss","host":"blog.ko.playstation.com"},
+    {"id":"hyundai","label":"현대백화점 공식 홈페이지","url":"https://www.ehyundai.com/","type":"html","host":"www.ehyundai.com"},
+    {"id":"hyundai-hi","label":"더현대Hi 공식 공지","url":"https://hi.thehyundai.com/","type":"html","host":"hi.thehyundai.com"},
+    {"id":"lotte","label":"롯데백화점 공식 홈페이지","url":"https://www.lotteshopping.com/","type":"html","host":"www.lotteshopping.com"},
+    {"id":"ak","label":"AK플라자 공식 홈페이지","url":"https://www.akplaza.com/","type":"html","host":"www.akplaza.com"}
+  ]
+}

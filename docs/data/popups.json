@@ -15,11 +15,33 @@
       "venue": "성수 연무장길 99",
       "address": "서울 성동구 연무장길 99",
       "hours": "11:00–20:00 · 현장 웨이팅 11:00부터",
-      "event": { "start": "2026-09-09T11:00:00+09:00", "end": "2026-09-21T20:00:00+09:00" },
-      "booking": { "mode": "mixed", "open": null, "close": null, "url": "https://booking.naver.com/booking/12/bizes/1716946", "note": "사전예약과 현장 웨이팅을 운영합니다. 예약 시각에서 10분 이상 늦으면 입장이 불가하다고 안내합니다. 증정품 소진 시각과 예약 접수 마감은 서로 다릅니다. 접수 마감 시각은 공개된 안내에서 확인되지 않았습니다." },
+      "event": {
+        "start": "2026-09-09T11:00:00+09:00",
+        "end": "2026-09-21T20:00:00+09:00"
+      },
+      "booking": {
+        "mode": "mixed",
+        "open": null,
+        "close": null,
+        "url": "https://booking.naver.com/booking/12/bizes/1716946",
+        "note": "사전예약과 현장 웨이팅을 운영합니다. 예약 시각에서 10분 이상 늦으면 입장이 불가하다고 안내합니다. 증정품 소진 시각과 예약 접수 마감은 서로 다릅니다. 접수 마감 시각은 공개된 안내에서 확인되지 않았습니다."
+      },
       "verification": "official",
       "checkedAt": "2026-09-15",
-      "sources": [{ "kind": "official", "label": "마녀공장 공식 팝업 공지", "url": "https://manyo.co.kr/board/view.php?period=end&bdId=event&sno=508", "note": "브랜드가 게시한 사전예약 공지와 네이버 예약 연결을 확인." }, { "kind": "official", "label": "마녀공장 공식 네이버 예약", "url": "https://booking.naver.com/booking/12/bizes/1716946", "note": "2026/9/9–9/21, 11:00–20:00, 주소, 사전예약과 현장웨이팅 운영 확인." }]
+      "sources": [
+        {
+          "kind": "official",
+          "label": "마녀공장 공식 팝업 공지",
+          "url": "https://manyo.co.kr/board/view.php?period=end&bdId=event&sno=508",
+          "note": "브랜드가 게시한 사전예약 공지와 네이버 예약 연결을 확인."
+        },
+        {
+          "kind": "official",
+          "label": "마녀공장 공식 네이버 예약",
+          "url": "https://booking.naver.com/booking/12/bizes/1716946",
+          "note": "2026/9/9–9/21, 11:00–20:00, 주소, 사전예약과 현장웨이팅 운영 확인."
+        }
+      ]
     },
     {
       "id": "rescene-yeouido-202609",
@@ -33,11 +55,28 @@
       "venue": "더현대 서울",
       "address": null,
       "hours": "예약 입장: 월–목 9회차 / 금–일 10회차 · 첫 회차 10:30",
-      "event": { "start": "2026-09-15", "end": "2026-09-23" },
-      "booking": { "mode": "mixed", "open": "2026-09-09T18:00:00+09:00", "openSource": "https://hi.thehyundai.com/contents/764048", "close": null, "url": "https://hi.thehyundai.com/contents/764048", "note": "더현대Hi 공식 공지의 ‘사전 예약하러 가기’에서 예약할 수 있습니다. 사전예약 또는 현장 웨이팅으로 입장하며 더현대Hi 가입이 필요합니다. 회차 시간은 입장 가능한 시간입니다. 공식 예약 오픈은 9/9 18:00 KST이며 접수 마감 시각은 미공개입니다." },
+      "event": {
+        "start": "2026-09-15",
+        "end": "2026-09-23"
+      },
+      "booking": {
+        "mode": "mixed",
+        "open": "2026-09-09T18:00:00+09:00",
+        "openSource": "https://hi.thehyundai.com/contents/764048",
+        "close": null,
+        "url": "https://hi.thehyundai.com/contents/764048",
+        "note": "더현대Hi 공식 공지의 ‘사전 예약하러 가기’에서 예약할 수 있습니다. 사전예약 또는 현장 웨이팅으로 입장하며 더현대Hi 가입이 필요합니다. 회차 시간은 입장 가능한 시간입니다. 공식 예약 오픈은 9/9 18:00 KST이며 접수 마감 시각은 미공개입니다."
+      },
       "verification": "official",
       "checkedAt": "2026-09-15",
-      "sources": [{ "kind": "official", "label": "더현대Hi 공식 팝업·사전예약 안내", "url": "https://hi.thehyundai.com/contents/764048", "note": "팝업 안내 이미지에서 9/15–9/23, 예약 오픈 2026/9/9 18:00 KST, 사전예약·현장웨이팅 확인. 예약 시간표에서 10:30 첫 회차와 요일별 회차 수 확인." }]
+      "sources": [
+        {
+          "kind": "official",
+          "label": "더현대Hi 공식 팝업·사전예약 안내",
+          "url": "https://hi.thehyundai.com/contents/764048",
+          "note": "팝업 안내 이미지에서 9/15–9/23, 예약 오픈 2026/9/9 18:00 KST, 사전예약·현장웨이팅 확인. 예약 시간표에서 10:30 첫 회차와 요일별 회차 수 확인."
+        }
+      ]
     },
     {
       "id": "inuyasha-suwon-202609",
@@ -51,11 +90,27 @@
       "venue": "AK플라자 수원 AK& 5F SMG스토어",
       "address": null,
       "hours": "점포 공식 안내 확인",
-      "event": { "start": "2026-09-01", "end": "2026-09-22" },
-      "booking": { "mode": "unknown", "open": null, "close": null, "url": null, "note": "AK플라자 수원 공식 공지에서 행사 날짜와 위치를 확인했습니다. 해당 공지에 예약 접수 일정과 현재 입장 방식이 없어 확인 필요로 남깁니다. 홍대점의 예약 정보를 수원점에 적용하지 않았습니다." },
+      "event": {
+        "start": "2026-09-01",
+        "end": "2026-09-22"
+      },
+      "booking": {
+        "mode": "unknown",
+        "open": null,
+        "close": null,
+        "url": null,
+        "note": "AK플라자 수원 공식 공지에서 행사 날짜와 위치를 확인했습니다. 해당 공지에 예약 접수 일정과 현재 입장 방식이 없어 확인 필요로 남깁니다. 홍대점의 예약 정보를 수원점에 적용하지 않았습니다."
+      },
       "verification": "official",
       "checkedAt": "2026-09-15",
-      "sources": [{ "kind": "official", "label": "AK플라자 수원 공식 쇼핑뉴스", "url": "https://m.akplaza.com/board/news/view?pre=main&seq=28598&store=02", "note": "2026/9/1–9/22 및 수원 AK& 5층 SMG스토어 본매장 확인. 예약 안내와 최종 종료 시각 미공개." }]
+      "sources": [
+        {
+          "kind": "official",
+          "label": "AK플라자 수원 공식 쇼핑뉴스",
+          "url": "https://m.akplaza.com/board/news/view?pre=main&seq=28598&store=02",
+          "note": "2026/9/1–9/22 및 수원 AK& 5층 SMG스토어 본매장 확인. 예약 안내와 최종 종료 시각 미공개."
+        }
+      ]
     },
     {
       "id": "dowon-suwon-202608",
@@ -69,11 +124,27 @@
       "venue": "AK플라자 수원 B1F 행사장",
       "address": null,
       "hours": "점포 공식 안내 확인",
-      "event": { "start": "2026-08-29", "end": "2026-10-01" },
-      "booking": { "mode": "unknown", "open": null, "close": null, "url": null, "note": "공식 쇼핑뉴스에 한과 판매 팝업으로 안내되어 있습니다. 예약 필요 여부는 별도 명시되지 않아 임의로 ‘예약 불필요’로 분류하지 않았습니다." },
+      "event": {
+        "start": "2026-08-29",
+        "end": "2026-10-01"
+      },
+      "booking": {
+        "mode": "unknown",
+        "open": null,
+        "close": null,
+        "url": null,
+        "note": "공식 쇼핑뉴스에 한과 판매 팝업으로 안내되어 있습니다. 예약 필요 여부는 별도 명시되지 않아 임의로 ‘예약 불필요’로 분류하지 않았습니다."
+      },
       "verification": "official",
       "checkedAt": "2026-09-15",
-      "sources": [{ "kind": "official", "label": "AK플라자 수원 공식 쇼핑뉴스", "url": "https://static-m.akplaza.com/board/news/view?seq=28391&store=02", "note": "2026/8/29–10/1, 수원 지하 1층 행사장 확인. 날짜 단위로만 표시." }]
+      "sources": [
+        {
+          "kind": "official",
+          "label": "AK플라자 수원 공식 쇼핑뉴스",
+          "url": "https://static-m.akplaza.com/board/news/view?seq=28391&store=02",
+          "note": "2026/8/29–10/1, 수원 지하 1층 행사장 확인. 날짜 단위로만 표시."
+        }
+      ]
     },
     {
       "id": "daesang-goesan-seongsu-202609",
@@ -87,11 +158,28 @@
       "venue": "서울 성수동",
       "address": null,
       "hours": "12:00–20:00",
-      "event": { "start": "2026-09-05T12:00:00+09:00", "end": "2026-09-13T20:00:00+09:00" },
-      "booking": { "mode": "mixed", "open": "2026-08-21T15:00:00+09:00", "openSource": "https://www.daesangholdings.com/child/sub/bbs/news.php?code=news&idx=6695&page=1&ptype=view", "close": null, "url": null, "note": "종료된 실제 행사입니다. 공식 공지에서 8/21 15:00 네이버 예약 오픈과 현장 대기 입장을 확인했습니다. 접수 마감 시각은 공지되지 않았으며 행사 종료일로 대체하지 않았습니다." },
+      "event": {
+        "start": "2026-09-05T12:00:00+09:00",
+        "end": "2026-09-13T20:00:00+09:00"
+      },
+      "booking": {
+        "mode": "mixed",
+        "open": "2026-08-21T15:00:00+09:00",
+        "openSource": "https://www.daesangholdings.com/child/sub/bbs/news.php?code=news&idx=6695&page=1&ptype=view",
+        "close": null,
+        "url": null,
+        "note": "종료된 실제 행사입니다. 공식 공지에서 8/21 15:00 네이버 예약 오픈과 현장 대기 입장을 확인했습니다. 접수 마감 시각은 공지되지 않았으며 행사 종료일로 대체하지 않았습니다."
+      },
       "verification": "official",
       "checkedAt": "2026-09-15",
-      "sources": [{ "kind": "official", "label": "대상그룹 공식 뉴스", "url": "https://www.daesangholdings.com/child/sub/bbs/news.php?code=news&idx=6695&page=1&ptype=view", "note": "2026/8/21 게시: 행사 9/5–9/13, 매일 12:00–20:00, 사전예약 8/21 15:00 오픈 및 현장 방문 병행 확인." }]
+      "sources": [
+        {
+          "kind": "official",
+          "label": "대상그룹 공식 뉴스",
+          "url": "https://www.daesangholdings.com/child/sub/bbs/news.php?code=news&idx=6695&page=1&ptype=view",
+          "note": "2026/8/21 게시: 행사 9/5–9/13, 매일 12:00–20:00, 사전예약 8/21 15:00 오픈 및 현장 방문 병행 확인."
+        }
+      ]
     },
     {
       "id": "byredo-seongsu-202609",
@@ -105,11 +193,27 @@
       "venue": "성수 연무장11길 7",
       "address": "서울 성동구 연무장11길 7",
       "hours": "11:00–20:00 · 입장 마감 19:30",
-      "event": { "start": "2026-09-11T11:00:00+09:00", "end": "2026-09-20T20:00:00+09:00" },
-      "booking": { "mode": "reservation", "open": null, "close": null, "url": "https://booking.naver.com/booking/12/bizes/1717191", "note": "공식 예약 페이지에서 운영 기간과 사전예약 안내를 확인했습니다. 접수 오픈·마감 시각과 회차 잔여석은 별도 확인이 필요합니다. 입장 마감 19:30은 예약 접수 마감이 아닙니다." },
+      "event": {
+        "start": "2026-09-11T11:00:00+09:00",
+        "end": "2026-09-20T20:00:00+09:00"
+      },
+      "booking": {
+        "mode": "reservation",
+        "open": null,
+        "close": null,
+        "url": "https://booking.naver.com/booking/12/bizes/1717191",
+        "note": "공식 예약 페이지에서 운영 기간과 사전예약 안내를 확인했습니다. 접수 오픈·마감 시각과 회차 잔여석은 별도 확인이 필요합니다. 입장 마감 19:30은 예약 접수 마감이 아닙니다."
+      },
       "verification": "official",
       "checkedAt": "2026-09-15",
-      "sources": [{ "kind": "official", "label": "바이레도 공식 네이버 예약", "url": "https://booking.naver.com/booking/12/bizes/1717191", "note": "운영 기간 9/11–9/20, 11:00–20:00, 위치와 사전예약 안내 확인." }]
+      "sources": [
+        {
+          "kind": "official",
+          "label": "바이레도 공식 네이버 예약",
+          "url": "https://booking.naver.com/booking/12/bizes/1717191",
+          "note": "운영 기간 9/11–9/20, 11:00–20:00, 위치와 사전예약 안내 확인."
+        }
+      ]
     },
     {
       "id": "pokemon-pokopia-seongsu-202609",
@@ -123,11 +227,33 @@
       "venue": "무신사 메가스토어 성수 1F",
       "address": "서울 성동구 성수이로 62",
       "hours": "11:00–22:00 · 입장 마감 21:30",
-      "event": { "start": "2026-09-12T11:00:00+09:00", "end": "2026-09-29T22:00:00+09:00" },
-      "booking": { "mode": "reservation", "open": null, "close": null, "url": "https://booking.kakao.com/detail/ticketStore/310122", "note": "무신사 공식 공지가 연결한 카카오 예약처입니다. 조사 시 페이지에 ‘예약 가능한 상품이 없습니다’가 표시되었으나, 전체 매진 여부는 확정하지 않았습니다. 회차·취소표·현장 입장 방식은 예약처에서 확인하세요. 2차 자료의 9/12–9/20은 예약 방문 대상일로, 접수 마감일로 사용하지 않았습니다." },
+      "event": {
+        "start": "2026-09-12T11:00:00+09:00",
+        "end": "2026-09-29T22:00:00+09:00"
+      },
+      "booking": {
+        "mode": "reservation",
+        "open": null,
+        "close": null,
+        "url": "https://booking.kakao.com/detail/ticketStore/310122",
+        "note": "무신사 공식 공지가 연결한 카카오 예약처입니다. 조사 시 페이지에 ‘예약 가능한 상품이 없습니다’가 표시되었으나, 전체 매진 여부는 확정하지 않았습니다. 회차·취소표·현장 입장 방식은 예약처에서 확인하세요. 2차 자료의 9/12–9/20은 예약 방문 대상일로, 접수 마감일로 사용하지 않았습니다."
+      },
       "verification": "official",
       "checkedAt": "2026-09-15",
-      "sources": [{ "kind": "official", "label": "무신사 공식 팝업 공지", "url": "https://www.musinsa.com/content/1544954699859023178", "note": "2026/9/12–9/29 행사 기간과 11:00–22:00 운영시간, 공식 예약 링크 확인." }, { "kind": "official", "label": "카카오톡 예약하기", "url": "https://booking.kakao.com/detail/ticketStore/310122", "note": "행사명·주소·21:30 입장 마감 확인. 접수 마감 시각은 확인되지 않음." }]
+      "sources": [
+        {
+          "kind": "official",
+          "label": "무신사 공식 팝업 공지",
+          "url": "https://www.musinsa.com/content/1544954699859023178",
+          "note": "2026/9/12–9/29 행사 기간과 11:00–22:00 운영시간, 공식 예약 링크 확인."
+        },
+        {
+          "kind": "official",
+          "label": "카카오톡 예약하기",
+          "url": "https://booking.kakao.com/detail/ticketStore/310122",
+          "note": "행사명·주소·21:30 입장 마감 확인. 접수 마감 시각은 확인되지 않음."
+        }
+      ]
     },
     {
       "id": "jaah-hannam-202609",
@@ -141,11 +267,27 @@
       "venue": "한남동 팝업스토어",
       "address": null,
       "hours": null,
-      "event": { "start": "2026-09-04", "end": "2026-11-30" },
-      "booking": { "mode": "unknown", "open": null, "close": null, "url": null, "note": "공식 보도자료에서 행사 기간을 확인했습니다. 상세 주소·영업시간·사전예약 여부는 해당 공지에 없어 확인 필요로 표시합니다." },
+      "event": {
+        "start": "2026-09-04",
+        "end": "2026-11-30"
+      },
+      "booking": {
+        "mode": "unknown",
+        "open": null,
+        "close": null,
+        "url": null,
+        "note": "공식 보도자료에서 행사 기간을 확인했습니다. 상세 주소·영업시간·사전예약 여부는 해당 공지에 없어 확인 필요로 표시합니다."
+      },
       "verification": "official",
       "checkedAt": "2026-09-15",
-      "sources": [{ "kind": "official", "label": "신세계그룹 공식 뉴스룸", "url": "https://www.shinsegaegroupnewsroom.com/jaah-opens-26-fw-pop-up-store-in-hannam/", "note": "2026/9/4 개장, 11/30까지 운영 및 한남동 위치 확인. 종료 시각 미공개." }]
+      "sources": [
+        {
+          "kind": "official",
+          "label": "신세계그룹 공식 뉴스룸",
+          "url": "https://www.shinsegaegroupnewsroom.com/jaah-opens-26-fw-pop-up-store-in-hannam/",
+          "note": "2026/9/4 개장, 11/30까지 운영 및 한남동 위치 확인. 종료 시각 미공개."
+        }
+      ]
     },
     {
       "id": "wolverine-hongdae-202609",
@@ -246,6 +388,44 @@
           "label": "신세계그룹 공식 뉴스룸",
           "url": "https://www.shinsegaegroupnewsroom.com/shinsegae-gangnam-store-kim-nam-hee-craft-pop-up-store/",
           "note": "2026/9/7 공지에서 9/17 종료와 강남점 9층 테이블웨어 전시·판매를 확인. 시작일·예약 일정 미공개."
+        }
+      ]
+    },
+    {
+      "id": "auto-e7a7959e0818ebfa",
+      "title": "텐먼스, “나에게 가장 잘 맞는 핏 찾아준다” 성수에 팝업 열고 스타일링·맞춤 기장 서비스 운영",
+      "brand": "텐먼스",
+      "city": "서울",
+      "district": "성동구",
+      "region": "성수",
+      "venue": "서울 성수동",
+      "category": "의류",
+      "tone": "fashion",
+      "address": null,
+      "hours": null,
+      "event": {
+        "start": null,
+        "end": "2026-10-11"
+      },
+      "booking": {
+        "mode": "unknown",
+        "open": null,
+        "close": null,
+        "url": null,
+        "note": "공식 뉴스룸의 행사 기간 문장을 자동으로 읽었습니다. 예약 방식·접수 오픈·마감은 별도 검증 전까지 미공개로 유지합니다."
+      },
+      "verification": "official",
+      "checkedAt": "2026-09-15",
+      "collection": {
+        "method": "official-text-rule",
+        "sourceId": "ssg"
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "label": "신세계그룹 공식 뉴스룸",
+          "url": "https://www.shinsegaegroupnewsroom.com/shinsegae-international-popup-service/",
+          "note": "공식 본문의 명시된 월·일과 개최 장소를 자동 규칙으로 추출. 게시일을 시작일로 사용하지 않으며 운영시간·예약 일정은 추정하지 않음."
         }
       ]
     }

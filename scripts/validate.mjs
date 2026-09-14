@@ -5,6 +5,7 @@ import {dateOnly,timestamp,kstDate} from '../docs/assets/core.js';
 const root=new URL('../',import.meta.url);
 const data=JSON.parse(await fs.readFile(new URL('docs/data/popups.json',root),'utf8'));
 const coverage=JSON.parse(await fs.readFile(new URL('docs/data/coverage.json',root),'utf8'));
+const discovery=JSON.parse(await fs.readFile(new URL('docs/data/discovery.json',root),'utf8'));
 const errors=[];
 const check=(ok,msg)=>{if(!ok)errors.push(msg);};
 const validUrl=value=>{try{const u=new URL(value);return u.protocol==='https:'&&!u.username&&!u.password;}catch{return false;}};
@@ -21,6 +22,10 @@ const districts=new Set(coverage.districts.map(d=>d.name));
 check(coverage.districts.length===25&&districts.size===25,'Coverage must include 25 unique Seoul districts');
 for(const d of coverage.districts)check(d.name.endsWith('구')&&d.keywords.length>0,`Invalid district coverage: ${d.name}`);
 for(const source of coverage.sources)check(validUrl(source.url)&&source.label&&source.role,'Invalid discovery source');
+check(Number.isFinite(Date.parse(discovery.checkedAt))&&['ok','partial'].includes(discovery.status),'Invalid collection status');
+check(discovery.reviewCount===discovery.candidates.length,'Invalid candidate count');
+for(const c of discovery.candidates)check(validUrl(c.url)&&c.title&&c.reason&&c.districts.every(d=>districts.has(d)),'Invalid review candidate');
+for(const s of discovery.sources)check(validUrl(s.url)&&['ok','limited','partial','error'].includes(s.status),'Invalid source status');
 const ids=new Set();
 for(const p of data.popups||[]){
   const at=msg=>`${p.id}: ${msg}`;

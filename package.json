@@ -3,6 +3,16 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "scripts": { "start": "node scripts/serve.mjs", "test": "node --test tests/*.test.mjs", "validate": "node scripts/validate.mjs" },
-  "engines": { "node": ">=22" }
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "validate": "node scripts/validate.mjs",
+    "collect": "node scripts/collect.mjs"
+  },
+  "engines": {
+    "node": ">=22.12"
+  },
+  "dependencies": {
+    "cheerio": "1.2.0"
+  }
 }

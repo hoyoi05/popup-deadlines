@@ -1,0 +1,112 @@
+{
+  "checkedAt": "2026-09-14T15:55:34.254Z",
+  "status": "partial",
+  "sources": [
+    {
+      "id": "ssg",
+      "label": "신세계그룹 공식 뉴스룸",
+      "url": "https://www.shinsegaegroupnewsroom.com/?s=%ED%8C%9D%EC%97%85&feed=rss2",
+      "status": "ok",
+      "discovered": 6,
+      "reviewed": 8,
+      "errors": []
+    },
+    {
+      "id": "playstation",
+      "label": "PlayStation Korea 공식 블로그",
+      "url": "https://blog.ko.playstation.com/feed/",
+      "status": "ok",
+      "discovered": 1,
+      "reviewed": 2,
+      "errors": []
+    },
+    {
+      "id": "hyundai",
+      "label": "현대백화점 공식 홈페이지",
+      "url": "https://www.ehyundai.com/",
+      "status": "limited",
+      "discovered": 0,
+      "reviewed": 0,
+      "errors": [
+        "정적 HTML에서 팝업 링크를 읽지 못함. 이미지·동적 공지는 별도 확인 필요."
+      ]
+    },
+    {
+      "id": "hyundai-hi",
+      "label": "더현대Hi 공식 공지",
+      "url": "https://hi.thehyundai.com/",
+      "status": "limited",
+      "discovered": 0,
+      "reviewed": 0,
+      "errors": [
+        "정적 HTML에서 팝업 링크를 읽지 못함. 이미지·동적 공지는 별도 확인 필요.",
+        "https://hi.thehyundai.com/contents/764048: 본문을 읽지 못함"
+      ]
+    },
+    {
+      "id": "lotte",
+      "label": "롯데백화점 공식 홈페이지",
+      "url": "https://www.lotteshopping.com/",
+      "status": "limited",
+      "discovered": 0,
+      "reviewed": 0,
+      "errors": [
+        "정적 HTML에서 팝업 링크를 읽지 못함. 이미지·동적 공지는 별도 확인 필요."
+      ]
+    },
+    {
+      "id": "ak",
+      "label": "AK플라자 공식 홈페이지",
+      "url": "https://www.akplaza.com/",
+      "status": "limited",
+      "discovered": 0,
+      "reviewed": 0,
+      "errors": [
+        "정적 HTML에서 팝업 링크를 읽지 못함. 이미지·동적 공지는 별도 확인 필요."
+      ]
+    }
+  ],
+  "added": 0,
+  "updated": 0,
+  "reviewCount": 3,
+  "candidates": [
+    {
+      "id": "candidate-0afa45234a009b76",
+      "title": "올가을 아우터 뭐입지?… 신세계까사 ‘자아(JAAH)’ 한남동 팝업스토어 오픈",
+      "url": "https://www.shinsegaegroupnewsroom.com/shinsegae-casa-opens-jaah-pop-up-store-in-hannam-dong/",
+      "source": "신세계그룹 공식 뉴스룸",
+      "publishedAt": "2026-09-07T01:39:48.000Z",
+      "detectedAt": "2026-09-14T15:52:58.758Z",
+      "lastSeenAt": "2026-09-14T15:55:34.254Z",
+      "districts": [
+        "강남구",
+        "용산구"
+      ],
+      "reason": "날짜·지점·예약 방식 검토 필요"
+    },
+    {
+      "id": "candidate-ab0be852b9cc4831",
+      "title": "신세계인터내셔날 딥티크, 인천공항 제2터미널에 대형 팝업스토어 오픈",
+      "url": "https://www.shinsegaegroupnewsroom.com/diptyque-opens-large-pop-up-store-at-incheon-airport-terminal/",
+      "source": "신세계그룹 공식 뉴스룸",
+      "publishedAt": "2026-09-07T01:41:07.000Z",
+      "detectedAt": "2026-09-14T15:52:58.758Z",
+      "lastSeenAt": "2026-09-14T15:55:34.254Z",
+      "districts": [],
+      "reason": "날짜·지점·예약 방식 검토 필요"
+    },
+    {
+      "id": "candidate-dd28c16b27ee7866",
+      "title": "딥티크, 고대 로마 목욕 문화에서 영감받은 웰빙 바디 컬렉션 출시 및 성수 팝업스토어 운영",
+      "url": "https://www.shinsegaegroupnewsroom.com/diptyque-les-rituels-de-soin-seongsu-popup/",
+      "source": "신세계그룹 공식 뉴스룸",
+      "publishedAt": "2026-09-10T00:58:09.000Z",
+      "detectedAt": "2026-09-14T15:52:58.758Z",
+      "lastSeenAt": "2026-09-14T15:55:34.254Z",
+      "districts": [
+        "성동구"
+      ],
+      "reason": "날짜·지점·예약 방식 검토 필요"
+    }
+  ]
+}

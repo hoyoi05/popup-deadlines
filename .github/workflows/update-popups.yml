@@ -1,0 +1,84 @@
+name: Update popups and deploy Pages
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # 09:00 Asia/Seoul (UTC+9)
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/**'
+      - 'data/collector-sources.json'
+      - 'scripts/**'
+      - 'tests/**'
+      - 'package*.json'
+      - '.github/workflows/update-popups.yml'
+
+concurrency:
+  group: popup-pages
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: npm test
+      - name: Discover and update official announcements
+        if: github.event_name != 'push'
+        run: npm run collect
+      - run: npm run validate
+      - name: Commit verified data changes
+        if: github.event_name != 'push'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/popups.json docs/data/discovery.json data/collector-state.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update popup announcements and collection status"
+            git -c credential.helper='!gh auth git-credential' push origin HEAD:main
+          fi
+      - name: Upload Pages site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+      - name: Keep collection diagnostics
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: collection-diagnostics
+          path: |
+            work/collection-failure.json
+            docs/data/discovery.json
+          if-no-files-found: ignore
+
+  deploy:
+    needs: collect
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy collected site
+        id: deployment
+        uses: actions/deploy-pages@v4

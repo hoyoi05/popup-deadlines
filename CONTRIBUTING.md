@@ -15,4 +15,4 @@
 
 11. `city`는 `서울`, `경기`, `인천` 중 하나이며 `district`는 실제 자치구/시, `region`은 동네입니다. 서울 자치구는 `docs/data/coverage.json`의 목록을 사용합니다. 브랜드의 지점명과 실제 행정구역이 다르면 위치를 기준으로 합니다. 예: 신세계 강남점 → 서울 / 서초구 / 반포·서초.
 
-변경 후 `npm run validate`와 `npm test`를 실행합니다. GitHub Pages는 `main`의 `docs/`를 게시합니다. 비밀번호, API 키, 원문 광고 이미지, 사용자 예약 개인정보를 저장소에 넣지 않습니다.
+변경 후 `npm run validate`와 `npm test`를 실행합니다. GitHub Actions가 `main`의 `docs/`를 Pages 아티팩트로 게시합니다. 자동 수집기의 `collection` 표시가 있는 행사를 수동 검증으로 전환하려면 근거를 확인하고 `collection` 필드를 제거합니다. 비밀번호, API 키, 원문 광고 이미지, 사용자 예약 개인정보를 저장소에 넣지 않습니다.
