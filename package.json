@@ -1,0 +1,8 @@
+{
+  "name": "popup-deadlines",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "start": "node scripts/serve.mjs", "test": "node --test tests/*.test.mjs", "validate": "node scripts/validate.mjs" },
+  "engines": { "node": ">=22" }
+}

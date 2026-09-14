@@ -1,0 +1,63 @@
+import {DAY,kstDate,dateOnly,timestamp,eventEnded,eventState,bookingState,nextMilestone,countdown,formatDate,selectPopups} from './core.js';
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const safeUrl=s=>{try{const u=new URL(s);return u.protocol==='https:'?esc(u.href):null;}catch{return null;}};
+const external=(url,label,classes='')=>safeUrl(url)?`<a class="${classes}" href="${safeUrl(url)}" target="_blank" rel="noopener noreferrer">${esc(label)} <span aria-hidden="true">↗</span></a>`:'';
+let data;
+const params=new URLSearchParams(location.search);
+const filters={query:params.get('q')||'',region:params.get('region')||'',category:params.get('category')||'',view:['active','booking','ended'].includes(params.get('view'))?params.get('view'):'active',sort:['deadline','end','start','name'].includes(params.get('sort'))?params.get('sort'):'deadline'};
+function syncUrl(){const p=new URLSearchParams();for(const [key,val] of Object.entries(filters))if(val && !((key==='view'&&val==='active')||(key==='sort'&&val==='deadline')))p.set(key==='query'?'q':key,val);history.replaceState(null,'',`${location.pathname}${p.size?'?'+p:''}${location.hash}`);}
+function makeFilters(){
+  const regions=[...new Set(data.popups.map(p=>p.region))];
+  const categories=[...new Set(data.popups.map(p=>p.category))];
+  if(!regions.includes(filters.region))filters.region='';if(!categories.includes(filters.category))filters.category='';
+  $('#regions').innerHTML=['',...regions].map(r=>`<button type="button" data-region="${esc(r)}" aria-pressed="${r===filters.region}"><span>${esc(r||'서울·수도권 전체')}</span><span class="region-count">${selectPopups(data.popups,{...filters,query:'',category:'',region:r},Date.now()).length}</span></button>`).join('');
+  $('#categories').innerHTML=['',...categories].map(c=>`<button type="button" data-category="${esc(c)}" aria-pressed="${c===filters.category}">${esc(c||'전체')}</button>`).join('');
+  $('#search').value=filters.query;$('#sort').value=filters.sort;
+}
+function card(p,now){
+  const milestone=nextMilestone(p,now),ended=eventEnded(p,now)||p.cancelled;
+  const verified=p.verification==='official';
+  const age=Math.floor((timestamp(kstDate(now))-timestamp(p.checkedAt))/DAY);
+  const b=p.booking;
+  const closing=milestone && timestamp(milestone.value,dateOnly(milestone.value))-now <= 7*DAY;
+  const sourceLinks=p.sources.map(s=>`<li>${external(s.url,s.label)}<span>${esc(s.note)}</span></li>`).join('');
+  const mainLink=b.url&&!ended?external(b.url,'예약처 확인','action-link'):external(p.sources.find(s=>s.kind==='official')?.url||p.sources[0].url,'공지 확인','action-link secondary');
+  return `<article class="popup-card ${ended?'is-ended':''}" id="${esc(p.id)}">
+    <div class="card-body"><div class="card-eyebrow"><span class="category category-${esc(p.tone)}">${esc(p.category)}</span><span>${esc(p.region)}</span><span class="evidence ${verified&&age<3?'verified':''}">${age>=3?`${age}일 전 자료 · 재확인 권장`:verified?'✓ 공식 일정 확인':'일정 재확인 필요'}</span></div>
+    <h3>${esc(p.title)}</h3><p class="brand-line">${esc(p.brand)} <span>·</span> ${esc(p.venue)}</p>
+    <div class="event-period"><span class="status-dot ${ended?'gray':''}"></span><span>${esc(eventState(p,now))}</span><span>${formatDate(p.event.start)} — ${formatDate(p.event.end)}</span></div>
+    <div class="reservation-line"><span class="mini-label">예약</span><strong>${esc(bookingState(p,now))}</strong><span>${b.close?'접수 마감 '+formatDate(b.close):b.mode==='walk-in'?'사전예약 없이 방문':'접수 마감 미공개'}</span></div>
+    <details><summary>예약 상세·출처 <span>＋</span></summary><div class="details-body"><dl><div><dt>예약 오픈</dt><dd>${b.mode==='walk-in'?'해당 없음':formatDate(b.open)}${b.open&&dateOnly(b.open)?' · 시각 미공개':''}</dd></div><div><dt>예약 마감</dt><dd>${b.mode==='walk-in'?'해당 없음':formatDate(b.close)}${b.close&&dateOnly(b.close)?' · 시각 미공개':''}</dd></div>${b.visitStart?`<div><dt>예약 방문일</dt><dd>${formatDate(b.visitStart)} — ${formatDate(b.visitEnd)}</dd></div>`:''}<div><dt>운영시간</dt><dd>${esc(p.hours||'공식 공지 확인')}</dd></div><div><dt>위치</dt><dd>${esc(p.address||p.venue)}</dd></div></dl><p class="detail-note">${esc(b.note)}</p><div class="source-heading">자료 확인 ${formatDate(p.checkedAt)} · ${verified?'공식 공지/예약처 기준':'일부 내용은 2차 출처 기준'}</div><ul class="sources">${sourceLinks}</ul></div></details>
+    </div><div class="card-deadline ${closing?'soon':''}"><span class="deadline-label">${milestone?esc(milestone.label):ended?'지난 팝업':'일정 확인 필요'}</span><strong class="countdown" ${milestone?`data-countdown="${esc(milestone.value)}"`:''}>${milestone?countdown(milestone.value,now):ended?'종료':'미공개'}</strong><span class="deadline-date">${milestone?formatDate(milestone.value)+(dateOnly(milestone.value)?' · 시각 미공개':' KST'):'다음 팝업을 기다려 주세요'}</span>${mainLink}${milestone?.type==='event'?'<small>행사 일정 기준</small>':'<small>잔여석은 예약처에서 확인</small>'}</div>
+  </article>`;
+}
+function render(){if(!data)return;const now=Date.now();makeFilters();
+  const active=data.popups.filter(p=>!eventEnded(p,now)&&!p.cancelled);
+  $('#stat-active').textContent=active.length;$('#stat-booking').textContent=active.filter(p=>p.booking.url).length;
+  $('#stat-soon').textContent=active.filter(p=>p.event.end&&timestamp(p.event.end,true)-now<=7*DAY).length;
+  $('#checked-date').textContent=formatDate(data.checkedAt);
+  const age=Math.floor((timestamp(kstDate(now))-timestamp(data.checkedAt))/DAY);
+  $('#data-notice').hidden=age<3;$('#data-notice').textContent=`자료를 확인한 지 ${age}일 지났습니다. 새 공지와 예약 가능 여부를 공식 예약처에서 확인하세요.`;
+  $('#views').querySelectorAll('button').forEach(btn=>btn.setAttribute('aria-pressed',btn.dataset.view===filters.view));
+  const list=selectPopups(data.popups,filters,now);$('#result-count').textContent=`${list.length}개`;
+  $('#results').innerHTML=list.length?list.map(p=>card(p,now)).join(''):`<div class="empty"><span class="empty-symbol">↗</span><h3>조건에 맞는 팝업이 없어요.</h3><p>다른 지역이나 분야를 선택해 보세요.${filters.view==='booking'?' 예약 방식이 확인된 팝업만 이 목록에 표시합니다.':''}</p><button type="button" class="action-link" id="empty-reset">전체 일정 보기</button></div>`;
+  $('#results').setAttribute('aria-busy','false');syncUrl();
+}
+function reset(){Object.assign(filters,{query:'',region:'',category:'',view:'active',sort:'deadline'});render();}
+$('#regions').addEventListener('click',e=>{const b=e.target.closest('[data-region]');if(b){filters.region=b.dataset.region;render();$('#regions').querySelector(`[data-region="${CSS.escape(filters.region)}"]`)?.focus();}});
+$('#categories').addEventListener('click',e=>{const b=e.target.closest('[data-category]');if(b){filters.category=b.dataset.category;render();$('#categories').querySelector(`[data-category="${CSS.escape(filters.category)}"]`)?.focus();}});
+$('#views').addEventListener('click',e=>{const b=e.target.closest('[data-view]');if(b){filters.view=b.dataset.view;render();}});
+$('#search').addEventListener('input',e=>{filters.query=e.target.value;render();});
+$('#sort').addEventListener('change',e=>{filters.sort=e.target.value;render();});
+$('#reset').addEventListener('click',reset);$('#results').addEventListener('click',e=>{if(e.target.closest('#empty-reset'))reset();});
+document.addEventListener('keydown',e=>{if(e.key==='/'&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)&&!document.activeElement.isContentEditable){e.preventDefault();$('#search').focus();}});
+let lastStatus='';
+const statusKey=now=>JSON.stringify([kstDate(now),...(data?.popups||[]).map(p=>[eventState(p,now),bookingState(p,now),nextMilestone(p,now)])]);
+function tick(){const now=Date.now();$('#korea-clock').textContent=new Intl.DateTimeFormat('ko-KR',{timeZone:'Asia/Seoul',month:'2-digit',day:'2-digit',weekday:'short',hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23'}).format(now);
+  const key=statusKey(now);
+  if(data && lastStatus && key!==lastStatus){const opened=[...document.querySelectorAll('details[open]')].map(d=>d.closest('article').id);const active=document.activeElement;const focusedId=active.id;const r=active.dataset.region,c=active.dataset.category;const articleId=active.closest('article')?.id;const tag=active.tagName;render();for(const id of opened)document.getElementById(id)?.querySelector('details').setAttribute('open','');if(focusedId)document.getElementById(focusedId)?.focus();else if(r!==undefined)document.querySelector(`[data-region="${CSS.escape(r)}"]`)?.focus();else if(c!==undefined)document.querySelector(`[data-category="${CSS.escape(c)}"]`)?.focus();else if(articleId&&tag==='SUMMARY')document.getElementById(articleId)?.querySelector('summary')?.focus();}
+  lastStatus=key;document.querySelectorAll('[data-countdown]').forEach(el=>el.textContent=countdown(el.dataset.countdown,now));
+}
+tick();setInterval(tick,1000);
+fetch('./data/popups.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error('자료 오류');return r.json();}).then(json=>{data=json;render();}).catch(()=>{ $('#results').setAttribute('aria-busy','false');$('#results').innerHTML='<div class="empty"><h3>일정을 불러오지 못했어요.</h3><p>네트워크 연결을 확인하고 다시 시도해 주세요.</p><button type="button" class="action-link" id="retry">다시 불러오기</button></div>';$('#retry').addEventListener('click',()=>location.reload());});
