@@ -21,7 +21,7 @@ for(const p of data.popups||[]){
   const at=msg=>`${p.id}: ${msg}`;
   check(/^[a-z0-9-]+$/.test(p.id)&&!ids.has(p.id),at('Invalid or duplicate id'));ids.add(p.id);
   for(const key of ['title','brand','region','category','venue'])check(typeof p[key]==='string'&&p[key].trim(),at(`Missing ${key}`));
-  check(['beauty','character','fashion','food','lifestyle'].includes(p.tone),at('Invalid tone'));
+  check(['beauty','fragrance','character','fashion','food','lifestyle'].includes(p.tone),at('Invalid tone'));
   check(['official','secondary'].includes(p.verification),at('Invalid verification'));
   check(dateOnly(p.checkedAt)&&validDate(p.checkedAt)&&p.checkedAt<=data.checkedAt,at('Invalid checkedAt'));
   check(Array.isArray(p.sources)&&p.sources.length>0,at('Missing sources'));

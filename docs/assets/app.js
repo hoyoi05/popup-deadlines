@@ -12,7 +12,9 @@ compactFilters.addEventListener('change',e=>{$('#filter-panel').open=!e.matches;
 function syncUrl(){const p=new URLSearchParams();for(const [key,val] of Object.entries(filters))if(val && !((key==='view'&&val==='active')||(key==='sort'&&val==='deadline')))p.set(key==='query'?'q':key,val);history.replaceState(null,'',`${location.pathname}${p.size?'?'+p:''}${location.hash}`);}
 function makeFilters(){
   const regions=[...new Set(data.popups.map(p=>p.region))];
-  const categories=[...new Set(data.popups.map(p=>p.category))];
+  const categoryOrder=['미용','의류','향수','푸드','캐릭터·게임','음악·엔터'];
+  const availableCategories=new Set(data.popups.map(p=>p.category));
+  const categories=[...categoryOrder.filter(c=>availableCategories.has(c)),...[...availableCategories].filter(c=>!categoryOrder.includes(c))];
   if(!regions.includes(filters.region))filters.region='';if(!categories.includes(filters.category))filters.category='';
   $('#filter-selection').textContent=[filters.region||'서울·수도권 전체',filters.category].filter(Boolean).join(' · ');
   $('#regions').innerHTML=['',...regions].map(r=>`<button type="button" data-region="${esc(r)}" aria-pressed="${r===filters.region}"><span>${esc(r||'서울·수도권 전체')}</span><span class="region-count">${selectPopups(data.popups,{...filters,query:'',category:'',region:r},Date.now()).length}</span></button>`).join('');
@@ -45,7 +47,7 @@ function render(){if(!data)return;const now=Date.now();makeFilters();
   $('#data-notice').hidden=age<3;$('#data-notice').textContent=`자료를 확인한 지 ${age}일 지났습니다. 새 공지와 예약 가능 여부를 공식 예약처에서 확인하세요.`;
   $('#views').querySelectorAll('button').forEach(btn=>btn.setAttribute('aria-pressed',btn.dataset.view===filters.view));
   const list=selectPopups(data.popups,filters,now);$('#result-count').textContent=`${list.length}개`;
-  $('#results').innerHTML=list.length?list.map(p=>card(p,now)).join(''):`<div class="empty"><span class="empty-symbol">↗</span><h3>조건에 맞는 팝업이 없어요.</h3><p>다른 지역이나 분야를 선택해 보세요.${filters.view==='booking'?' 예약 방식이 확인된 팝업만 이 목록에 표시합니다.':''}</p><button type="button" class="action-link" id="empty-reset">전체 일정 보기</button></div>`;
+  $('#results').innerHTML=list.length?list.map(p=>card(p,now)).join(''):`<div class="empty"><span class="empty-symbol">↗</span><h3>조건에 맞는 팝업이 없어요.</h3><p>다른 지역이나 카테고리를 선택해 보세요.${filters.view==='booking'?' 예약 방식이 확인된 팝업만 이 목록에 표시합니다.':''}</p><button type="button" class="action-link" id="empty-reset">전체 일정 보기</button></div>`;
   $('#results').setAttribute('aria-busy','false');syncUrl();
 }
 function reset(){Object.assign(filters,{query:'',region:'',category:'',view:'active',sort:'deadline'});render();}
@@ -60,7 +62,7 @@ let lastStatus='';
 const statusKey=now=>JSON.stringify([kstDate(now),...(data?.popups||[]).map(p=>[eventState(p,now),bookingState(p,now),nextMilestone(p,now)])]);
 function tick(){const now=Date.now();$('#korea-clock').textContent=new Intl.DateTimeFormat('ko-KR',{timeZone:'Asia/Seoul',month:'2-digit',day:'2-digit',weekday:'short',hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23'}).format(now);
   const key=statusKey(now);
-  if(data && lastStatus && key!==lastStatus){const opened=[...document.querySelectorAll('details[open]')].map(d=>d.closest('article').id);const active=document.activeElement;const focusedId=active.id;const r=active.dataset.region,c=active.dataset.category;const articleId=active.closest('article')?.id;const tag=active.tagName;render();for(const id of opened)document.getElementById(id)?.querySelector('details').setAttribute('open','');if(focusedId)document.getElementById(focusedId)?.focus();else if(r!==undefined)document.querySelector(`[data-region="${CSS.escape(r)}"]`)?.focus();else if(c!==undefined)document.querySelector(`[data-category="${CSS.escape(c)}"]`)?.focus();else if(articleId&&tag==='SUMMARY')document.getElementById(articleId)?.querySelector('summary')?.focus();}
+  if(data && lastStatus && key!==lastStatus){const opened=[...document.querySelectorAll('#results details[open]')].map(d=>d.closest('article').id);const active=document.activeElement;const focusedId=active.id;const r=active.dataset.region,c=active.dataset.category;const articleId=active.closest('article')?.id;const tag=active.tagName;render();for(const id of opened)document.getElementById(id)?.querySelector('details').setAttribute('open','');if(focusedId)document.getElementById(focusedId)?.focus();else if(r!==undefined)document.querySelector(`[data-region="${CSS.escape(r)}"]`)?.focus();else if(c!==undefined)document.querySelector(`[data-category="${CSS.escape(c)}"]`)?.focus();else if(articleId&&tag==='SUMMARY')document.getElementById(articleId)?.querySelector('summary')?.focus();}
   lastStatus=key;document.querySelectorAll('[data-countdown]').forEach(el=>el.textContent=countdown(el.dataset.countdown,now));
 }
 tick();setInterval(tick,1000);
