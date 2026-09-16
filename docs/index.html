@@ -7,8 +7,8 @@
   <meta name="description" content="서울·수도권 팝업스토어 예약 오픈, 예약 마감, 행사 일정을 한국 시간으로 확인하세요. 공식 공지와 예약 링크를 함께 제공합니다.">
   <title>팝업 데드라인 — 서울·수도권 팝업 예약 일정</title>
   <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
-  <link rel="stylesheet" href="./assets/style.css?v=social-1">
-  <script type="module" src="./assets/app.js?v=social-1"></script>
+  <link rel="stylesheet" href="./assets/style.css?v=groups-1">
+  <script type="module" src="./assets/app.js?v=groups-1"></script>
 </head>
 <body>
   <a class="skip" href="#results">팝업 목록으로 이동</a>
@@ -33,7 +33,8 @@
         <label class="sort-label"><span class="sr-only">정렬</span><select id="sort"><option value="deadline">가까운 일정순</option><option value="end">행사 종료순</option><option value="start">행사 시작순</option><option value="name">이름순</option></select></label>
       </section>
       <div class="list-toolbar"><div id="views" class="view-tabs" role="group" aria-label="일정 보기"><button type="button" data-view="active" aria-pressed="true">진행·예정</button><button type="button" data-view="booking" aria-pressed="false">예약 일정</button><button type="button" data-view="ended" aria-pressed="false">종료된 팝업</button></div><button id="reset" class="text-button" type="button">필터 초기화 ↺</button></div>
-      <div class="list-heading"><h2>팝업 일정 <span id="result-count" aria-live="polite"></span></h2><span>예약 마감과 행사 종료를 구분해요</span></div>
+      <div class="list-heading"><h2>팝업 일정 <span id="result-count" aria-live="polite"></span></h2><span id="list-note">행사 시작·종료를 나누어 표시해요</span></div>
+      <nav id="milestone-nav" class="milestone-nav" aria-label="카운트다운 기준별 바로가기" hidden></nav>
       <div id="data-notice" class="notice" hidden></div>
       <section id="results" aria-label="팝업 일정 목록" aria-busy="true"><p class="empty">일정을 불러오고 있습니다.</p></section>
       <p id="collection-summary" class="coverage-note" aria-live="polite">자동 수집 상태를 불러오고 있습니다.</p><details class="collection-panel"><summary>자동 수집 상태 · 검토 대기 <span aria-hidden="true">＋</span></summary><div id="collection-detail"></div></details><noscript><p class="notice">카운트다운과 검색에는 JavaScript가 필요합니다. <a href="./data/popups.json">일정 원본 보기</a></p></noscript>

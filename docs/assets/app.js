@@ -1,4 +1,4 @@
-import {DAY,kstDate,dateOnly,timestamp,eventEnded,eventState,bookingState,nextMilestone,countdown,formatDate,selectPopups,matchesArea} from './core.js?v=social-1';
+import {DAY,kstDate,dateOnly,timestamp,eventEnded,eventState,bookingState,nextMilestone,countdown,formatDate,selectPopups,matchesArea,groupPopupsByMilestone} from './core.js?v=groups-1';
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safeUrl=s=>{try{const u=new URL(s);return u.protocol==='https:'?esc(u.href):null;}catch{return null;}};
@@ -53,7 +53,12 @@ function render(){if(!data)return;const now=Date.now();makeFilters();
   $('#data-notice').hidden=age<3;$('#data-notice').textContent=`자료를 확인한 지 ${age}일 지났습니다. 새 공지와 예약 가능 여부를 공식 예약처에서 확인하세요.`;
   $('#views').querySelectorAll('button').forEach(btn=>btn.setAttribute('aria-pressed',btn.dataset.view===filters.view));
   const list=selectPopups(data.popups,filters,now);$('#result-count').textContent=`${list.length}개`;
-  $('#results').innerHTML=list.length?list.map(p=>card(p,now)).join(''):`<div class="empty"><span class="empty-symbol">↗</span><h3>등록된 일정 중 조건에 맞는 팝업이 없어요.</h3><p>서울 25개 구를 조사 대상으로 확인하고 있습니다. 이 지역에 실제 행사가 없다는 뜻은 아닙니다.</p><p>다른 지역이나 카테고리를 선택해 보세요.${filters.view==='booking'?' 예약 방식이 확인된 팝업만 이 목록에 표시합니다.':''}</p><button type="button" class="action-link" id="empty-reset">전체 일정 보기</button></div>`;
+  const groups=filters.view==='ended'?[]:groupPopupsByMilestone(list,now);
+  $('#milestone-nav').hidden=!groups.length;
+  $('#milestone-nav').innerHTML=groups.map(g=>`<a class="milestone-link milestone-${g.id}" href="#group-${g.id}">${g.title}<span>${g.items.length}개</span><span aria-hidden="true">↓</span></a>`).join('');
+  $('#list-note').textContent=groups.length?'카운트다운 기준별로 나눠서 정렬해요':'예약 마감과 행사 종료를 구분해요';
+  const rows=groups.length?groups.map(g=>`<section class="milestone-group milestone-${g.id}" aria-labelledby="group-${g.id}"><header class="milestone-heading"><div><h2 id="group-${g.id}" tabindex="-1">${g.title}<span>${g.items.length}개</span></h2><p>${g.description}</p></div><a href="#milestone-nav" class="group-top">기준 선택 ↑</a></header><div class="milestone-cards">${g.items.map(p=>card(p,now)).join('')}</div></section>`).join(''):list.map(p=>card(p,now)).join('');
+  $('#results').innerHTML=list.length?rows:`<div class="empty"><span class="empty-symbol">↗</span><h3>등록된 일정 중 조건에 맞는 팝업이 없어요.</h3><p>서울 25개 구를 조사 대상으로 확인하고 있습니다. 이 지역에 실제 행사가 없다는 뜻은 아닙니다.</p><p>다른 지역이나 카테고리를 선택해 보세요.${filters.view==='booking'?' 예약 방식이 확인된 팝업만 이 목록에 표시합니다.':''}</p><button type="button" class="action-link" id="empty-reset">전체 일정 보기</button></div>`;
   $('#results').setAttribute('aria-busy','false');syncUrl();
 }
 function reset(){Object.assign(filters,{query:'',area:'',region:'',category:'',verification:'',view:'active',sort:'deadline'});render();}

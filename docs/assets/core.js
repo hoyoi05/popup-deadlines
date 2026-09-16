@@ -31,6 +31,21 @@ export function nextMilestone(p, now) {
   if(p.event.start && now < timestamp(p.event.start)) return {label:'행사 시작까지',value:p.event.start,type:'event'};
   return p.event.end ? {label:'행사 종료까지',value:p.event.end,type:'event'} : null;
 }
+export function groupPopupsByMilestone(popups, now) {
+  const groups=[
+    {id:'event-end',title:'행사 종료까지',description:'방문할 수 있는 마지막 날짜를 기준으로 표시합니다.',items:[]},
+    {id:'event-start',title:'행사 시작까지',description:'앞으로 열리는 팝업의 시작 날짜를 기준으로 표시합니다.',items:[]},
+    {id:'booking-open',title:'예약 오픈까지',description:'공식 공지에 확인된 예약 접수 시작 시각입니다.',items:[]},
+    {id:'booking-close',title:'예약 마감까지',description:'공식 공지에 확인된 예약 접수 마감 시각입니다.',items:[]},
+    {id:'unknown',title:'일정 확인 필요',description:'다음 시작·종료 날짜가 공개되지 않은 팝업입니다.',items:[]}
+  ];
+  for(const p of popups){
+    if(p.cancelled||eventEnded(p,now))continue;
+    const milestone=nextMilestone(p,now);
+    (groups.find(g=>g.title===milestone?.label)||groups.at(-1)).items.push(p);
+  }
+  return groups.filter(g=>g.items.length);
+}
 export function countdown(value, now = Date.now()) {
   if(dateOnly(value)) {
     const days=Math.round((timestamp(value)-timestamp(kstDate(now)))/DAY);

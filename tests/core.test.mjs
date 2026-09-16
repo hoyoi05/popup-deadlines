@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {kstDate,timestamp,hasPassed,eventState,bookingState,nextMilestone,countdown,selectPopups,formatDate} from '../docs/assets/core.js';
+import {kstDate,timestamp,hasPassed,eventState,bookingState,nextMilestone,countdown,selectPopups,formatDate,groupPopupsByMilestone} from '../docs/assets/core.js';
 const now=Date.parse('2026-09-15T12:00:00+09:00');
 const base={id:'p',title:'마녀공장 팝업',brand:'ma:nyo',region:'성수',category:'미용',venue:'성수 연무장길',event:{start:'2026-09-10',end:'2026-09-20'},booking:{mode:'reservation',open:null,close:null,url:'https://example.com'}};
 test('KST midnight is independent of host timezone',()=>{assert.equal(kstDate(Date.parse('2026-09-14T15:00:00Z')),'2026-09-15');assert.equal(timestamp('2026-09-15'),Date.parse('2026-09-14T15:00:00Z'));assert.equal(formatDate('2026-09-15T00:00:00+09:00'),'2026.09.15 00:00');});
@@ -22,4 +22,24 @@ test('Seoul district selection uses location, not store name, and combines with 
   assert.equal(selectPopups(items,{...f,area:'강남구'},now).length,0);
   assert.deepEqual(selectPopups(items,{...f,area:'nearby'},now).map(p=>p.id),['suwon']);
   assert.equal(selectPopups(items,{...f,area:'중랑구'},now).length,0);
+});
+
+test('Countdown groups stay separate, preserve sorting, and do not duplicate events',()=>{
+  const upcoming={...base,id:'upcoming',event:{start:'2026-09-16',end:'2026-09-30'}};
+  const unknown={...base,id:'unknown',event:{start:'2026-09-01',end:null}};
+  const booking={...base,id:'booking',booking:{...base.booking,close:'2026-09-16T18:00:00+09:00'}};
+  const second={...base,id:'second'};
+  const groups=groupPopupsByMilestone([upcoming,base,unknown,booking,second],now);
+  assert.deepEqual(groups.map(g=>[g.id,g.items.map(p=>p.id)]),[['event-end',['p','second']],['event-start',['upcoming']],['booking-close',['booking']],['unknown',['unknown']]]);
+  for(const g of groups)for(const p of g.items)assert.equal(nextMilestone(p,now)?.label||'일정 확인 필요',g.title);
+});
+
+test('Opening moves a popup into the ending group at the Korean date or exact opening time',()=>{
+  for(const start of ['2026-09-16','2026-09-16T11:00:00+09:00']){
+    const p={...base,event:{start,end:'2026-09-20'}};
+    assert.equal(groupPopupsByMilestone([p],timestamp(start)-1)[0].id,'event-start');
+    assert.equal(groupPopupsByMilestone([p],timestamp(start))[0].id,'event-end');
+  }
+  assert.deepEqual(groupPopupsByMilestone([{...base,cancelled:true}],now),[]);
+  assert.deepEqual(groupPopupsByMilestone([base],timestamp('2026-09-21')),[]);
 });
