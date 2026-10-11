@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-10T04:27:32.396Z",
+  "checkedAt": "2026-10-11T04:09:39.628Z",
   "status": "partial",
   "sources": [
     {
@@ -82,15 +82,17 @@
       "label": "팝가 공개 일정",
       "url": "https://popga.co.kr/sitemap.xml",
       "status": "partial",
-      "discovered": 0,
-      "reviewed": 0,
+      "discovered": 3,
+      "reviewed": 3,
       "errors": [
         "하위 사이트맵: 문서 크기 제한 초과",
         "하위 사이트맵: 문서 크기 제한 초과",
         "하위 사이트맵: 문서 크기 제한 초과",
-        "하위 사이트맵: 문서 크기 제한 초과"
+        "하위 사이트맵: 문서 크기 제한 초과",
+        "3개 페이지의 일정 형식 확인 필요"
       ],
-      "pending": 0
+      "pending": 0,
+      "unparsed": 3
     },
     {
       "id": "popupnavi",
@@ -117,8 +119,8 @@
       "label": "팝플리 네이버 블로그 RSS",
       "url": "https://rss.blog.naver.com/popply_official.xml",
       "status": "ok",
-      "discovered": 30,
-      "reviewed": 30,
+      "discovered": 29,
+      "reviewed": 29,
       "errors": [],
       "pending": 0
     },
@@ -137,8 +139,8 @@
       "label": "Instagram·X·Threads 공개 원문",
       "url": "https://www.instagram.com/",
       "status": "partial",
-      "discovered": 228,
-      "reviewed": 215,
+      "discovered": 226,
+      "reviewed": 213,
       "errors": [
         "https://www.instagram.com/p/Dc0SCQXiSCp/: 공개 본문을 읽지 못함 · 이미지/로그인 확인 필요",
         "https://www.instagram.com/p/Dd00B5iElng/: 공개 본문을 읽지 못함 · 이미지/로그인 확인 필요",
@@ -146,8 +148,8 @@
         "https://www.instagram.com/p/DdabmoKIEUq/: 공개 본문을 읽지 못함 · 이미지/로그인 확인 필요",
         "https://www.instagram.com/p/DcvZYQEkdV-/: 공개 본문을 읽지 못함 · 이미지/로그인 확인 필요",
         "https://www.instagram.com/p/DdP5Rs_hfDD/: 공개 본문을 읽지 못함 · 이미지/로그인 확인 필요",
-        "https://www.instagram.com/p/DcnYLcNJkDU/: 공개 본문을 읽지 못함 · 이미지/로그인 확인 필요",
         "https://www.instagram.com/p/DdISi81jU4-/: 공개 본문을 읽지 못함 · 이미지/로그인 확인 필요",
+        "https://www.instagram.com/p/DcnYLcNJkDU/: 공개 본문을 읽지 못함 · 이미지/로그인 확인 필요",
         "https://www.instagram.com/p/DcziA0DE5Fr/: 공개 본문을 읽지 못함 · 이미지/로그인 확인 필요",
         "https://www.instagram.com/p/DdLfR68Ev8O/: 공개 본문을 읽지 못함 · 이미지/로그인 확인 필요",
         "https://www.instagram.com/p/Dc-rnl3I1DH/: 공개 본문을 읽지 못함 · 이미지/로그인 확인 필요",
@@ -159,7 +161,7 @@
   ],
   "added": 0,
   "updated": 0,
-  "reviewCount": 2867,
+  "reviewCount": 2871,
   "candidates": [
     {
       "id": "wide-candidate-00515d80ef6c473f",
@@ -168,7 +170,7 @@
       "source": "팝플리 네이버 블로그 RSS",
       "reason": "블로그에서 발견 · 개별 행사·SNS 원문 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ]
@@ -180,7 +182,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-26T03:39:56.840Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6156"
@@ -193,7 +195,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
       "detectedAt": "2026-09-23T03:27:18.047Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -212,8 +214,8 @@
       "title": "XYZ 성수 EP.4 팝업",
       "source": "성수 팝업 네비 공개 일정",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -234,7 +236,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-10-01T04:18:36.467Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -249,7 +251,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
       "detectedAt": "2026-10-07T04:27:38.657Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "영등포구"
       ],
@@ -269,7 +271,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-10-01T04:18:36.467Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6201"
@@ -282,7 +284,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "모음 사이트 원문·날짜 교차 확인 필요",
       "detectedAt": "2026-09-22T03:26:16.250Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "영등포구"
       ],
@@ -299,8 +301,8 @@
       "title": "펍지 성수",
       "source": "성수 팝업 네비 공개 일정",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -314,8 +316,8 @@
       "title": "YG엔터테인먼트 전시 : PROJECT YOURSIDE",
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6030"
@@ -328,7 +330,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -343,7 +345,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -358,7 +360,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-28T03:48:33.051Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -373,7 +375,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-30T04:06:39.013Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -388,7 +390,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-10-08T04:38:40.723Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -401,7 +403,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
       "detectedAt": "2026-09-30T04:06:39.013Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -420,8 +422,8 @@
       "title": "Lee 101 101주년 팝업",
       "source": "성수 팝업 네비 공개 일정",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -436,13 +438,28 @@
       ]
     },
     {
+      "id": "wide-candidate-0d6909773a410c8d",
+      "url": "https://popply.co.kr/popup/5315",
+      "title": "원피스 대해적시대 아시아 투어",
+      "source": "팝플리 공개 일정·SNS 출처",
+      "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
+      "detectedAt": "2026-09-14T16:14:39.339Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
+      "districts": [],
+      "event": null,
+      "category": null,
+      "relatedUrls": [
+        "https://www.instagram.com/p/DZUPQ3pPgRC/"
+      ]
+    },
+    {
       "id": "wide-candidate-0db4ff2c48be37c3",
       "url": "https://popupnavi.com/",
       "title": "짱구는 못말려! 놀자! 시공간 대모험 체험전",
       "source": "성수 팝업 네비 공개 일정",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -456,8 +473,8 @@
       "title": "지박소년 하나코 군2 X Gratte @ 잠실",
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "마포구"
       ],
@@ -472,7 +489,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "송파구"
       ],
@@ -487,7 +504,7 @@
       "source": "팝플리 네이버 블로그 RSS",
       "reason": "블로그에서 발견 · 개별 행사·SNS 원문 확인 필요",
       "detectedAt": "2026-09-18T03:19:25.712Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ]
@@ -499,7 +516,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "모음 사이트 원문·날짜 교차 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "마포구"
       ],
@@ -517,7 +534,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -532,7 +549,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-20T03:32:51.399Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -547,7 +564,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "모음 사이트 원문·날짜 교차 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "종로구"
       ],
@@ -565,7 +582,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-10-07T04:27:38.657Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -577,8 +594,8 @@
       "title": "르시스 팝업",
       "source": "성수 팝업 네비 공개 일정",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -598,7 +615,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6032"
@@ -611,7 +628,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "모음 사이트 원문·날짜 교차 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "마포구"
       ],
@@ -629,7 +646,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "강남구"
       ],
@@ -644,7 +661,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-10-09T04:41:46.484Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -659,7 +676,7 @@
       "source": "팝플리 네이버 블로그 RSS",
       "reason": "블로그에서 발견 · 개별 행사·SNS 원문 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "마포구"
       ]
@@ -670,8 +687,8 @@
       "title": "하우스 오브 토이스토리 NEW SEASON 팝업",
       "source": "성수 팝업 네비 공개 일정",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -691,8 +708,8 @@
       "title": "카카오페이 '오래오래 함께가게' 팝업",
       "source": "성수 팝업 네비 공개 일정",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -712,8 +729,8 @@
       "title": "국립민속박물관 이벤트 : 모두 함께 한가위 @ 종로",
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6033"
@@ -726,7 +743,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-29T04:23:39.191Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -740,8 +757,8 @@
       "title": "국립민속박물관 이벤트 : 모두 함께 한가위 @ 파주",
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6029"
@@ -754,7 +771,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-10-08T04:38:40.723Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -769,7 +786,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-22T03:26:16.250Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -786,7 +803,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "중구"
       ],
@@ -801,7 +818,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-30T04:06:39.013Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -816,7 +833,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "중구"
       ],
@@ -830,8 +847,8 @@
       "title": "2026 서울국제정원박람회",
       "source": "성수 팝업 네비 공개 일정",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -846,7 +863,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
       "detectedAt": "2026-09-14T16:35:36.317Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -861,13 +878,26 @@
       ]
     },
     {
+      "id": "wide-candidate-2263afdfa467e24b",
+      "url": "https://www.instagram.com/p/DYjLUSltfSo/",
+      "title": "《유영국: 산은 내 안에 있다》",
+      "source": "팝플리 공개 일정·SNS 출처",
+      "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
+      "detectedAt": "2026-09-14T16:35:36.317Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
+      "districts": [],
+      "relatedUrls": [
+        "https://popply.co.kr/popup/5035"
+      ]
+    },
+    {
       "id": "wide-candidate-22ea1cacf9e0aafe",
       "url": "https://popply.co.kr/popup/6136",
       "title": "다모여 페스타",
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-23T03:27:18.047Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "마포구"
       ],
@@ -884,7 +914,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-10-07T04:27:38.657Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -897,7 +927,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -915,7 +945,7 @@
       "source": "팝플리 네이버 블로그 RSS",
       "reason": "블로그에서 발견 · 개별 행사·SNS 원문 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "마포구",
         "성동구"
@@ -928,7 +958,7 @@
       "source": "팝플리 네이버 블로그 RSS",
       "reason": "블로그에서 발견 · 개별 행사·SNS 원문 확인 필요",
       "detectedAt": "2026-10-07T04:27:38.657Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "마포구",
         "송파구"
@@ -941,7 +971,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-28T03:48:33.051Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6141"
@@ -954,7 +984,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -969,7 +999,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-28T03:48:33.051Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6145"
@@ -981,8 +1011,8 @@
       "title": "2026 남산골 추석축제 : 남산달빛마당",
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6011"
@@ -995,7 +1025,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-18T03:19:25.712Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -1010,7 +1040,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "마포구"
       ],
@@ -1025,7 +1055,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -1038,7 +1068,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "모음 사이트 원문·날짜 교차 확인 필요",
       "detectedAt": "2026-09-20T03:32:51.399Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "강남구"
       ],
@@ -1056,7 +1086,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "모음 사이트 원문·날짜 교차 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "중구"
       ],
@@ -1068,13 +1098,43 @@
       "relatedUrls": []
     },
     {
+      "id": "wide-candidate-2b2cf68217b2b7fe",
+      "url": "https://popply.co.kr/popup/5253",
+      "title": "«이것은 개념미술이 (아니)다» 전시",
+      "source": "팝플리 공개 일정·SNS 출처",
+      "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
+      "detectedAt": "2026-09-14T16:14:39.339Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
+      "districts": [
+        "종로구"
+      ],
+      "event": null,
+      "category": null,
+      "relatedUrls": [
+        "https://www.instagram.com/reel/DZlqEsFiUwK/"
+      ]
+    },
+    {
+      "id": "wide-candidate-2c641ba1a361ae1a",
+      "url": "https://www.instagram.com/p/DZUPQ3pPgRC/",
+      "title": "원피스 대해적시대 아시아 투어",
+      "source": "팝플리 공개 일정·SNS 출처",
+      "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
+      "detectedAt": "2026-09-14T16:35:36.317Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
+      "districts": [],
+      "relatedUrls": [
+        "https://popply.co.kr/popup/5315"
+      ]
+    },
+    {
       "id": "wide-candidate-2dc5837a77253f6a",
       "url": "https://popspot.co.kr/popup/5410",
       "title": "프리즈 팝업",
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "모음 사이트 원문·날짜 교차 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -1091,8 +1151,8 @@
       "title": "다올상점 앵콜 팝업",
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "마포구"
       ],
@@ -1107,7 +1167,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-20T03:32:51.399Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "종로구"
       ],
@@ -1121,8 +1181,8 @@
       "title": "스꾸하우스 팝업",
       "source": "성수 팝업 네비 공개 일정",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -1142,7 +1202,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-10-06T05:00:29.763Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6161"
@@ -1155,7 +1215,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-22T03:26:16.250Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "마포구"
       ],
@@ -1170,7 +1230,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "강서구"
       ],
@@ -1185,7 +1245,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -1198,10 +1258,25 @@
       "source": "팝플리 네이버 블로그 RSS",
       "reason": "블로그에서 발견 · 개별 행사·SNS 원문 확인 필요",
       "detectedAt": "2026-09-23T03:27:18.047Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ]
+    },
+    {
+      "id": "wide-candidate-35594bffcfb0f3d6",
+      "url": "https://popply.co.kr/popup/3349",
+      "title": "몽블랑 시그니처 팝업",
+      "source": "팝플리 공개 일정·SNS 출처",
+      "reason": "종료일 미정의 오래된 공지 · 현재 운영 여부 확인 필요",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
+      "districts": [
+        "영등포구"
+      ],
+      "event": null,
+      "category": null,
+      "relatedUrls": []
     },
     {
       "id": "wide-candidate-362ee68d2af1db18",
@@ -1210,7 +1285,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
       "detectedAt": "2026-09-29T04:23:39.191Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "서초구"
       ],
@@ -1225,26 +1300,13 @@
       ]
     },
     {
-      "id": "wide-candidate-36be23b2e35f8419",
-      "url": "https://www.instagram.com/p/DWAhRAmgfgb/",
-      "title": "국립생물자원관 X LG상록재단 공동 기획전 <새의 일생>",
-      "source": "팝플리 공개 일정·SNS 출처",
-      "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
-      "detectedAt": "2026-09-14T16:35:36.317Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
-      "districts": [],
-      "relatedUrls": [
-        "https://popply.co.kr/popup/4674"
-      ]
-    },
-    {
       "id": "wide-candidate-373c3092fcc001ff",
       "url": "https://popply.co.kr/popup/5935",
       "title": "박뚜기소금빵 팝업 @ 창원",
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -1259,10 +1321,42 @@
       "source": "팝플리 네이버 블로그 RSS",
       "reason": "블로그에서 발견 · 개별 행사·SNS 원문 확인 필요",
       "detectedAt": "2026-09-22T03:26:16.250Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ]
+    },
+    {
+      "id": "wide-candidate-378a95e1e1d98a7a",
+      "url": "https://popply.co.kr/popup/5134",
+      "title": "와일드스미스 그림책 원화展",
+      "source": "팝플리 공개 일정·SNS 출처",
+      "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
+      "detectedAt": "2026-09-14T16:14:39.339Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
+      "districts": [
+        "서초구"
+      ],
+      "event": null,
+      "category": null,
+      "relatedUrls": [
+        "https://www.instagram.com/p/DZE4OvDATZd/"
+      ]
+    },
+    {
+      "id": "wide-candidate-37dc2036f14ebaac",
+      "url": "https://popply.co.kr/popup/1380",
+      "title": "가나 초콜릿 하우스 시즌3",
+      "source": "팝플리 공개 일정·SNS 출처",
+      "reason": "종료일 미정의 오래된 공지 · 현재 운영 여부 확인 필요",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
+      "districts": [
+        "성동구"
+      ],
+      "event": null,
+      "category": null,
+      "relatedUrls": []
     },
     {
       "id": "wide-candidate-389682a6219d07ac",
@@ -1270,8 +1364,8 @@
       "title": "메르세데스-벤츠 스튜디오 서울",
       "source": "성수 팝업 네비 공개 일정",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -1286,7 +1380,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-30T04:06:39.013Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -1301,7 +1395,7 @@
       "source": "팝플리 네이버 블로그 RSS",
       "reason": "블로그에서 발견 · 개별 행사·SNS 원문 확인 필요",
       "detectedAt": "2026-09-19T03:15:31.420Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "마포구"
       ]
@@ -1313,7 +1407,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
       "detectedAt": "2026-09-23T03:27:18.047Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "중구"
       ],
@@ -1328,13 +1422,30 @@
       ]
     },
     {
+      "id": "wide-candidate-3cb139598d8e5969",
+      "url": "https://popply.co.kr/popup/5035",
+      "title": "《유영국: 산은 내 안에 있다》",
+      "source": "팝플리 공개 일정·SNS 출처",
+      "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
+      "detectedAt": "2026-09-14T16:14:39.339Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
+      "districts": [
+        "중구"
+      ],
+      "event": null,
+      "category": null,
+      "relatedUrls": [
+        "https://www.instagram.com/p/DYjLUSltfSo/"
+      ]
+    },
+    {
       "id": "wide-candidate-3d1f3e2092fcafab",
       "url": "https://popspot.co.kr/popup/6120",
       "title": "성수락피쉬",
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -1348,8 +1459,8 @@
       "title": "토리든 X 코르티스 딥 다이브 팝업",
       "source": "성수 팝업 네비 공개 일정",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -1370,7 +1481,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "모음 사이트 원문·날짜 교차 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "서대문구"
       ],
@@ -1388,7 +1499,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
       "detectedAt": "2026-09-23T03:27:18.047Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "서대문구"
       ],
@@ -1409,7 +1520,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-23T03:27:18.047Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6077"
@@ -1422,7 +1533,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 공개 본문 확인 제한 · 이미지·로그인 확인 필요",
       "detectedAt": "2026-09-14T16:35:36.317Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "category": null,
       "event": null,
@@ -1436,8 +1547,8 @@
       "title": "멜로우TV 팝업 : 팀나빠, 파티타임!",
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6079"
@@ -1450,7 +1561,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "중구"
       ],
@@ -1467,7 +1578,7 @@
       "source": "팝플리 네이버 블로그 RSS",
       "reason": "블로그에서 발견 · 개별 행사·SNS 원문 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "마포구"
       ]
@@ -1479,7 +1590,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-22T03:26:16.250Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -1494,7 +1605,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/5963"
@@ -1507,7 +1618,7 @@
       "source": "팝플리 네이버 블로그 RSS",
       "reason": "블로그에서 발견 · 개별 행사·SNS 원문 확인 필요",
       "detectedAt": "2026-09-29T04:23:39.191Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "마포구",
         "성동구"
@@ -1520,7 +1631,7 @@
       "source": "팝플리 네이버 블로그 RSS",
       "reason": "블로그에서 발견 · 개별 행사·SNS 원문 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구",
         "영등포구"
@@ -1533,7 +1644,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-22T03:26:16.250Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6081"
@@ -1546,7 +1657,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-10-09T04:41:46.484Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "강남구"
       ],
@@ -1563,7 +1674,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "모음 사이트 원문·날짜 교차 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "서초구"
       ],
@@ -1581,7 +1692,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -1596,7 +1707,7 @@
       "source": "팝플리 네이버 블로그 RSS",
       "reason": "블로그에서 발견 · 개별 행사·SNS 원문 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ]
@@ -1607,8 +1718,8 @@
       "title": "드래곤볼 히어로즈 라이즈 서울 전시",
       "source": "성수 팝업 네비 공개 일정",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -1623,7 +1734,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "모음 사이트 원문·날짜 교차 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -1641,7 +1752,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
       "detectedAt": "2026-10-07T04:27:38.657Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -1660,28 +1771,36 @@
       "title": "지박소년 하나코 군 2 고딕 스타일 페어 @ 부산",
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6094"
       ]
     },
     {
-      "id": "wide-candidate-4d464b9c19e2c14b",
-      "url": "https://popply.co.kr/popup/5492",
-      "title": "명탐정 코난 전시",
+      "id": "wide-candidate-4b73a2292b5fc235",
+      "url": "https://popply.co.kr/popup/5243",
+      "title": "신라면분식 더 팩토리 팝업",
       "source": "팝플리 공개 일정·SNS 출처",
-      "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
+      "reason": "등록된 행사와 날짜 불일치 · 기존 일정 보존",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
-        "마포구"
+        "성동구"
       ],
-      "event": null,
-      "category": null,
+      "event": {
+        "start": "2026-06-16",
+        "end": "2026-12-16"
+      },
+      "otherEvent": {
+        "start": "2026-06-16",
+        "end": "2026-11-30"
+      },
+      "category": "푸드",
       "relatedUrls": [
-        "https://www.instagram.com/p/Daw_jqIETHk/"
+        "https://popga.co.kr/popup/7511",
+        "https://www.instagram.com/p/DZosdYgRHuN/"
       ]
     },
     {
@@ -1691,7 +1810,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-22T03:26:16.250Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "마포구"
       ],
@@ -1708,7 +1827,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/5935"
@@ -1721,7 +1840,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-29T04:23:39.191Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -1736,7 +1855,7 @@
       "source": "팝플리 네이버 블로그 RSS",
       "reason": "블로그에서 발견 · 개별 행사·SNS 원문 확인 필요",
       "detectedAt": "2026-10-02T04:11:40.064Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "마포구"
       ]
@@ -1748,7 +1867,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-20T03:32:51.399Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "강남구"
       ],
@@ -1763,7 +1882,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-30T04:06:39.013Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -1778,24 +1897,9 @@
       "source": "팝플리 네이버 블로그 RSS",
       "reason": "블로그에서 발견 · 개별 행사·SNS 원문 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
-      ]
-    },
-    {
-      "id": "wide-candidate-53735ef03a9f5414",
-      "url": "https://www.instagram.com/p/Daw_jqIETHk/",
-      "title": "명탐정 코난 전시",
-      "source": "팝플리 공개 일정·SNS 출처",
-      "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
-      "detectedAt": "2026-09-14T16:35:36.317Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
-      "districts": [
-        "마포구"
-      ],
-      "relatedUrls": [
-        "https://popply.co.kr/popup/5492"
       ]
     },
     {
@@ -1805,7 +1909,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "모음 사이트 원문·날짜 교차 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -1822,8 +1926,8 @@
       "title": "탐정 스누피의 잃어버린 단서 in 유니세프 정원",
       "source": "성수 팝업 네비 공개 일정",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -1832,30 +1936,13 @@
       "relatedUrls": []
     },
     {
-      "id": "wide-candidate-58747cec939879de",
-      "url": "https://popply.co.kr/popup/5586",
-      "title": "STORY A 성수 : 뷰티서바이벌 살인사건",
-      "source": "팝플리 공개 일정·SNS 출처",
-      "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
-      "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
-      "districts": [
-        "성동구"
-      ],
-      "event": null,
-      "category": null,
-      "relatedUrls": [
-        "https://www.instagram.com/p/Damley_Bwny/"
-      ]
-    },
-    {
       "id": "wide-candidate-58b3bd8211ad8314",
       "url": "https://popply.co.kr/popup/6137",
       "title": "안유진 X 장원영 미디어 전시 : 안녕",
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-23T03:27:18.047Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -1869,8 +1956,8 @@
       "title": "마법소녀 마도카☆마기카 X 애니메이트 카페 @ 홍대",
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6181"
@@ -1883,7 +1970,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/5996"
@@ -1895,8 +1982,8 @@
       "title": "레이 X 미세키서울 팝업",
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6162"
@@ -1909,7 +1996,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "모음 사이트 원문·날짜 교차 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "송파구"
       ],
@@ -1927,7 +2014,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "중구"
       ],
@@ -1942,7 +2029,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "강남구"
       ],
@@ -1957,7 +2044,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "모음 사이트 원문·날짜 교차 확인 필요",
       "detectedAt": "2026-09-22T03:26:16.250Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "강남구"
       ],
@@ -1975,7 +2062,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "모음 사이트 원문·날짜 교차 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "용산구"
       ],
@@ -1993,7 +2080,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-22T03:26:16.250Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "마포구"
       ],
@@ -2010,7 +2097,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
       "detectedAt": "2026-10-07T04:27:38.657Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -2029,8 +2116,8 @@
       "title": "틈결 플래그십 with 에스더버니 팝업",
       "source": "성수 팝업 네비 공개 일정",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -2045,13 +2132,28 @@
       ]
     },
     {
+      "id": "wide-candidate-5f6eca202e2e8b11",
+      "url": "https://popply.co.kr/popup/5226",
+      "title": "뱅크시 특별전",
+      "source": "팝플리 공개 일정·SNS 출처",
+      "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
+      "detectedAt": "2026-09-14T16:14:39.339Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
+      "districts": [
+        "영등포구"
+      ],
+      "event": null,
+      "category": null,
+      "relatedUrls": []
+    },
+    {
       "id": "wide-candidate-5f7e96c70b4f54af",
       "url": "https://popply.co.kr/popup/6029",
       "title": "국립민속박물관 이벤트 : 모두 함께 한가위 @ 파주",
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -2065,13 +2167,26 @@
       "title": "이환 2026 페어 @ 부산",
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "마포구"
       ],
       "relatedUrls": [
         "https://popply.co.kr/popup/6089"
+      ]
+    },
+    {
+      "id": "wide-candidate-5fb5bb3d021be07a",
+      "url": "https://www.instagram.com/p/DZE4OvDATZd/",
+      "title": "와일드스미스 그림책 원화展",
+      "source": "팝플리 공개 일정·SNS 출처",
+      "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
+      "detectedAt": "2026-09-14T16:35:36.317Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
+      "districts": [],
+      "relatedUrls": [
+        "https://popply.co.kr/popup/5134"
       ]
     },
     {
@@ -2081,7 +2196,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "모음 사이트 원문·날짜 교차 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "강남구"
       ],
@@ -2099,7 +2214,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 공개 본문 확인 제한 · 이미지·로그인 확인 필요",
       "detectedAt": "2026-09-14T16:35:36.317Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "강남구"
       ],
@@ -2118,8 +2233,8 @@
       "title": "마법소녀 마도카☆마기카 X 애니메이트 카페 @ 부산",
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6184"
@@ -2132,26 +2247,11 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-21T03:27:39.698Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6074"
       ]
-    },
-    {
-      "id": "wide-candidate-635793b67dd13086",
-      "url": "https://popply.co.kr/popup/5377",
-      "title": "Kpop 굿즈스토어",
-      "source": "팝플리 공개 일정·SNS 출처",
-      "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
-      "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
-      "districts": [
-        "성동구"
-      ],
-      "event": null,
-      "category": null,
-      "relatedUrls": []
     },
     {
       "id": "wide-candidate-64fba90e52af8887",
@@ -2160,7 +2260,7 @@
       "source": "팝플리 네이버 블로그 RSS",
       "reason": "블로그에서 발견 · 개별 행사·SNS 원문 확인 필요",
       "detectedAt": "2026-10-08T04:38:40.723Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ]
@@ -2171,8 +2271,8 @@
       "title": "넾페스타 2026 (네이버플러스 페스타)",
       "source": "성수 팝업 네비 공개 일정",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -2181,13 +2281,26 @@
       "relatedUrls": []
     },
     {
+      "id": "wide-candidate-655b4ba48a04cc24",
+      "url": "https://www.instagram.com/reel/DZlqEsFiUwK/",
+      "title": "«이것은 개념미술이 (아니)다» 전시",
+      "source": "팝플리 공개 일정·SNS 출처",
+      "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
+      "detectedAt": "2026-09-14T16:35:36.317Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
+      "districts": [],
+      "relatedUrls": [
+        "https://popply.co.kr/popup/5253"
+      ]
+    },
+    {
       "id": "wide-candidate-659625a298b25ee5",
       "url": "https://popspot.co.kr/popup/6143",
       "title": "팀홀튼 카페",
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "강남구"
       ],
@@ -2202,7 +2315,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -2217,7 +2330,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "모음 사이트 원문·날짜 교차 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "서초구"
       ],
@@ -2235,7 +2348,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-22T03:26:16.250Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "중구"
       ],
@@ -2251,8 +2364,8 @@
       "title": "메이드바이 X 맘마 햄스토어 팝업",
       "source": "성수 팝업 네비 공개 일정",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -2273,7 +2386,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "모음 사이트 원문·날짜 교차 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "강남구"
       ],
@@ -2291,7 +2404,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -2306,7 +2419,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
       "detectedAt": "2026-10-07T04:27:38.657Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -2326,7 +2439,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "강남구"
       ],
@@ -2341,7 +2454,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "모음 사이트 원문·날짜 교차 확인 필요",
       "detectedAt": "2026-09-20T03:32:51.399Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "강남구"
       ],
@@ -2359,7 +2472,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-10-01T04:18:36.467Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6195"
@@ -2372,7 +2485,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "영등포구"
       ],
@@ -2386,8 +2499,8 @@
       "title": "설화수 X CJ 헨드리 <시크릿 가든> 전시",
       "source": "성수 팝업 네비 공개 일정",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -2402,7 +2515,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "중구"
       ],
@@ -2419,7 +2532,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-30T04:06:39.013Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6185"
@@ -2432,7 +2545,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-29T04:23:39.191Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -2444,8 +2557,8 @@
       "title": "에이티즈 X 라인프렌즈 팝업 @ 부산",
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6018"
@@ -2458,7 +2571,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "모음 사이트 원문·날짜 교차 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "용산구"
       ],
@@ -2476,7 +2589,7 @@
       "source": "팝플리 네이버 블로그 RSS",
       "reason": "블로그에서 발견 · 개별 행사·SNS 원문 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ]
@@ -2487,8 +2600,8 @@
       "title": "마마리 X 보따리 타코 팝업 <마따리>",
       "source": "성수 팝업 네비 공개 일정",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -2509,7 +2622,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-20T03:32:51.399Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "중구"
       ],
@@ -2524,7 +2637,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-22T03:26:16.250Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -2539,7 +2652,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-10-07T04:27:38.657Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6217"
@@ -2552,11 +2665,26 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-16T03:27:49.342Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6066"
       ]
+    },
+    {
+      "id": "wide-candidate-7eb03e3c300bd7f6",
+      "url": "https://popply.co.kr/popup/816",
+      "title": "곰표X코끼리베이글 팝업스토어 ‘럭키그라운드’",
+      "source": "팝플리 공개 일정·SNS 출처",
+      "reason": "종료일 미정의 오래된 공지 · 현재 운영 여부 확인 필요",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
+      "districts": [
+        "성동구"
+      ],
+      "event": null,
+      "category": null,
+      "relatedUrls": []
     },
     {
       "id": "wide-candidate-7f2f7a7c9736ee04",
@@ -2565,7 +2693,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-29T04:23:39.191Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -2580,7 +2708,7 @@
       "source": "팝플리 네이버 블로그 RSS",
       "reason": "블로그에서 발견 · 개별 행사·SNS 원문 확인 필요",
       "detectedAt": "2026-09-22T03:26:16.250Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구",
         "중구"
@@ -2593,7 +2721,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-22T03:26:16.250Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "서대문구",
         "성동구"
@@ -2608,8 +2736,8 @@
       "title": "NESCL 팝업",
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6019"
@@ -2622,7 +2750,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 공개 본문 확인 제한 · 이미지·로그인 확인 필요",
       "detectedAt": "2026-09-30T04:06:39.013Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "마포구"
       ],
@@ -2642,7 +2770,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "모음 사이트 원문·날짜 교차 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "용산구"
       ],
@@ -2654,28 +2782,13 @@
       "relatedUrls": []
     },
     {
-      "id": "wide-candidate-82d06a21ada255ab",
-      "url": "https://popply.co.kr/popup/5427",
-      "title": "4233 비사이드 전시",
-      "source": "팝플리 공개 일정·SNS 출처",
-      "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
-      "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
-      "districts": [
-        "종로구"
-      ],
-      "event": null,
-      "category": null,
-      "relatedUrls": []
-    },
-    {
       "id": "wide-candidate-82f25a660e332af0",
       "url": "https://popupnavi.com/",
       "title": "2026 서울도시농업박람회",
       "source": "성수 팝업 네비 공개 일정",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -2690,7 +2803,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-29T04:23:39.191Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -2705,7 +2818,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-30T04:06:39.013Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "마포구"
       ],
@@ -2722,7 +2835,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-10-07T04:27:38.657Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -2737,7 +2850,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -2750,7 +2863,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-28T03:48:33.051Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6163"
@@ -2763,7 +2876,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -2777,8 +2890,8 @@
       "title": "나가노마켓 팝업 @ 부산",
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/5937"
@@ -2790,8 +2903,8 @@
       "title": "김창옥 전시 : 위로의 흔적",
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "강남구"
       ],
@@ -2806,7 +2919,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "용산구"
       ],
@@ -2823,7 +2936,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
       "detectedAt": "2026-09-23T03:27:18.047Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -2843,7 +2956,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-22T03:26:16.250Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -2858,7 +2971,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-10-07T04:27:38.657Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6230"
@@ -2871,7 +2984,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 공개 본문 확인 제한 · 이미지·로그인 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "category": null,
       "event": null,
@@ -2886,7 +2999,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "모음 사이트 원문·날짜 교차 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "강남구"
       ],
@@ -2903,8 +3016,8 @@
       "title": "타네무라 아리나 30주년 X 애니메이트 카페 @ 부산",
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "마포구"
       ],
@@ -2919,7 +3032,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-30T04:06:39.013Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "송파구"
       ],
@@ -2936,7 +3049,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "용산구"
       ],
@@ -2951,7 +3064,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
       "detectedAt": "2026-09-30T04:06:39.013Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -2971,7 +3084,7 @@
       "source": "팝플리 네이버 블로그 RSS",
       "reason": "블로그에서 발견 · 개별 행사·SNS 원문 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ]
@@ -2983,7 +3096,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "모음 사이트 원문·날짜 교차 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "용산구"
       ],
@@ -3001,7 +3114,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "중구"
       ],
@@ -3016,7 +3129,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-20T03:32:51.399Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "종로구"
       ],
@@ -3031,7 +3144,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-26T03:39:56.840Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6150"
@@ -3044,7 +3157,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-22T03:26:16.250Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "중구"
       ],
@@ -3059,7 +3172,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-28T03:48:33.051Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -3072,7 +3185,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 공개 본문 확인 제한 · 이미지·로그인 확인 필요",
       "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "영등포구"
       ],
@@ -3092,7 +3205,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "종로구"
       ],
@@ -3108,8 +3221,8 @@
       "title": "어반 웰니스 페어 X 미니록스 <2026 UWF>",
       "source": "성수 팝업 네비 공개 일정",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -3130,7 +3243,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -3144,8 +3257,8 @@
       "title": "온그리디언츠 이너글로우 VIP 라운지 팝업",
       "source": "성수 팝업 네비 공개 일정",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -3166,7 +3279,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-16T03:27:49.342Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -3181,7 +3294,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -3196,7 +3309,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/5966"
@@ -3209,7 +3322,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "모음 사이트 원문·날짜 교차 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "강남구"
       ],
@@ -3227,25 +3340,10 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-23T03:27:18.047Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6078"
-      ]
-    },
-    {
-      "id": "wide-candidate-9ce67f555b06552b",
-      "url": "https://popply.co.kr/popup/4674",
-      "title": "국립생물자원관 X LG상록재단 공동 기획전 <새의 일생>",
-      "source": "팝플리 공개 일정·SNS 출처",
-      "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
-      "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
-      "districts": [],
-      "event": null,
-      "category": null,
-      "relatedUrls": [
-        "https://www.instagram.com/p/DWAhRAmgfgb/"
       ]
     },
     {
@@ -3255,7 +3353,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-22T03:26:16.250Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -3270,7 +3368,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/5951"
@@ -3283,7 +3381,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "마포구"
       ],
@@ -3298,7 +3396,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "종로구"
       ],
@@ -3315,7 +3413,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문과 모음 사이트의 행사 기간 불일치",
       "detectedAt": "2026-10-08T04:38:40.723Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -3333,25 +3431,13 @@
       ]
     },
     {
-      "id": "wide-candidate-a16adaaf559c7347",
-      "url": "https://blog.naver.com/popply_official/224375083700?fromRss=true&trackingCode=rss",
-      "title": "연휴에 어디 가지? 이번 주 팝업 가자☀️",
-      "source": "팝플리 네이버 블로그 RSS",
-      "reason": "블로그에서 발견 · 개별 행사·SNS 원문 확인 필요",
-      "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
-      "districts": [
-        "마포구"
-      ]
-    },
-    {
       "id": "wide-candidate-a2f48306eefbbb7c",
       "url": "https://popupnavi.com/",
       "title": "서울숲 영풍문고 팝업",
       "source": "성수 팝업 네비 공개 일정",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -3371,7 +3457,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-10-07T04:27:38.657Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -3386,7 +3472,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-20T03:32:51.399Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "종로구"
       ],
@@ -3401,7 +3487,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-16T03:27:49.342Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -3416,24 +3502,9 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-22T03:26:16.250Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "강남구"
-      ],
-      "event": null,
-      "category": null,
-      "relatedUrls": []
-    },
-    {
-      "id": "wide-candidate-a728646152380e70",
-      "url": "https://popply.co.kr/popup/5434",
-      "title": "올드페리도넛 성수",
-      "source": "팝플리 공개 일정·SNS 출처",
-      "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
-      "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
-      "districts": [
-        "성동구"
       ],
       "event": null,
       "category": null,
@@ -3446,7 +3517,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-22T03:26:16.250Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -3461,7 +3532,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "모음 사이트 원문·날짜 교차 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "중구"
       ],
@@ -3479,7 +3550,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "등록된 행사와 날짜 불일치 · 기존 일정 보존",
       "detectedAt": "2026-09-24T03:16:51.709Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "용산구"
       ],
@@ -3504,7 +3575,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
       "detectedAt": "2026-09-22T03:26:16.250Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -3524,25 +3595,10 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-10-09T04:41:46.484Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6238"
-      ]
-    },
-    {
-      "id": "wide-candidate-ace41a3255fab2df",
-      "url": "https://www.instagram.com/p/Damley_Bwny/",
-      "title": "STORY A 성수 : 뷰티서바이벌 살인사건",
-      "source": "팝플리 공개 일정·SNS 출처",
-      "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
-      "detectedAt": "2026-09-14T16:35:36.317Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
-      "districts": [
-        "성동구"
-      ],
-      "relatedUrls": [
-        "https://popply.co.kr/popup/5586"
       ]
     },
     {
@@ -3552,7 +3608,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-14T16:35:36.317Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/5761"
@@ -3565,7 +3621,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -3580,7 +3636,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -3595,7 +3651,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-28T03:48:33.051Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -3610,7 +3666,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-28T03:48:33.051Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6144"
@@ -3622,8 +3678,8 @@
       "title": "더웍스 페스타",
       "source": "성수 팝업 네비 공개 일정",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -3637,8 +3693,8 @@
       "title": "맥시코시 론칭 팝업",
       "source": "성수 팝업 네비 공개 일정",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -3657,8 +3713,8 @@
       "title": "지박소년 하나코 군 2 고딕 스타일 페어 @ 수원",
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6093"
@@ -3671,7 +3727,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-28T03:48:33.051Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -3686,7 +3742,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-14T16:35:36.317Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "용산구"
       ],
@@ -3701,7 +3757,7 @@
       "source": "팝플리 네이버 블로그 RSS",
       "reason": "블로그에서 발견 · 개별 행사·SNS 원문 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ]
@@ -3713,7 +3769,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-30T04:06:39.013Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "마포구"
       ],
@@ -3730,7 +3786,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-29T04:23:39.191Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "서초구"
       ],
@@ -3745,7 +3801,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-23T03:27:18.047Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6086"
@@ -3757,8 +3813,8 @@
       "title": "가치서울 팝업",
       "source": "성수 팝업 네비 공개 일정",
       "reason": "종료일 미정의 오래된 공지 · 현재 운영 여부 확인 필요",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -3773,7 +3829,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
       "detectedAt": "2026-10-08T04:38:40.723Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -3793,7 +3849,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "모음 사이트 원문·날짜 교차 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "서초구"
       ],
@@ -3811,7 +3867,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-22T03:26:16.250Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "마포구"
       ],
@@ -3826,7 +3882,7 @@
       "source": "팝플리 네이버 블로그 RSS",
       "reason": "블로그에서 발견 · 개별 행사·SNS 원문 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구",
         "영등포구"
@@ -3839,7 +3895,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-10-09T04:41:46.484Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -3854,7 +3910,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-22T03:26:16.250Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -3868,8 +3924,8 @@
       "title": "프레쎈트제주 팝업",
       "source": "성수 팝업 네비 공개 일정",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -3884,13 +3940,33 @@
       ]
     },
     {
+      "id": "wide-candidate-b9a5d3b1aed6acbf",
+      "url": "https://popply.co.kr/popup/4328",
+      "title": "LG전자 “THE FIRST : Origins” 브랜드 전시 팝업​ ​",
+      "source": "팝플리 공개 일정·SNS 출처",
+      "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
+      "detectedAt": "2026-09-14T16:14:39.339Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
+      "districts": [
+        "강남구"
+      ],
+      "event": {
+        "start": "2026-04-02",
+        "end": "2026-12-31"
+      },
+      "category": "리빙",
+      "relatedUrls": [
+        "https://popga.co.kr/popup/5422"
+      ]
+    },
+    {
       "id": "wide-candidate-b9b59075b9d6b9fa",
       "url": "https://blog.naver.com/popply_official/224382255503?fromRss=true&trackingCode=rss",
       "title": "오늘 성수동 가? 팝업 위치 총정리 지도!! - 08월 3주차",
       "source": "팝플리 네이버 블로그 RSS",
       "reason": "블로그에서 발견 · 개별 행사·SNS 원문 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ]
@@ -3902,7 +3978,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-22T03:26:16.250Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -3917,7 +3993,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "모음 사이트 원문·날짜 교차 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "마포구"
       ],
@@ -3935,7 +4011,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "중구"
       ],
@@ -3950,7 +4026,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-29T04:23:39.191Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -3959,13 +4035,28 @@
       ]
     },
     {
+      "id": "wide-candidate-bf457488e02c5424",
+      "url": "https://popply.co.kr/popup/1674",
+      "title": "2024 마카오 팝업스토어",
+      "source": "팝플리 공개 일정·SNS 출처",
+      "reason": "종료일 미정의 오래된 공지 · 현재 운영 여부 확인 필요",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
+      "districts": [
+        "서초구"
+      ],
+      "event": null,
+      "category": null,
+      "relatedUrls": []
+    },
+    {
       "id": "wide-candidate-bf8346732e87f966",
       "url": "https://popply.co.kr/popup/5831",
       "title": "피카츄의 가을 나들이",
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "중구"
       ],
@@ -3982,7 +4073,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 공개 본문 확인 제한 · 이미지·로그인 확인 필요",
       "detectedAt": "2026-10-01T04:18:36.467Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "영등포구"
       ],
@@ -4002,7 +4093,7 @@
       "source": "팝플리 네이버 블로그 RSS",
       "reason": "블로그에서 발견 · 개별 행사·SNS 원문 확인 필요",
       "detectedAt": "2026-09-29T04:23:39.191Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ]
@@ -4014,7 +4105,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-10-06T05:00:29.763Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6160"
@@ -4026,8 +4117,8 @@
       "title": "타르데마베이커리 팝업",
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 공개 본문 확인 제한 · 이미지·로그인 확인 필요",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "강서구"
       ],
@@ -4047,7 +4138,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "모음 사이트 원문·날짜 교차 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "강남구"
       ],
@@ -4064,8 +4155,8 @@
       "title": "슈퍼드라이 X 박지훈 팝업",
       "source": "성수 팝업 네비 공개 일정",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -4086,7 +4177,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-22T03:26:16.250Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -4101,7 +4192,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
       "detectedAt": "2026-09-21T03:27:39.698Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -4121,8 +4212,8 @@
       "title": "텐먼스 팝업",
       "source": "성수 팝업 네비 공개 일정",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -4141,8 +4232,8 @@
       "title": "세븐에잇언더 팝업",
       "source": "성수 팝업 네비 공개 일정",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -4163,7 +4254,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 공개 본문 확인 제한 · 이미지·로그인 확인 필요",
       "detectedAt": "2026-09-14T16:35:36.317Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -4183,7 +4274,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
       "detectedAt": "2026-09-18T03:19:25.712Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "마포구"
       ],
@@ -4204,7 +4295,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
       "detectedAt": "2026-09-22T03:26:16.250Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -4225,7 +4316,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-10-06T05:00:29.763Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "마포구"
       ],
@@ -4240,7 +4331,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "금천구"
       ],
@@ -4255,7 +4346,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-28T03:48:33.051Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "마포구"
       ],
@@ -4271,10 +4362,40 @@
       "title": "카린 X 타쿠 반나이 전시",
       "source": "성수 팝업 네비 공개 일정",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
+      ],
+      "event": null,
+      "category": null,
+      "relatedUrls": []
+    },
+    {
+      "id": "wide-candidate-ccb4a0a07e6186bb",
+      "url": "https://popply.co.kr/popup/5142",
+      "title": "⟪조은 원화전: 오늘의 정원⟫ 전시",
+      "source": "팝플리 공개 일정·SNS 출처",
+      "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
+      "detectedAt": "2026-09-14T16:14:39.339Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
+      "districts": [
+        "광진구"
+      ],
+      "event": null,
+      "category": null,
+      "relatedUrls": []
+    },
+    {
+      "id": "wide-candidate-cdba95de170c5af8",
+      "url": "https://popply.co.kr/popup/5135",
+      "title": "⟪이기훈 원화전: 내일의 낙원⟫",
+      "source": "팝플리 공개 일정·SNS 출처",
+      "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
+      "detectedAt": "2026-09-14T16:14:39.339Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
+      "districts": [
+        "광진구"
       ],
       "event": null,
       "category": null,
@@ -4287,7 +4408,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "모음 사이트 원문·날짜 교차 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "서대문구"
       ],
@@ -4305,7 +4426,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-30T04:06:39.013Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -4320,7 +4441,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문과 모음 사이트의 행사 기간 불일치",
       "detectedAt": "2026-09-22T03:26:16.250Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "영등포구"
       ],
@@ -4344,7 +4465,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "모음 사이트 원문·날짜 교차 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "용산구"
       ],
@@ -4362,7 +4483,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-18T03:19:25.712Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6040"
@@ -4375,7 +4496,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
       "detectedAt": "2026-09-22T03:26:16.250Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "마포구"
       ],
@@ -4396,7 +4517,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "용산구"
       ],
@@ -4411,7 +4532,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -4425,8 +4546,8 @@
       "title": "SKT 이모션 랩 전시",
       "source": "성수 팝업 네비 공개 일정",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -4441,7 +4562,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-10-01T04:18:36.467Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -4455,8 +4576,8 @@
       "title": "THE BRIDGE FESTIVAL 2026",
       "source": "성수 팝업 네비 공개 일정",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -4471,7 +4592,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-22T03:26:16.250Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -4486,7 +4607,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "양천구"
       ],
@@ -4501,7 +4622,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-10-07T04:27:38.657Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -4516,7 +4637,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -4533,7 +4654,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -4548,7 +4669,7 @@
       "source": "팝플리 네이버 블로그 RSS",
       "reason": "블로그에서 발견 · 개별 행사·SNS 원문 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "마포구",
         "성동구"
@@ -4560,8 +4681,8 @@
       "title": "유월제주 팝업",
       "source": "성수 팝업 네비 공개 일정",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
-      "detectedAt": "2026-10-10T04:27:32.396Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "detectedAt": "2026-10-11T04:09:39.628Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -4576,28 +4697,13 @@
       ]
     },
     {
-      "id": "wide-candidate-dbc166a831ff3f75",
-      "url": "https://popply.co.kr/popup/5423",
-      "title": "카우스 : 친구, 그리고 이웃 전시",
-      "source": "팝플리 공개 일정·SNS 출처",
-      "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
-      "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
-      "districts": [
-        "강서구"
-      ],
-      "event": null,
-      "category": null,
-      "relatedUrls": []
-    },
-    {
       "id": "wide-candidate-dc587dd3020c8c37",
       "url": "https://www.instagram.com/p/DdF7le1k7Lg/",
       "title": "리틀티니 팝업",
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 공개 본문 확인 제한 · 이미지·로그인 확인 필요",
       "detectedAt": "2026-09-14T16:35:36.317Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "양천구"
       ],
@@ -4617,7 +4723,7 @@
       "source": "팝플리 네이버 블로그 RSS",
       "reason": "블로그에서 발견 · 개별 행사·SNS 원문 확인 필요",
       "detectedAt": "2026-09-16T03:27:49.342Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구",
         "영등포구"
@@ -4630,7 +4736,7 @@
       "source": "팝플리 네이버 블로그 RSS",
       "reason": "블로그에서 발견 · 개별 행사·SNS 원문 확인 필요",
       "detectedAt": "2026-10-03T03:54:13.392Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ]
@@ -4642,7 +4748,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "강남구"
       ],
@@ -4659,7 +4765,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -4668,26 +4774,13 @@
       ]
     },
     {
-      "id": "wide-candidate-dec7790b0b8e188e",
-      "url": "https://popply.co.kr/popup/4988",
-      "title": "새해 준비상점",
-      "source": "팝플리 공개 일정·SNS 출처",
-      "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
-      "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
-      "districts": [],
-      "event": null,
-      "category": null,
-      "relatedUrls": []
-    },
-    {
       "id": "wide-candidate-df2165f1b74c0a9c",
       "url": "https://popspot.co.kr/popup/3137",
       "title": "서촌 팝업",
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "모음 사이트 원문·날짜 교차 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "서대문구"
       ],
@@ -4705,7 +4798,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "등록된 행사와 날짜 불일치 · 기존 일정 보존",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -4730,7 +4823,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-30T04:06:39.013Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -4745,7 +4838,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 공개 본문 확인 제한 · 이미지·로그인 확인 필요",
       "detectedAt": "2026-09-29T04:23:39.191Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "송파구"
       ],
@@ -4765,7 +4858,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "모음 사이트 원문·날짜 교차 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -4783,7 +4876,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-10-07T04:27:38.657Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6219"
@@ -4796,7 +4889,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "양천구"
       ],
@@ -4811,7 +4904,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
       "detectedAt": "2026-09-14T16:35:36.317Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "마포구"
       ],
@@ -4832,7 +4925,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-30T04:06:39.013Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6175"
@@ -4845,7 +4938,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "마포구"
       ],
@@ -4860,7 +4953,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "모음 사이트 원문·날짜 교차 확인 필요",
       "detectedAt": "2026-09-20T03:32:51.399Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "종로구"
       ],
@@ -4878,7 +4971,7 @@
       "source": "팝플리 네이버 블로그 RSS",
       "reason": "블로그에서 발견 · 개별 행사·SNS 원문 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "마포구"
       ]
@@ -4890,7 +4983,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "모음 사이트 원문·날짜 교차 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "중구"
       ],
@@ -4908,7 +5001,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -4923,7 +5016,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-10-06T05:00:29.763Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6182"
@@ -4936,7 +5029,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
       "detectedAt": "2026-09-29T04:23:39.191Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "서대문구"
       ],
@@ -4957,7 +5050,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-10-07T04:27:38.657Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -4972,7 +5065,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-18T03:19:25.712Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -4987,7 +5080,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "송파구"
       ],
@@ -5002,7 +5095,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "서울 개최 장소·자치구 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "event": null,
       "category": null,
@@ -5015,7 +5108,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-22T03:26:16.250Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "송파구"
       ],
@@ -5032,7 +5125,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 공개 본문 확인 제한 · 이미지·로그인 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "강남구"
       ],
@@ -5052,7 +5145,7 @@
       "source": "팝플리 네이버 블로그 RSS",
       "reason": "블로그에서 발견 · 개별 행사·SNS 원문 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ]
@@ -5064,7 +5157,7 @@
       "source": "팝플리 네이버 블로그 RSS",
       "reason": "블로그에서 발견 · 개별 행사·SNS 원문 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ]
@@ -5076,7 +5169,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "중구"
       ],
@@ -5091,7 +5184,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-10-07T04:27:38.657Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/6216"
@@ -5104,7 +5197,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-10-09T04:41:46.484Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "강남구"
       ],
@@ -5119,7 +5212,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "마포구"
       ],
@@ -5136,7 +5229,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 공개 본문 확인 제한 · 이미지·로그인 확인 필요",
       "detectedAt": "2026-10-09T04:41:46.484Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "영등포구"
       ],
@@ -5156,7 +5249,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "마포구"
       ],
@@ -5173,7 +5266,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "모음 사이트 원문·날짜 교차 확인 필요",
       "detectedAt": "2026-09-20T03:32:51.399Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -5191,7 +5284,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 공개 본문 확인 제한 · 이미지·로그인 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "category": null,
       "event": null,
@@ -5206,7 +5299,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "중구"
       ],
@@ -5223,7 +5316,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-14T16:35:36.317Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -5238,7 +5331,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "강남구"
       ],
@@ -5253,7 +5346,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "강남구"
       ],
@@ -5268,7 +5361,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [],
       "relatedUrls": [
         "https://popply.co.kr/popup/5772"
@@ -5281,7 +5374,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-16T03:27:49.342Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "종로구"
       ],
@@ -5299,7 +5392,7 @@
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "강남구"
       ],
@@ -5316,7 +5409,7 @@
       "source": "POP-SPOT 후보·원문 링크",
       "reason": "모음 사이트 원문·날짜 교차 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "성동구"
       ],
@@ -5334,7 +5427,7 @@
       "source": "팝플리 네이버 블로그 RSS",
       "reason": "블로그에서 발견 · 개별 행사·SNS 원문 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "lastSeenAt": "2026-10-11T04:09:39.628Z",
       "districts": [
         "송파구"
       ]
@@ -5346,7 +5439,7 @@
       "source": "신세계그룹 공식 뉴스룸",
       "publishedAt": "2026-10-06T02:10:07.000Z",
       "detectedAt": "2026-10-06T05:00:26.224Z",
-      "lastSeenAt": "2026-10-10T04:27:28.831Z",
+      "lastSeenAt": "2026-10-11T04:09:36.618Z",
       "districts": [
         "성동구"
       ],
@@ -5359,7 +5452,7 @@
       "source": "신세계그룹 공식 뉴스룸",
       "publishedAt": "2026-10-08T00:41:25.000Z",
       "detectedAt": "2026-10-08T04:38:37.876Z",
-      "lastSeenAt": "2026-10-10T04:27:28.831Z",
+      "lastSeenAt": "2026-10-11T04:09:36.618Z",
       "districts": [
         "강남구"
       ],
@@ -5372,26 +5465,188 @@
       "source": "신세계그룹 공식 뉴스룸",
       "publishedAt": "2026-09-14",
       "detectedAt": "2026-09-30T04:06:33.396Z",
-      "lastSeenAt": "2026-10-10T04:27:28.831Z",
+      "lastSeenAt": "2026-10-11T04:09:36.618Z",
       "districts": [
         "성동구"
       ],
       "reason": "등록 행사 공식 공지 변경 감지 · 일정 재검토 필요"
     },
     {
-      "id": "wide-candidate-0d6909773a410c8d",
-      "url": "https://popply.co.kr/popup/5315",
-      "title": "원피스 대해적시대 아시아 투어",
+      "id": "wide-candidate-36be23b2e35f8419",
+      "url": "https://www.instagram.com/p/DWAhRAmgfgb/",
+      "title": "국립생물자원관 X LG상록재단 공동 기획전 <새의 일생>",
+      "source": "팝플리 공개 일정·SNS 출처",
+      "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
+      "detectedAt": "2026-09-14T16:35:36.317Z",
+      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "districts": [],
+      "relatedUrls": [
+        "https://popply.co.kr/popup/4674"
+      ]
+    },
+    {
+      "id": "wide-candidate-4d464b9c19e2c14b",
+      "url": "https://popply.co.kr/popup/5492",
+      "title": "명탐정 코난 전시",
       "source": "팝플리 공개 일정·SNS 출처",
       "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
       "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-09T04:41:46.484Z",
+      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "districts": [
+        "마포구"
+      ],
+      "event": null,
+      "category": null,
+      "relatedUrls": [
+        "https://www.instagram.com/p/Daw_jqIETHk/"
+      ]
+    },
+    {
+      "id": "wide-candidate-53735ef03a9f5414",
+      "url": "https://www.instagram.com/p/Daw_jqIETHk/",
+      "title": "명탐정 코난 전시",
+      "source": "팝플리 공개 일정·SNS 출처",
+      "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
+      "detectedAt": "2026-09-14T16:35:36.317Z",
+      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "districts": [
+        "마포구"
+      ],
+      "relatedUrls": [
+        "https://popply.co.kr/popup/5492"
+      ]
+    },
+    {
+      "id": "wide-candidate-58747cec939879de",
+      "url": "https://popply.co.kr/popup/5586",
+      "title": "STORY A 성수 : 뷰티서바이벌 살인사건",
+      "source": "팝플리 공개 일정·SNS 출처",
+      "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
+      "detectedAt": "2026-09-14T16:14:39.339Z",
+      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "districts": [
+        "성동구"
+      ],
+      "event": null,
+      "category": null,
+      "relatedUrls": [
+        "https://www.instagram.com/p/Damley_Bwny/"
+      ]
+    },
+    {
+      "id": "wide-candidate-635793b67dd13086",
+      "url": "https://popply.co.kr/popup/5377",
+      "title": "Kpop 굿즈스토어",
+      "source": "팝플리 공개 일정·SNS 출처",
+      "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
+      "detectedAt": "2026-09-14T16:14:39.339Z",
+      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "districts": [
+        "성동구"
+      ],
+      "event": null,
+      "category": null,
+      "relatedUrls": []
+    },
+    {
+      "id": "wide-candidate-82d06a21ada255ab",
+      "url": "https://popply.co.kr/popup/5427",
+      "title": "4233 비사이드 전시",
+      "source": "팝플리 공개 일정·SNS 출처",
+      "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
+      "detectedAt": "2026-09-14T16:14:39.339Z",
+      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "districts": [
+        "종로구"
+      ],
+      "event": null,
+      "category": null,
+      "relatedUrls": []
+    },
+    {
+      "id": "wide-candidate-9ce67f555b06552b",
+      "url": "https://popply.co.kr/popup/4674",
+      "title": "국립생물자원관 X LG상록재단 공동 기획전 <새의 일생>",
+      "source": "팝플리 공개 일정·SNS 출처",
+      "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
+      "detectedAt": "2026-09-14T16:14:39.339Z",
+      "lastSeenAt": "2026-10-10T04:27:32.396Z",
       "districts": [],
       "event": null,
       "category": null,
       "relatedUrls": [
-        "https://www.instagram.com/p/DZUPQ3pPgRC/"
+        "https://www.instagram.com/p/DWAhRAmgfgb/"
       ]
+    },
+    {
+      "id": "wide-candidate-a16adaaf559c7347",
+      "url": "https://blog.naver.com/popply_official/224375083700?fromRss=true&trackingCode=rss",
+      "title": "연휴에 어디 가지? 이번 주 팝업 가자☀️",
+      "source": "팝플리 네이버 블로그 RSS",
+      "reason": "블로그에서 발견 · 개별 행사·SNS 원문 확인 필요",
+      "detectedAt": "2026-09-14T16:14:39.339Z",
+      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "districts": [
+        "마포구"
+      ]
+    },
+    {
+      "id": "wide-candidate-a728646152380e70",
+      "url": "https://popply.co.kr/popup/5434",
+      "title": "올드페리도넛 성수",
+      "source": "팝플리 공개 일정·SNS 출처",
+      "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
+      "detectedAt": "2026-09-14T16:14:39.339Z",
+      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "districts": [
+        "성동구"
+      ],
+      "event": null,
+      "category": null,
+      "relatedUrls": []
+    },
+    {
+      "id": "wide-candidate-ace41a3255fab2df",
+      "url": "https://www.instagram.com/p/Damley_Bwny/",
+      "title": "STORY A 성수 : 뷰티서바이벌 살인사건",
+      "source": "팝플리 공개 일정·SNS 출처",
+      "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
+      "detectedAt": "2026-09-14T16:35:36.317Z",
+      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "districts": [
+        "성동구"
+      ],
+      "relatedUrls": [
+        "https://popply.co.kr/popup/5586"
+      ]
+    },
+    {
+      "id": "wide-candidate-dbc166a831ff3f75",
+      "url": "https://popply.co.kr/popup/5423",
+      "title": "카우스 : 친구, 그리고 이웃 전시",
+      "source": "팝플리 공개 일정·SNS 출처",
+      "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
+      "detectedAt": "2026-09-14T16:14:39.339Z",
+      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "districts": [
+        "강서구"
+      ],
+      "event": null,
+      "category": null,
+      "relatedUrls": []
+    },
+    {
+      "id": "wide-candidate-dec7790b0b8e188e",
+      "url": "https://popply.co.kr/popup/4988",
+      "title": "새해 준비상점",
+      "source": "팝플리 공개 일정·SNS 출처",
+      "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
+      "detectedAt": "2026-09-14T16:14:39.339Z",
+      "lastSeenAt": "2026-10-10T04:27:32.396Z",
+      "districts": [],
+      "event": null,
+      "category": null,
+      "relatedUrls": []
     },
     {
       "id": "wide-candidate-108143b9680fc7e3",
@@ -5406,83 +5661,6 @@
       "category": null,
       "relatedUrls": [
         "https://www.instagram.com/p/DdT3myOn6Pp/"
-      ]
-    },
-    {
-      "id": "wide-candidate-2263afdfa467e24b",
-      "url": "https://www.instagram.com/p/DYjLUSltfSo/",
-      "title": "《유영국: 산은 내 안에 있다》",
-      "source": "팝플리 공개 일정·SNS 출처",
-      "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
-      "detectedAt": "2026-09-14T16:35:36.317Z",
-      "lastSeenAt": "2026-10-09T04:41:46.484Z",
-      "districts": [],
-      "relatedUrls": [
-        "https://popply.co.kr/popup/5035"
-      ]
-    },
-    {
-      "id": "wide-candidate-2b2cf68217b2b7fe",
-      "url": "https://popply.co.kr/popup/5253",
-      "title": "«이것은 개념미술이 (아니)다» 전시",
-      "source": "팝플리 공개 일정·SNS 출처",
-      "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
-      "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-09T04:41:46.484Z",
-      "districts": [
-        "종로구"
-      ],
-      "event": null,
-      "category": null,
-      "relatedUrls": [
-        "https://www.instagram.com/reel/DZlqEsFiUwK/"
-      ]
-    },
-    {
-      "id": "wide-candidate-2c641ba1a361ae1a",
-      "url": "https://www.instagram.com/p/DZUPQ3pPgRC/",
-      "title": "원피스 대해적시대 아시아 투어",
-      "source": "팝플리 공개 일정·SNS 출처",
-      "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
-      "detectedAt": "2026-09-14T16:35:36.317Z",
-      "lastSeenAt": "2026-10-09T04:41:46.484Z",
-      "districts": [],
-      "relatedUrls": [
-        "https://popply.co.kr/popup/5315"
-      ]
-    },
-    {
-      "id": "wide-candidate-378a95e1e1d98a7a",
-      "url": "https://popply.co.kr/popup/5134",
-      "title": "와일드스미스 그림책 원화展",
-      "source": "팝플리 공개 일정·SNS 출처",
-      "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
-      "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-09T04:41:46.484Z",
-      "districts": [
-        "서초구"
-      ],
-      "event": null,
-      "category": null,
-      "relatedUrls": [
-        "https://www.instagram.com/p/DZE4OvDATZd/"
-      ]
-    },
-    {
-      "id": "wide-candidate-3cb139598d8e5969",
-      "url": "https://popply.co.kr/popup/5035",
-      "title": "《유영국: 산은 내 안에 있다》",
-      "source": "팝플리 공개 일정·SNS 출처",
-      "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
-      "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-09T04:41:46.484Z",
-      "districts": [
-        "중구"
-      ],
-      "event": null,
-      "category": null,
-      "relatedUrls": [
-        "https://www.instagram.com/p/DYjLUSltfSo/"
       ]
     },
     {
@@ -5501,72 +5679,6 @@
       "relatedUrls": []
     },
     {
-      "id": "wide-candidate-4b73a2292b5fc235",
-      "url": "https://popply.co.kr/popup/5243",
-      "title": "신라면분식 더 팩토리 팝업",
-      "source": "팝플리 공개 일정·SNS 출처",
-      "reason": "등록된 행사와 날짜 불일치 · 기존 일정 보존",
-      "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-09T04:41:46.484Z",
-      "districts": [
-        "성동구"
-      ],
-      "event": {
-        "start": "2026-06-16",
-        "end": "2026-12-16"
-      },
-      "otherEvent": {
-        "start": "2026-06-16",
-        "end": "2026-11-30"
-      },
-      "category": "푸드",
-      "relatedUrls": [
-        "https://popga.co.kr/popup/7511",
-        "https://www.instagram.com/p/DZosdYgRHuN/"
-      ]
-    },
-    {
-      "id": "wide-candidate-5f6eca202e2e8b11",
-      "url": "https://popply.co.kr/popup/5226",
-      "title": "뱅크시 특별전",
-      "source": "팝플리 공개 일정·SNS 출처",
-      "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
-      "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-09T04:41:46.484Z",
-      "districts": [
-        "영등포구"
-      ],
-      "event": null,
-      "category": null,
-      "relatedUrls": []
-    },
-    {
-      "id": "wide-candidate-5fb5bb3d021be07a",
-      "url": "https://www.instagram.com/p/DZE4OvDATZd/",
-      "title": "와일드스미스 그림책 원화展",
-      "source": "팝플리 공개 일정·SNS 출처",
-      "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
-      "detectedAt": "2026-09-14T16:35:36.317Z",
-      "lastSeenAt": "2026-10-09T04:41:46.484Z",
-      "districts": [],
-      "relatedUrls": [
-        "https://popply.co.kr/popup/5134"
-      ]
-    },
-    {
-      "id": "wide-candidate-655b4ba48a04cc24",
-      "url": "https://www.instagram.com/reel/DZlqEsFiUwK/",
-      "title": "«이것은 개념미술이 (아니)다» 전시",
-      "source": "팝플리 공개 일정·SNS 출처",
-      "reason": "SNS 본문 확인 · 행사별 날짜·장소 검토 필요",
-      "detectedAt": "2026-09-14T16:35:36.317Z",
-      "lastSeenAt": "2026-10-09T04:41:46.484Z",
-      "districts": [],
-      "relatedUrls": [
-        "https://popply.co.kr/popup/5253"
-      ]
-    },
-    {
       "id": "wide-candidate-a6c82639a4bee2f7",
       "url": "https://blog.naver.com/popply_official/224374241706?fromRss=true&trackingCode=rss",
       "title": "오늘 성수동 가? 팝업 위치 총정리 지도!! - 08월 2주차",
@@ -5577,56 +5689,6 @@
       "districts": [
         "성동구"
       ]
-    },
-    {
-      "id": "wide-candidate-b9a5d3b1aed6acbf",
-      "url": "https://popply.co.kr/popup/4328",
-      "title": "LG전자 “THE FIRST : Origins” 브랜드 전시 팝업​ ​",
-      "source": "팝플리 공개 일정·SNS 출처",
-      "reason": "등록 행사와 유사 · 브랜드·장소 중복 검토",
-      "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-09T04:41:46.484Z",
-      "districts": [
-        "강남구"
-      ],
-      "event": {
-        "start": "2026-04-02",
-        "end": "2026-12-31"
-      },
-      "category": "리빙",
-      "relatedUrls": [
-        "https://popga.co.kr/popup/5422"
-      ]
-    },
-    {
-      "id": "wide-candidate-ccb4a0a07e6186bb",
-      "url": "https://popply.co.kr/popup/5142",
-      "title": "⟪조은 원화전: 오늘의 정원⟫ 전시",
-      "source": "팝플리 공개 일정·SNS 출처",
-      "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
-      "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-09T04:41:46.484Z",
-      "districts": [
-        "광진구"
-      ],
-      "event": null,
-      "category": null,
-      "relatedUrls": []
-    },
-    {
-      "id": "wide-candidate-cdba95de170c5af8",
-      "url": "https://popply.co.kr/popup/5135",
-      "title": "⟪이기훈 원화전: 내일의 낙원⟫",
-      "source": "팝플리 공개 일정·SNS 출처",
-      "reason": "팝업스토어에 해당하는 행사인지 확인 필요",
-      "detectedAt": "2026-09-14T16:14:39.339Z",
-      "lastSeenAt": "2026-10-09T04:41:46.484Z",
-      "districts": [
-        "광진구"
-      ],
-      "event": null,
-      "category": null,
-      "relatedUrls": []
     },
     {
       "id": "wide-candidate-026c259f39478043",
@@ -42905,14 +42967,14 @@
     }
   ],
   "wide": {
-    "checkedAt": "2026-10-10T04:27:32.396Z",
-    "pagesRead": 421,
+    "checkedAt": "2026-10-11T04:09:39.628Z",
+    "pagesRead": 424,
     "structuredEvents": 495,
     "added": 0,
-    "updated": 143,
-    "duplicates": 248,
-    "socialDiscovered": 228,
-    "socialRead": 215,
+    "updated": 142,
+    "duplicates": 247,
+    "socialDiscovered": 226,
+    "socialRead": 213,
     "socialLimited": 13,
     "pendingPages": 1540,
     "pendingSocial": 0
