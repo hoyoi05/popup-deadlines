@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-21",
+  "checkedAt": "2026-10-22",
   "timezone": "Asia/Seoul",
   "popups": [
     {
@@ -13075,7 +13075,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-20",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -13855,7 +13855,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-20",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply",
@@ -15059,7 +15059,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-20",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -15173,7 +15173,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-20",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -15217,7 +15217,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-20",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -15407,7 +15407,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -15445,7 +15445,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -15559,7 +15559,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -15788,7 +15788,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -15864,7 +15864,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -18717,7 +18717,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -18755,7 +18755,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -19277,7 +19277,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -19541,7 +19541,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -19629,7 +19629,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -19673,7 +19673,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -19717,7 +19717,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -19761,7 +19761,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -19805,7 +19805,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -19849,7 +19849,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -19893,7 +19893,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -19937,7 +19937,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -20247,7 +20247,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -20323,7 +20323,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -20405,7 +20405,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -20421,7 +20421,7 @@
           "kind": "secondary",
           "label": "SNS 공개 본문 확인",
           "url": "https://www.instagram.com/p/DddJKRrzB1p/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @silobrewery. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "공개 게시물 본문을 읽었습니다. 예약 접수 마감은 자동 추정하지 않습니다."
         }
       ]
     },
@@ -20449,7 +20449,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -20537,7 +20537,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -20581,7 +20581,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -21399,7 +21399,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -21551,7 +21551,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -21715,7 +21715,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -21759,7 +21759,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -21803,7 +21803,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -21891,7 +21891,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -21935,7 +21935,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -21979,7 +21979,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -22023,7 +22023,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -22067,7 +22067,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -22155,7 +22155,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -22243,7 +22243,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -22331,7 +22331,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -22463,7 +22463,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -22507,7 +22507,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -22551,7 +22551,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -22595,7 +22595,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -22683,7 +22683,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -22727,7 +22727,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -22809,7 +22809,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -22853,7 +22853,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -22897,7 +22897,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -22913,7 +22913,7 @@
           "kind": "secondary",
           "label": "SNS 공개 본문 확인",
           "url": "https://www.instagram.com/p/Dd0rfPUR387/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @colley.kr. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "공개 게시물 본문을 읽었습니다. 예약 접수 마감은 자동 추정하지 않습니다."
         }
       ]
     },
@@ -23143,7 +23143,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -23295,7 +23295,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -23333,7 +23333,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -23535,7 +23535,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -23573,7 +23573,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -23649,7 +23649,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -23801,7 +23801,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -23839,7 +23839,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -23877,7 +23877,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -23953,7 +23953,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -24067,7 +24067,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -24111,7 +24111,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -24155,7 +24155,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -24199,7 +24199,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -24243,7 +24243,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -24376,7 +24376,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -24420,7 +24420,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -24464,7 +24464,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -24508,7 +24508,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -24552,7 +24552,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -24596,7 +24596,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -24640,7 +24640,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -24684,7 +24684,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -24728,7 +24728,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -24772,7 +24772,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -24816,7 +24816,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -24860,7 +24860,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -24904,7 +24904,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -24948,7 +24948,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -24986,7 +24986,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -25030,7 +25030,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -25074,7 +25074,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -25118,7 +25118,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -25162,7 +25162,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -25206,7 +25206,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -25250,7 +25250,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -25294,7 +25294,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -25338,7 +25338,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -25382,7 +25382,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -25426,7 +25426,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -25470,7 +25470,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -25514,7 +25514,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -25558,7 +25558,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -25602,7 +25602,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -25618,7 +25618,7 @@
           "kind": "secondary",
           "label": "SNS 공개 본문 확인",
           "url": "https://www.instagram.com/p/DeOj3WyAVU7/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @romandyou. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "공개 게시물 본문을 읽었습니다. 예약 접수 마감은 자동 추정하지 않습니다."
         }
       ]
     },
@@ -25646,7 +25646,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -25690,7 +25690,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -25734,7 +25734,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -25778,7 +25778,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -25816,7 +25816,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -25892,7 +25892,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -25930,7 +25930,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -25968,7 +25968,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -26006,7 +26006,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -26082,7 +26082,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -26120,7 +26120,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -26158,7 +26158,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -26196,7 +26196,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -26234,7 +26234,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -26272,7 +26272,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -26316,7 +26316,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -26354,7 +26354,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -26398,7 +26398,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -26442,7 +26442,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -26486,7 +26486,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -26530,7 +26530,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -26574,7 +26574,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -26618,7 +26618,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -26662,7 +26662,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -26706,7 +26706,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -26750,7 +26750,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -26794,7 +26794,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -26838,7 +26838,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -26882,7 +26882,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -26926,7 +26926,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -26970,7 +26970,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27008,7 +27008,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27046,7 +27046,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27090,7 +27090,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27134,7 +27134,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27178,7 +27178,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27222,7 +27222,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27266,7 +27266,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27310,7 +27310,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27354,7 +27354,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27398,7 +27398,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27442,7 +27442,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27486,7 +27486,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27530,7 +27530,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27574,7 +27574,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27618,7 +27618,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27656,7 +27656,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27700,7 +27700,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27744,7 +27744,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27788,7 +27788,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27832,7 +27832,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27876,7 +27876,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27920,7 +27920,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27964,7 +27964,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -28008,7 +28008,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -28046,7 +28046,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -28084,7 +28084,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -28122,7 +28122,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -28160,7 +28160,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -28198,7 +28198,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -28236,7 +28236,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -28274,7 +28274,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -28312,7 +28312,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -28350,7 +28350,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -28388,7 +28388,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -28426,7 +28426,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -28464,7 +28464,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -28502,7 +28502,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -28546,7 +28546,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -28590,7 +28590,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -28634,7 +28634,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -28678,7 +28678,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -28722,7 +28722,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -28766,7 +28766,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -28810,7 +28810,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -28854,7 +28854,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -28898,7 +28898,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -28942,7 +28942,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -28986,7 +28986,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29030,7 +29030,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29074,7 +29074,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29118,7 +29118,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29162,7 +29162,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29206,7 +29206,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29250,7 +29250,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29294,7 +29294,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29338,7 +29338,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29382,7 +29382,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29426,7 +29426,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29470,7 +29470,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29514,7 +29514,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29552,7 +29552,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29590,7 +29590,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29628,7 +29628,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29672,7 +29672,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29716,7 +29716,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29760,7 +29760,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29798,7 +29798,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29842,7 +29842,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29886,7 +29886,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29930,7 +29930,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29974,7 +29974,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30018,7 +30018,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30062,7 +30062,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30106,7 +30106,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30150,7 +30150,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30194,7 +30194,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30238,7 +30238,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30282,7 +30282,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30326,7 +30326,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30370,7 +30370,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30414,7 +30414,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30458,7 +30458,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30502,7 +30502,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30546,7 +30546,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30590,7 +30590,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30634,7 +30634,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30678,7 +30678,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30722,7 +30722,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30766,7 +30766,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30810,7 +30810,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30854,7 +30854,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30865,6 +30865,314 @@
           "label": "팝플리 공개 일정·SNS 출처",
           "url": "https://popply.co.kr/popup/6363",
           "note": "공개된 행사명·기간·위치만 수집. 주최 측 공식 확인 및 예약 접수 마감 검증 전 자료."
+        }
+      ]
+    },
+    {
+      "id": "wide-21b539059334c90e",
+      "title": "에키 X 스컬프스토어 팝업",
+      "brand": "에키(EKKI)",
+      "city": "서울",
+      "district": "마포구",
+      "region": "마포구",
+      "address": "서울 마포구 양화로8길 16-16",
+      "venue": "서울 마포구 양화로8길 16-16",
+      "category": "의류",
+      "tone": "fashion",
+      "hours": null,
+      "event": {
+        "start": "2026-10-23",
+        "end": "2026-10-25"
+      },
+      "booking": {
+        "mode": "unknown",
+        "open": null,
+        "close": null,
+        "url": null,
+        "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
+      },
+      "verification": "secondary",
+      "checkedAt": "2026-10-22",
+      "collection": {
+        "method": "public-listing",
+        "sourceId": "popply"
+      },
+      "sources": [
+        {
+          "kind": "secondary",
+          "label": "팝플리 공개 일정·SNS 출처",
+          "url": "https://popply.co.kr/popup/6410",
+          "note": "공개된 행사명·기간·위치만 수집. 주최 측 공식 확인 및 예약 접수 마감 검증 전 자료."
+        },
+        {
+          "kind": "secondary",
+          "label": "SNS 공개 본문 확인",
+          "url": "https://www.instagram.com/p/DeteuEVy1Lx/",
+          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @ekki.official. 예약 접수 마감은 자동 추정하지 않습니다."
+        }
+      ]
+    },
+    {
+      "id": "wide-fe1254569b4132c0",
+      "title": "시에 X 에세이즈 팝업",
+      "brand": "시에(SIE)",
+      "city": "서울",
+      "district": "성동구",
+      "region": "성동구",
+      "address": "서울 성동구 연무장길 35",
+      "venue": "서울 성동구 연무장길 35",
+      "category": "의류",
+      "tone": "fashion",
+      "hours": null,
+      "event": {
+        "start": "2026-10-27",
+        "end": "2026-11-10"
+      },
+      "booking": {
+        "mode": "unknown",
+        "open": null,
+        "close": null,
+        "url": null,
+        "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
+      },
+      "verification": "secondary",
+      "checkedAt": "2026-10-22",
+      "collection": {
+        "method": "public-listing",
+        "sourceId": "popply"
+      },
+      "sources": [
+        {
+          "kind": "secondary",
+          "label": "팝플리 공개 일정·SNS 출처",
+          "url": "https://popply.co.kr/popup/6409",
+          "note": "공개된 행사명·기간·위치만 수집. 주최 측 공식 확인 및 예약 접수 마감 검증 전 자료."
+        },
+        {
+          "kind": "secondary",
+          "label": "SNS 공개 본문 확인",
+          "url": "https://www.instagram.com/p/DetebOOkQxk/",
+          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @sie___official. 예약 접수 마감은 자동 추정하지 않습니다."
+        }
+      ]
+    },
+    {
+      "id": "wide-a3a1e2068bf0a96f",
+      "title": "하우스 오브 이기초 팝업 : THE SECOND STEP",
+      "brand": "하우스 오브 이기초(houseofegicho)",
+      "city": "서울",
+      "district": "성동구",
+      "region": "성수",
+      "address": "서울 성동구 성수이로 66",
+      "venue": "서울 성동구 성수이로 66",
+      "category": "리빙",
+      "tone": "lifestyle",
+      "hours": null,
+      "event": {
+        "start": "2026-10-24",
+        "end": "2026-10-25"
+      },
+      "booking": {
+        "mode": "unknown",
+        "open": null,
+        "close": null,
+        "url": null,
+        "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
+      },
+      "verification": "secondary",
+      "checkedAt": "2026-10-22",
+      "collection": {
+        "method": "public-listing",
+        "sourceId": "popply"
+      },
+      "sources": [
+        {
+          "kind": "secondary",
+          "label": "팝플리 공개 일정·SNS 출처",
+          "url": "https://popply.co.kr/popup/6408",
+          "note": "공개된 행사명·기간·위치만 수집. 주최 측 공식 확인 및 예약 접수 마감 검증 전 자료."
+        },
+        {
+          "kind": "secondary",
+          "label": "SNS 공개 본문 확인",
+          "url": "https://www.instagram.com/p/DetqRW7GlYI/",
+          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @houseofegicho. 예약 접수 마감은 자동 추정하지 않습니다."
+        }
+      ]
+    },
+    {
+      "id": "wide-9fd30ffcbd9fead0",
+      "title": "윌비플레이 팝업 : The Classic",
+      "brand": "윌비플레이(WILLBE PLAY)",
+      "city": "서울",
+      "district": "중구",
+      "region": "중구",
+      "address": "서울 중구 을지로 282",
+      "venue": "서울 중구 을지로 282",
+      "category": "기타",
+      "tone": "lifestyle",
+      "hours": null,
+      "event": {
+        "start": "2026-10-22",
+        "end": "2026-10-25"
+      },
+      "booking": {
+        "mode": "unknown",
+        "open": null,
+        "close": null,
+        "url": null,
+        "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
+      },
+      "verification": "secondary",
+      "checkedAt": "2026-10-22",
+      "collection": {
+        "method": "public-listing",
+        "sourceId": "popply"
+      },
+      "sources": [
+        {
+          "kind": "secondary",
+          "label": "팝플리 공개 일정·SNS 출처",
+          "url": "https://popply.co.kr/popup/6407",
+          "note": "공개된 행사명·기간·위치만 수집. 주최 측 공식 확인 및 예약 접수 마감 검증 전 자료."
+        },
+        {
+          "kind": "secondary",
+          "label": "SNS 공개 본문 확인",
+          "url": "https://www.instagram.com/p/DetauGFEcKR/",
+          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @wb.play. 예약 접수 마감은 자동 추정하지 않습니다."
+        }
+      ]
+    },
+    {
+      "id": "wide-fecda17f77303d71",
+      "title": "아이돈워너셀 팝업",
+      "brand": "아이돈워너셀(IDWS)",
+      "city": "서울",
+      "district": "용산구",
+      "region": "용산구",
+      "address": "서울 용산구 한강대로23길 55",
+      "venue": "서울 용산구 한강대로23길 55",
+      "category": "의류",
+      "tone": "fashion",
+      "hours": null,
+      "event": {
+        "start": "2026-10-27",
+        "end": "2026-11-09"
+      },
+      "booking": {
+        "mode": "unknown",
+        "open": null,
+        "close": null,
+        "url": null,
+        "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
+      },
+      "verification": "secondary",
+      "checkedAt": "2026-10-22",
+      "collection": {
+        "method": "public-listing",
+        "sourceId": "popply"
+      },
+      "sources": [
+        {
+          "kind": "secondary",
+          "label": "팝플리 공개 일정·SNS 출처",
+          "url": "https://popply.co.kr/popup/6406",
+          "note": "공개된 행사명·기간·위치만 수집. 주최 측 공식 확인 및 예약 접수 마감 검증 전 자료."
+        },
+        {
+          "kind": "secondary",
+          "label": "SNS 공개 본문 확인",
+          "url": "https://www.instagram.com/p/DetdgLet8Un/",
+          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @idws_official. 예약 접수 마감은 자동 추정하지 않습니다."
+        }
+      ]
+    },
+    {
+      "id": "wide-dc5a0feed098de18",
+      "title": "굴강 X 빵빵이의 일상 팝업 : 1주년 고객 감사제",
+      "brand": "굴강(GULGANG)",
+      "city": "서울",
+      "district": "용산구",
+      "region": "용산구",
+      "address": "서울 용산구 한강대로23길 55",
+      "venue": "서울 용산구 한강대로23길 55",
+      "category": "캐릭터·게임",
+      "tone": "character",
+      "hours": null,
+      "event": {
+        "start": "2026-10-19",
+        "end": "2026-10-25"
+      },
+      "booking": {
+        "mode": "unknown",
+        "open": null,
+        "close": null,
+        "url": null,
+        "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
+      },
+      "verification": "secondary",
+      "checkedAt": "2026-10-22",
+      "collection": {
+        "method": "public-listing",
+        "sourceId": "popply"
+      },
+      "sources": [
+        {
+          "kind": "secondary",
+          "label": "팝플리 공개 일정·SNS 출처",
+          "url": "https://popply.co.kr/popup/6405",
+          "note": "공개된 행사명·기간·위치만 수집. 주최 측 공식 확인 및 예약 접수 마감 검증 전 자료."
+        },
+        {
+          "kind": "secondary",
+          "label": "SNS 공개 본문 확인",
+          "url": "https://www.instagram.com/p/DetRpQek8F3/",
+          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @gulgang_official. 예약 접수 마감은 자동 추정하지 않습니다."
+        }
+      ]
+    },
+    {
+      "id": "wide-4c79434ce484b346",
+      "title": "미드나잇무브 팝업",
+      "brand": "미드나잇무브(MIDNIGHT MOVE)",
+      "city": "서울",
+      "district": "마포구",
+      "region": "마포구",
+      "address": "서울 마포구 양화로 164",
+      "venue": "서울 마포구 양화로 164",
+      "category": "의류",
+      "tone": "fashion",
+      "hours": null,
+      "event": {
+        "start": "2026-10-21",
+        "end": "2026-11-02"
+      },
+      "booking": {
+        "mode": "unknown",
+        "open": null,
+        "close": null,
+        "url": null,
+        "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
+      },
+      "verification": "secondary",
+      "checkedAt": "2026-10-22",
+      "collection": {
+        "method": "public-listing",
+        "sourceId": "popply"
+      },
+      "sources": [
+        {
+          "kind": "secondary",
+          "label": "팝플리 공개 일정·SNS 출처",
+          "url": "https://popply.co.kr/popup/6402",
+          "note": "공개된 행사명·기간·위치만 수집. 주최 측 공식 확인 및 예약 접수 마감 검증 전 자료."
+        },
+        {
+          "kind": "secondary",
+          "label": "SNS 공개 본문 확인",
+          "url": "https://www.instagram.com/p/Deq4vBfkim4/",
+          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @midnightmove_official. 예약 접수 마감은 자동 추정하지 않습니다."
         }
       ]
     }
