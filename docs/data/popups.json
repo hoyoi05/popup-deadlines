@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-31",
+  "checkedAt": "2026-11-01",
   "timezone": "Asia/Seoul",
   "popups": [
     {
@@ -15173,7 +15173,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -15187,9 +15187,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DY56_PnD5rC/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @ongredients.official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -15293,7 +15293,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -15445,7 +15445,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi",
@@ -15560,7 +15560,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -15789,7 +15789,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -16225,7 +16225,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -16239,9 +16239,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Dc_KKZ4kzVz/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @freefromburnnae. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -16358,7 +16358,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -16372,9 +16372,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Dc0RSsuFNTg/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @pyunhanga_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -18718,7 +18718,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -18756,7 +18756,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -19278,7 +19278,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -19542,7 +19542,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -19718,7 +19718,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -19732,9 +19732,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DdWAUEvmoQZ/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @tfactory_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -19762,7 +19762,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -19850,7 +19850,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -19894,7 +19894,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -21804,7 +21804,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -21818,9 +21818,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Dd0tFq7j-N2/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @toyoudream_. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -21980,7 +21980,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -21994,9 +21994,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DdyPVt-CWeK/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @officialstellive. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -22552,7 +22552,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -22566,9 +22566,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Dd3cVrMkwfn/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @wearingeul. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -22596,7 +22596,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -22610,9 +22610,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Dd5TWh3gY1v/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @lifework.official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -22684,7 +22684,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -22698,9 +22698,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Dd3Cx-XRxPM/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @yoonseulshop.kr. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -22854,7 +22854,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -22868,9 +22868,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Dd1EHTqk9qR/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @balloonfriends_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -22898,7 +22898,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -22912,9 +22912,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Dd0rfPUR387/",
-          "note": "공개 게시물 본문을 읽었습니다. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -23334,7 +23334,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -23536,7 +23536,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -23574,7 +23574,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -23840,7 +23840,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -23878,7 +23878,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -24244,7 +24244,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -24258,9 +24258,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Dd-d0yyk-0U/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @zeroid_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -24332,7 +24332,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-15",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply",
@@ -24347,9 +24347,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DdndILkD9mc/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @insideobject. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -24509,7 +24509,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -24523,9 +24523,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Dd_VS26AW_1/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @nyong_ssosso. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -24597,7 +24597,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -24611,9 +24611,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Dd55oPhIKwX/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @gong_up_sa. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -24729,7 +24729,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -24743,9 +24743,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeMRhrRJYcN/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @chemehc.official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -24773,7 +24773,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -24787,9 +24787,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeLqpPhk3v7/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @eql_store. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -24861,7 +24861,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -24875,9 +24875,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeLQJfsBE42/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @zonfriends_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -24905,7 +24905,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -24919,9 +24919,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeLQJfsBE42/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @zonfriends_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -24949,7 +24949,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -24987,7 +24987,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -25001,9 +25001,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Dd53JCalCTa/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @cuni.official_. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -25031,7 +25031,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -25045,9 +25045,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeEb0zdGkLi/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @_____natura___. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -25075,7 +25075,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -25089,9 +25089,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeEvs81P_Ko/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @mano_seoul. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -25119,7 +25119,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -25163,7 +25163,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -25177,9 +25177,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeOEv7ohkyp/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @labtomars. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -25207,7 +25207,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -25251,7 +25251,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -25265,9 +25265,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Dd-TzvYEoAo/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @nintendo_kor. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -25295,7 +25295,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -25309,9 +25309,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeRSOocn2QS/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @satellite.kr. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -25339,7 +25339,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -25383,7 +25383,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -25397,9 +25397,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeOAxjrGSdz/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @hobby__soul. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -25471,7 +25471,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -25485,9 +25485,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeOBuVlE0xZ/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @spotifykr. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -25515,7 +25515,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -25529,9 +25529,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeL_d7LkoRK/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @toonique_official_02. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -25559,7 +25559,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -25573,9 +25573,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeWZSiuGfDR/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @webtoon_maru_offline. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -25603,7 +25603,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -25617,9 +25617,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeOj3WyAVU7/",
-          "note": "공개 게시물 본문을 읽었습니다. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -25647,7 +25647,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -25661,9 +25661,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeVNrY8Ep-H/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @oliveyoung_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -25691,7 +25691,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -25705,9 +25705,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeWoTctI0DY/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @lovesonglovepopeye. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -25735,7 +25735,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -25749,9 +25749,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Dds9MXHT1i1/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @nangman.objects. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -25779,7 +25779,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -25817,7 +25817,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -25969,7 +25969,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -26007,7 +26007,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -26083,7 +26083,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -26159,7 +26159,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -26235,7 +26235,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -26273,7 +26273,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -26287,9 +26287,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Dd59n7YFD52/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @cuisine.k_project. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -26317,7 +26317,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -26355,7 +26355,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -26369,9 +26369,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeJ1Qs4E_oB/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @rocollabo. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -26399,7 +26399,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -26413,9 +26413,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeOdHSLmroJ/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @jypshop_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -26443,7 +26443,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -26457,9 +26457,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeO31KCzJ2Z/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @aerse.official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -26487,7 +26487,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -26501,9 +26501,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeYHH2oDqqB/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @mediheal_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -26531,7 +26531,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -26619,7 +26619,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -26633,9 +26633,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Dd8wUFalBsY/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @patmat_lab. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -26707,7 +26707,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -26721,9 +26721,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Dd6AjpEEs42/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @what.a.bread. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -26751,7 +26751,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -26765,9 +26765,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Dd8ZMlZEhFU/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @arocell_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -26883,7 +26883,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -26897,9 +26897,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeI5qX3mT85/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @akplaza_hongdae. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -26927,7 +26927,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -26941,9 +26941,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeJaXzUFKG4/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @studiodragon.official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -26971,7 +26971,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27009,7 +27009,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27047,7 +27047,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27061,9 +27061,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Dd0UnEtEmRT/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @mill_to_newyork. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -27091,7 +27091,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27105,9 +27105,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DebeJH2Ffmf/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @lotte_xylitol.official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -27135,7 +27135,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27149,9 +27149,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeZLcwMCVGX/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @rothy__. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -27179,7 +27179,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27193,9 +27193,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeYxXuJvhES/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @jiyo.lee. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -27223,7 +27223,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27237,9 +27237,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeY4QoSTkbZ/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @mttire_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -27267,7 +27267,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27281,9 +27281,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeZcSfUmHcu/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @kku.git. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -27311,7 +27311,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27325,9 +27325,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeBF2_wmWXA/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @thesharp_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -27355,7 +27355,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27369,9 +27369,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Dd6F64yKGXy/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @ruby.merlot. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -27399,7 +27399,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27413,9 +27413,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeOkClkkh2q/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @spacemue_seoul. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -27443,7 +27443,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27457,9 +27457,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeNwrOTpGPJ/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @deadflt. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -27487,7 +27487,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27531,7 +27531,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27545,9 +27545,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeYroVEpaOm/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @siora.flow. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -27575,7 +27575,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27589,9 +27589,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Debb7QYGepe/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @aeae_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -27619,7 +27619,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27701,7 +27701,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27745,7 +27745,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27759,9 +27759,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeN61kgiYkQ/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @dududoshowroom. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -27789,7 +27789,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27803,9 +27803,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeQa1-ak7fZ/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @before.it.melts. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -27833,7 +27833,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27877,7 +27877,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27891,9 +27891,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Dea4ZlrTkAg/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @bbye.yeom. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -27965,7 +27965,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -27979,9 +27979,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DebwlvEiYCo/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @dunst_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -28085,7 +28085,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -28199,7 +28199,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -28275,7 +28275,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -28465,7 +28465,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -28503,7 +28503,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -28517,9 +28517,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DedJWZITGjF/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @nikeseoul. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -28547,7 +28547,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -28561,9 +28561,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DedNC59j8Lk/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @korailretail_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -28591,7 +28591,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -28605,9 +28605,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DedNC59j8Lk/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @korailretail_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -28635,7 +28635,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -28649,9 +28649,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Dd-PW4HkyIK/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @nakwonmusic. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -28679,7 +28679,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -28693,9 +28693,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DedpV5WGH5x/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @gembros_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -28723,7 +28723,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -28737,9 +28737,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeYwaHjIHxc/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @lador_kr. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -28767,7 +28767,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -28781,9 +28781,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Deges6bI8hT/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @hwarangs_kr. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -28811,7 +28811,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -28825,9 +28825,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Ded6TbzE__g/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @overwhelm__official_. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -28855,7 +28855,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -28869,9 +28869,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeOkAS0HSbk/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @oafish_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -28899,7 +28899,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -28913,9 +28913,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Dd_AE2VTpir/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @juvev_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -28943,7 +28943,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -28957,9 +28957,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Ded1f4-pJZY/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @cakie_by_gomie. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -28987,7 +28987,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29001,9 +29001,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeRGNd-gQJW/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @wa.fac. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -29031,7 +29031,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29045,9 +29045,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeeXMEfnyvC/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @kleesier. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -29075,7 +29075,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29089,9 +29089,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DebgQuGo2qf/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @acoc_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -29119,7 +29119,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29133,9 +29133,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DegJ9cHCS26/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @goalstudio.team. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -29163,7 +29163,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29177,9 +29177,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DegY602CZfz/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @dr.line__official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -29207,7 +29207,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29221,9 +29221,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DegTmyVoN-A/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @baggukorea_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -29251,7 +29251,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29265,9 +29265,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DegkwMIGQ9O/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @dayvibe.official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -29295,7 +29295,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29309,9 +29309,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DegfneXCQ0C/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @nodofficial_. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -29339,7 +29339,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29353,9 +29353,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeiU29Zsetp/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @js_store_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -29383,7 +29383,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29397,9 +29397,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DdqjWRwk7ty/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @ssmadangdesign. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -29427,7 +29427,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29441,9 +29441,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DegnYbVzLj8/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @ssmadangdesign. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -29471,7 +29471,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29515,7 +29515,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29553,7 +29553,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29591,7 +29591,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29629,7 +29629,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29643,9 +29643,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeayvAwiczj/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @toss.place. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -29673,7 +29673,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29687,9 +29687,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeYybnJSZS9/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @linefriends_square. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -29717,7 +29717,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29731,9 +29731,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeYybnJSZS9/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @linefriends_square. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -29761,7 +29761,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29799,7 +29799,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29813,9 +29813,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Dee6gJUmDZe/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @alpharoutine_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -29843,7 +29843,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29857,9 +29857,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeNdgpNBCLQ/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @velvetbunny.official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -29887,7 +29887,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29901,9 +29901,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeZRP8-zxgh/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @flareup_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -29931,7 +29931,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29945,9 +29945,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeoRECOvux-/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @heightsseoul. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -29975,7 +29975,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -29989,9 +29989,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Ded17WsgVEz/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @benikproject_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -30019,7 +30019,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30033,9 +30033,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DelFRQ_lFdj/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @vinne.official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -30063,7 +30063,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30077,9 +30077,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeiaUJHEwbf/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @hybmrch. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -30107,7 +30107,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30121,9 +30121,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DejDcvxkgCl/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @mirart_kr. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -30151,7 +30151,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30165,9 +30165,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeiQoyfmT6a/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @doingwhat_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -30195,7 +30195,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30209,9 +30209,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Deq1ebYxmaD/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @equa.kr. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -30239,7 +30239,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30253,9 +30253,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Deq0C3SvxxS/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @oneofthem__official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -30283,7 +30283,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30327,7 +30327,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30341,9 +30341,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeJfrRJk9Rt/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @heyste_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -30371,7 +30371,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30385,9 +30385,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Deq4Z4qz3b_/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @exerapy_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -30415,7 +30415,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30429,9 +30429,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Ddvo-XyJDyI/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @rim.ark. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -30459,7 +30459,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30473,9 +30473,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DejN1kjoGYt/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @synapse_bar. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -30503,7 +30503,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30517,9 +30517,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DejTKtlD0WZ/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @nowseongsu. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -30547,7 +30547,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30561,9 +30561,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Dek4aSAmfwd/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @akplaza_hongdae. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -30591,7 +30591,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30605,9 +30605,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DelzCTgGaOd/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @akplaza_hongdae. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -30635,7 +30635,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30649,9 +30649,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DejOhUGAcLR/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @marvis_korea. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -30679,7 +30679,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30693,9 +30693,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DegZr-KkylU/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @eastpak_korea. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -30723,7 +30723,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30737,9 +30737,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DepCprtj-Gt/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @layered.crew. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -30767,7 +30767,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30781,9 +30781,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeqDrrDEy7d/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @celetrip.kr. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -30811,7 +30811,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30825,9 +30825,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/reel/DeeGsr_pav8/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @kpf__official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -30855,7 +30855,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30893,7 +30893,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30907,9 +30907,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeteuEVy1Lx/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @ekki.official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -30937,7 +30937,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30951,9 +30951,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DetebOOkQxk/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @sie___official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -30981,7 +30981,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -30995,9 +30995,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DetqRW7GlYI/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @houseofegicho. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -31025,7 +31025,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -31039,9 +31039,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DetauGFEcKR/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @wb.play. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -31069,7 +31069,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -31083,9 +31083,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DetdgLet8Un/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @idws_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -31113,7 +31113,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -31127,9 +31127,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DetRpQek8F3/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @gulgang_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -31157,7 +31157,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -31171,9 +31171,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Deq4vBfkim4/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @midnightmove_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -31201,7 +31201,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -31245,7 +31245,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -31259,9 +31259,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeqxMdTF6oV/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @leagueoflegendskorea. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -31289,7 +31289,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -31303,9 +31303,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Deq7nPJp0Xk/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @rbfy_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -31333,7 +31333,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -31347,9 +31347,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DejG-4Aj2NU/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @thecell_lab. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -31377,7 +31377,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -31391,9 +31391,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DermtllGJT6/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @sieering. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -31421,7 +31421,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -31435,9 +31435,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DIu8G2hzCsC/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @monclos_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -31465,7 +31465,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -31479,9 +31479,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeyCyIzhb3H/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @mixmill_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -31509,7 +31509,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -31523,9 +31523,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Deq4tU0lPed/",
-          "note": "공개 게시물 본문을 읽었습니다. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -31553,7 +31553,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -31567,9 +31567,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Dev8_Qqgfrk/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @learve_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -31597,7 +31597,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -31611,9 +31611,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DevFSV5TUAQ/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @soundwave_korea. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -31641,7 +31641,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -31655,9 +31655,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Dex_O08GNQi/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @tactflow.official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -31685,7 +31685,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -31699,9 +31699,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeqXLdQE8Ay/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @piari_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -31729,7 +31729,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -31743,9 +31743,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DetcCrjzRjH/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @opuris_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -31773,7 +31773,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -31787,9 +31787,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DevxewcEQbp/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @sakopak_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -31817,7 +31817,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -31861,7 +31861,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -31875,9 +31875,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DegtjYgCYyI/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @andar_kr. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -31905,7 +31905,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -31949,7 +31949,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -31963,9 +31963,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DegnioTmHJR/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @molynk.kr. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -32032,7 +32032,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -32108,7 +32108,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -32146,7 +32146,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -32184,7 +32184,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -32222,7 +32222,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -32260,7 +32260,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -32298,7 +32298,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -32336,7 +32336,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -32374,7 +32374,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -32388,9 +32388,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DerB5GWmXnK/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @lim_e_. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -32418,7 +32418,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -32432,9 +32432,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeyjaABEjHv/",
-          "note": "공개 게시물 본문을 읽었습니다. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -32462,7 +32462,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -32476,9 +32476,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeiqYfMPZid/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @eoe.object. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -32506,7 +32506,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -32544,7 +32544,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -32582,7 +32582,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -32620,7 +32620,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -32634,9 +32634,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/De1PdxSkqPC/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @canonkorea. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -32664,7 +32664,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -32702,7 +32702,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -32716,9 +32716,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Dev7kw8gQ2o/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @labtomars. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -32746,7 +32746,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -32760,9 +32760,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/De8DZD_jTi9/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @warnerbros.korea. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -32790,7 +32790,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -32834,7 +32834,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -32848,9 +32848,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/De1E2QFGaLH/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @vitalbeautie_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -32878,7 +32878,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -32892,9 +32892,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/De8RMpsEpqq/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @oliveyoung_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -32922,7 +32922,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -32936,9 +32936,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/De8RMpsEpqq/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @oliveyoung_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -32966,7 +32966,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -32980,9 +32980,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DdnOr17kzj_/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @houseofshinsegae_heritage. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -33010,7 +33010,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -33024,9 +33024,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeweVBpBTo0/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @k_strategy_product. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -33054,7 +33054,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -33092,7 +33092,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -33106,9 +33106,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeD92BPpyz-/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @espeeria. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -33136,7 +33136,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -33174,7 +33174,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -33212,7 +33212,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -33226,9 +33226,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/De0U9wuiRPp/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @ovhee_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -33256,7 +33256,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -33270,9 +33270,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeynGn6E1l_/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @longtake_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -33300,7 +33300,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -33314,9 +33314,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeOkDXkGi-x/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @lifeplus_h. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -33344,7 +33344,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -33358,9 +33358,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/Derq6ADE7R8/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @olgi__official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -33388,7 +33388,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -33402,9 +33402,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DfCdnEThFfc/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @fansignal.popup_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -33432,7 +33432,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -33446,9 +33446,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/De_dJ0OCzqZ/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @civvis_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -33476,7 +33476,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -33490,9 +33490,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/De_rTSHDybY/",
-          "note": "공개 게시물 본문을 읽었습니다. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -33520,7 +33520,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -33534,9 +33534,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/De_CcpMhVFy/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @pasaackorea. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -33564,7 +33564,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -33578,9 +33578,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/De_gM05Cq4e/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @thenorthface_whitelabel. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -33608,7 +33608,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -33622,9 +33622,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/De75nHlyIBv/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @39etc. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -33652,7 +33652,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -33666,9 +33666,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/De-3IlhiXaZ/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @decathlon_korea. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -33696,7 +33696,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -33710,9 +33710,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/De_X6FWjwnY/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @butter_insta. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -33740,7 +33740,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -33754,9 +33754,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/De1yOy_iWtl/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @dr.rusimama_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -33784,7 +33784,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -33798,9 +33798,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/De9Y8uAPFz8/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @theebonyeyes.official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -33828,7 +33828,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -33842,9 +33842,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/De9POakEt1X/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @avoe.kr. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -33872,7 +33872,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -33886,9 +33886,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/De8c3D0kS4u/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @seoulfashionhub. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -33916,7 +33916,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -33930,9 +33930,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/De6IxifmCSe/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @l_ovelybon_. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -33960,7 +33960,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -33974,9 +33974,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/De1QWqhG8jf/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @seoholab_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -34004,7 +34004,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -34018,9 +34018,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DejOFurGn-D/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @kmonsters.official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -34048,7 +34048,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -34062,9 +34062,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/De9EelKp0HQ/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @symmetricalsociety. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -34092,7 +34092,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -34106,9 +34106,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/De-vAkKj5-n/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @beautyplmagazine. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -34136,7 +34136,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -34150,9 +34150,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/De6FxN8EXv6/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @sang.jun.k. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -34180,7 +34180,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -34194,9 +34194,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/De89Nv3I1-F/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @otz_korea. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -34224,7 +34224,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -34238,9 +34238,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/De8EgZ9E7Nj/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @smgstore_kr. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -34268,7 +34268,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -34282,9 +34282,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/De87pDuARAe/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @atstory.official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -34312,7 +34312,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -34326,9 +34326,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DfBcirhS8_F/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @travpick.club_kr. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -34356,7 +34356,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -34370,9 +34370,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/De0-18LEUU5/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @dole_korea_official. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -34400,7 +34400,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -34438,7 +34438,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -34476,7 +34476,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -34514,7 +34514,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -34552,7 +34552,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -34590,7 +34590,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -34628,7 +34628,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -34666,7 +34666,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -34704,7 +34704,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -34742,7 +34742,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -34780,7 +34780,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -34818,7 +34818,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popupnavi"
@@ -34856,7 +34856,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -34870,9 +34870,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DfBzLdQEwv1/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @fruitfrieslab. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -34900,7 +34900,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -34914,9 +34914,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DeeX4V3D5gZ/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @manorhouse_obj. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -34944,7 +34944,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -34958,9 +34958,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DfCD3viE0V-/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @soundwave_korea. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -34988,7 +34988,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -35002,9 +35002,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DfCD5eXGOtj/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @webtoonfriends. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -35032,7 +35032,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -35046,9 +35046,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DfBnvvBPvxO/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @miuki.kr. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -35076,7 +35076,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -35090,9 +35090,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/De_k5kBy2FA/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @mdbmdotcom. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -35120,7 +35120,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -35158,7 +35158,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -35172,9 +35172,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DfB2eFto_H6/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @healing_scoop. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     },
@@ -35202,7 +35202,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -35240,7 +35240,7 @@
         "note": "팝업 모음의 공개 일정에서 수집했습니다. 예약 방식·접수 기간은 공식 공지 확인 전까지 미확인으로 표시합니다."
       },
       "verification": "secondary",
-      "checkedAt": "2026-10-31",
+      "checkedAt": "2026-11-01",
       "collection": {
         "method": "public-listing",
         "sourceId": "popply"
@@ -35254,9 +35254,9 @@
         },
         {
           "kind": "secondary",
-          "label": "SNS 공개 본문 확인",
+          "label": "연결된 SNS 게시물",
           "url": "https://www.instagram.com/p/DfCC98YH9Pp/",
-          "note": "공개 게시물 본문을 읽었습니다. 게시 계정: @vodana. 예약 접수 마감은 자동 추정하지 않습니다."
+          "note": "모음 페이지에 연결된 SNS 원문. 읽기 결과와 공식 계정 여부는 별도로 확인합니다."
         }
       ]
     }
